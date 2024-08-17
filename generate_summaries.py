@@ -137,6 +137,9 @@ def fetch_lb_top_stories(num_stories: int, interval: str) -> list[dict]:
     posts = response.json()[:num_stories]
     stories = [{'title': post['title'], 'url': post['url']} for post in posts]
     return stories
+
+
+
 def summarize_content(content: str) -> str:
     """
     Summarize the given content using an LLM.
@@ -149,8 +152,29 @@ def summarize_content(content: str) -> str:
     """
     # Placeholder for LLM API call
     # Replace with actual API call to the LLM service
-    summary = "Summarized content using LLM"
-    return summary
+    def summarize_content(title, content):
+
+    openai.api_key = OPENAI_API_KEY
+    prompt = "Summarize the following content in less than 140 words in a style suitable for a hackernews podcast"
+    content = f"Title:{title}\n\nContent:{content}"
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",  # Replace with the specific model you want to use
+        messages=[
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": content}
+        ]
+    )
+    summary = response['choices'][0]['message']['content']
+    # Calculate tokens and estimate cost
+    tokens_used = response['usage']['total_tokens']
+    cost_per_1M_tokens = 0.15
+    estimated_cost = (tokens_used / 1000000) * cost_per_1M_tokens
+    print(summary, estimated_cost)
+    return summary, estimated_cost
+
+
+
+
 
 def extract_summary(url: str) -> str:
     """
@@ -166,8 +190,8 @@ def extract_summary(url: str) -> str:
     soup = BeautifulSoup(response.content, 'html.parser')
     paragraphs = soup.find_all('p')
     content = ' '.join([para.get_text() for para in paragraphs])
-    summary = summarize_content(content)
-    return summary
+    summary, cost = summarize_content(content)
+    return summary, cost
 
 def create_summaries(source: str, interval: str, num_stories: int) -> None:
     """
@@ -195,13 +219,19 @@ def create_summaries(source: str, interval: str, num_stories: int) -> None:
         raise ValueError("Unsupported source. Use 'hn' for Hacker News, 'bb' for BBC, 'ph' for Product Hunt, 'gh' for GitHub, or 'lb' for Lobsters.")
 
     summaries = []
+    tot_cost = 0
     for story in stories:
-        summary = extract_summary(story['url'])
+        summary, cost = extract_summary(story['url'])
         summaries.append(summary)
+        tot_cost += cost
 
-    with open(f'{source}_summaries_latest.txt', 'w') as f:
+    summary_file = f'{source}_summaries_{datetime.now().strftime("%m%d%Y")}.txt'
+    with open(summary_file, 'w') as f:
         for summary in summaries:
             f.write(summary + '\n')
+
+    print(f"Summaries written to {summary_file}")        
+    print(f"Total estimated cost: ${tot_cost:.2f}")
 
 if __name__ == "__main__":
     """
