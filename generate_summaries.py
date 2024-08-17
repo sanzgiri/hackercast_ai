@@ -94,17 +94,17 @@ def extract_summary(url):
     summary = ' '.join([para.get_text() for para in paragraphs[:5]])
     return summary
 
-def generate_summaries(source, num_stories):
+def create_summaries(source, num_stories):
     if source == 'hn':
-        stories = get_hn_top_stories(num_stories, interval)
+        stories = fetch_hn_top_stories(num_stories, interval)
     elif source == 'bb':
-        stories = get_bb_top_stories(num_stories, interval)
+        stories = fetch_bb_top_stories(num_stories, interval)
     elif source == 'ph':
-        stories = get_ph_top_stories(num_stories, interval)
+        stories = fetch_ph_top_stories(num_stories, interval)
     elif source == 'gh':
-        stories = get_gh_top_stories(num_stories, interval)
+        stories = fetch_gh_top_stories(num_stories, interval)
     elif source == 'lb':
-        stories = get_lb_top_stories(num_stories, interval)
+        stories = fetch_lb_top_stories(num_stories, interval)
     else:
         raise ValueError("Unsupported source. Use 'hn' for Hacker News, 'bb' for BBC, 'ph' for Product Hunt, 'gh' for GitHub, or 'lb' for Lobsters.")
 
