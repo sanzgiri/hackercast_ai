@@ -4,6 +4,7 @@ from pydub.playback import play
 from dotenv import load_dotenv
 import os
 import sys
+import json
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -66,6 +67,17 @@ def main():
 
     # add cmd line args from user on source bb or hn
     src = sys.argv[1]
+    interval = sys.argv[2]
+
+    with open('config.json', 'r') as f:
+        config = json.load(f)
+
+    if interval not in config:
+        raise ValueError("Unsupported interval. Use 'daily', 'weekly', or 'monthly'.")
+
+    if src not in config[interval]:
+        raise ValueError(f"Source '{src}' not configured for interval '{interval}'.")
+
     summary_file = f'{src}_summaries_latest.txt'
 
     # Replace these with actual voice IDs from ElevenLabs

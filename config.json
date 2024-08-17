@@ -1,0 +1,5 @@
+{
+    "daily": ["hn", "bb"],
+    "weekly": ["ph", "gh"],
+    "monthly": ["lb"]
+}
