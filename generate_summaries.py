@@ -105,7 +105,7 @@ def generate_summaries(source, num_stories):
         stories = get_gh_top_stories(num_stories, interval)
     elif source == 'lb':
         stories = get_lb_top_stories(num_stories, interval)
-        raise ValueError("Unsupported source. Use 'hn' for Hacker News or 'bb' for BBC.")
+        raise ValueError("Unsupported source. Use 'hn' for Hacker News, 'bb' for BBC, 'ph' for Product Hunt, 'gh' for GitHub, or 'lb' for Lobsters.")
 
     summaries = []
     for story in stories:
