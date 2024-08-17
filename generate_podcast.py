@@ -13,7 +13,7 @@ load_dotenv()
 ELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')
 
 # Function to generate speech from text using ElevenLabs
-def text_to_speech(text, voice_id):
+def generate_speech_from_text(text, voice_id):
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
 
     headers = {
@@ -37,12 +37,12 @@ def text_to_speech(text, voice_id):
         raise Exception(f"Failed to generate speech: {response.status_code}, {response.text}")
 
 # Function to generate the podcast
-def generate_podcast(summaries, male_voice_id, female_voice_id):
+def create_podcast(summary_list, male_voice, female_voice):
     podcast_segments = []
 
-    for i, summary in enumerate(summaries):
-        voice_id = male_voice_id if i % 2 == 0 else female_voice_id
-        audio_data = text_to_speech(summary, voice_id)
+    for i, summary in enumerate(summary_list):
+        voice_id = male_voice if i % 2 == 0 else female_voice
+        audio_data = generate_speech_from_text(summary, voice_id)
 
         # Save the audio file
         audio_file_path = f'summary_{i}.mp3'
@@ -81,14 +81,14 @@ def main():
     summary_file = f'{src}_summaries_latest.txt'
 
     # Replace these with actual voice IDs from ElevenLabs
-    male_voice_id = 'onwK4e9ZLuTAKqWW03F9' # Daniel
-    female_voice_id = 'XrExE9yKIg1WjnnlVkGX' # Matilda
+    male_voice = 'onwK4e9ZLuTAKqWW03F9' # Daniel
+    female_voice = 'XrExE9yKIg1WjnnlVkGX' # Matilda
 
     # read summaries from file into a list
     with open(summary_file, 'r') as f:
-        summaries = f.readlines()
+        summary_list = f.readlines()
 
-    generate_podcast(summaries, male_voice_id, female_voice_id)
+    create_podcast(summary_list, male_voice, female_voice)
 
 
 
