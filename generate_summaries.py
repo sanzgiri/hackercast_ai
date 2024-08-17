@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-def get_hn_top_stories(num_stories, interval):
+def fetch_hn_top_stories(num_stories, interval):
     if interval == 'daily':
         url = 'https://hacker-news.firebaseio.com/v0/topstories.json'
     elif interval == 'weekly':
@@ -24,7 +24,7 @@ def get_hn_top_stories(num_stories, interval):
 
     return stories
 
-def get_bb_top_stories(num_stories, interval):
+def fetch_bb_top_stories(num_stories, interval):
     if interval == 'daily':
         url = 'https://www.bbc.com/news'
     elif interval == 'weekly':
@@ -43,7 +43,7 @@ def get_bb_top_stories(num_stories, interval):
 
     return stories
 
-def get_ph_top_stories(num_stories, interval):
+def fetch_ph_top_stories(num_stories, interval):
     if interval == 'daily':
         url = 'https://api.producthunt.com/v1/posts'
     elif interval == 'weekly':
@@ -58,7 +58,7 @@ def get_ph_top_stories(num_stories, interval):
     stories = [{'title': post['name'], 'url': post['discussion_url']} for post in posts]
     return stories
 
-def get_gh_top_stories(num_stories, interval):
+def fetch_gh_top_stories(num_stories, interval):
     if interval == 'daily':
         url = 'https://api.github.com/search/repositories?q=stars:>1&sort=stars'
     elif interval == 'weekly':
@@ -73,7 +73,7 @@ def get_gh_top_stories(num_stories, interval):
     stories = [{'title': repo['name'], 'url': repo['html_url']} for repo in repos]
     return stories
 
-def get_lb_top_stories(num_stories, interval):
+def fetch_lb_top_stories(num_stories, interval):
     if interval == 'daily':
         url = 'https://lobste.rs/hottest.json'
     elif interval == 'weekly':
@@ -87,7 +87,7 @@ def get_lb_top_stories(num_stories, interval):
     posts = response.json()[:num_stories]
     stories = [{'title': post['title'], 'url': post['url']} for post in posts]
     return stories
-def get_summary(url):
+def extract_summary(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     paragraphs = soup.find_all('p')
@@ -110,7 +110,7 @@ def generate_summaries(source, num_stories):
 
     summaries = []
     for story in stories:
-        summary = get_summary(story['url'])
+        summary = extract_summary(story['url'])
         summaries.append(summary)
 
     with open(f'{source}_summaries_latest.txt', 'w') as f:
@@ -121,4 +121,4 @@ if __name__ == "__main__":
     source = sys.argv[1]
     interval = sys.argv[2]
     num_stories = int(sys.argv[3])
-    generate_summaries(source, interval, num_stories)
+    create_summaries(source, interval, num_stories)
