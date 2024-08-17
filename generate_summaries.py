@@ -3,7 +3,17 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-def fetch_hn_top_stories(num_stories, interval):
+def fetch_hn_top_stories(num_stories: int, interval: str) -> list[dict]:
+    """
+    Fetch top stories from Hacker News based on the interval.
+
+    Args:
+        num_stories (int): Number of top stories to fetch.
+        interval (str): Interval for fetching stories ('daily', 'weekly', 'monthly').
+
+    Returns:
+        list[dict]: List of top stories with their details.
+    """
     if interval == 'daily':
         url = 'https://hacker-news.firebaseio.com/v0/topstories.json'
     elif interval == 'weekly':
@@ -24,7 +34,17 @@ def fetch_hn_top_stories(num_stories, interval):
 
     return stories
 
-def fetch_bb_top_stories(num_stories, interval):
+def fetch_bb_top_stories(num_stories: int, interval: str) -> list[dict]:
+    """
+    Fetch top stories from BBC based on the interval.
+
+    Args:
+        num_stories (int): Number of top stories to fetch.
+        interval (str): Interval for fetching stories ('daily', 'weekly', 'monthly').
+
+    Returns:
+        list[dict]: List of top stories with their details.
+    """
     if interval == 'daily':
         url = 'https://www.bbc.com/news'
     elif interval == 'weekly':
@@ -43,7 +63,17 @@ def fetch_bb_top_stories(num_stories, interval):
 
     return stories
 
-def fetch_ph_top_stories(num_stories, interval):
+def fetch_ph_top_stories(num_stories: int, interval: str) -> list[dict]:
+    """
+    Fetch top stories from Product Hunt based on the interval.
+
+    Args:
+        num_stories (int): Number of top stories to fetch.
+        interval (str): Interval for fetching stories ('daily', 'weekly', 'monthly').
+
+    Returns:
+        list[dict]: List of top stories with their details.
+    """
     if interval == 'daily':
         url = 'https://api.producthunt.com/v1/posts'
     elif interval == 'weekly':
@@ -58,7 +88,17 @@ def fetch_ph_top_stories(num_stories, interval):
     stories = [{'title': post['name'], 'url': post['discussion_url']} for post in posts]
     return stories
 
-def fetch_gh_top_stories(num_stories, interval):
+def fetch_gh_top_stories(num_stories: int, interval: str) -> list[dict]:
+    """
+    Fetch top stories from GitHub based on the interval.
+
+    Args:
+        num_stories (int): Number of top stories to fetch.
+        interval (str): Interval for fetching stories ('daily', 'weekly', 'monthly').
+
+    Returns:
+        list[dict]: List of top stories with their details.
+    """
     if interval == 'daily':
         url = 'https://api.github.com/search/repositories?q=stars:>1&sort=stars'
     elif interval == 'weekly':
@@ -73,7 +113,17 @@ def fetch_gh_top_stories(num_stories, interval):
     stories = [{'title': repo['name'], 'url': repo['html_url']} for repo in repos]
     return stories
 
-def fetch_lb_top_stories(num_stories, interval):
+def fetch_lb_top_stories(num_stories: int, interval: str) -> list[dict]:
+    """
+    Fetch top stories from Lobsters based on the interval.
+
+    Args:
+        num_stories (int): Number of top stories to fetch.
+        interval (str): Interval for fetching stories ('daily', 'weekly', 'monthly').
+
+    Returns:
+        list[dict]: List of top stories with their details.
+    """
     if interval == 'daily':
         url = 'https://lobste.rs/hottest.json'
     elif interval == 'weekly':
@@ -87,14 +137,34 @@ def fetch_lb_top_stories(num_stories, interval):
     posts = response.json()[:num_stories]
     stories = [{'title': post['title'], 'url': post['url']} for post in posts]
     return stories
-def extract_summary(url):
+def extract_summary(url: str) -> str:
+    """
+    Extract summary from a given URL.
+
+    Args:
+        url (str): The URL to extract the summary from.
+
+    Returns:
+        str: The extracted summary.
+    """
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     paragraphs = soup.find_all('p')
     summary = ' '.join([para.get_text() for para in paragraphs[:5]])
     return summary
 
-def create_summaries(source, num_stories):
+def create_summaries(source: str, interval: str, num_stories: int) -> None:
+    """
+    Create summaries for a given source and interval.
+
+    Args:
+        source (str): The source to fetch stories from ('hn', 'bb', 'ph', 'gh', 'lb').
+        interval (str): Interval for fetching stories ('daily', 'weekly', 'monthly').
+        num_stories (int): Number of top stories to fetch.
+
+    Returns:
+        None
+    """
     if source == 'hn':
         stories = fetch_hn_top_stories(num_stories, interval)
     elif source == 'bb':
@@ -118,6 +188,15 @@ def create_summaries(source, num_stories):
             f.write(summary + '\n')
 
 if __name__ == "__main__":
+    """
+    Main function to create summaries based on user input.
+
+    Args:
+        None
+
+    Returns:
+        None
+    """
     source = sys.argv[1]
     interval = sys.argv[2]
     num_stories = int(sys.argv[3])
