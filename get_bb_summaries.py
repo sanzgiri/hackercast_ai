@@ -79,7 +79,7 @@ def summarize_url(title, url):
     else:
         return "Failed to fetch content from the URL."
     
-def main():
+def get_bb_summaries(num_stories):
 
     num_stories = int(sys.argv[1])
     tot_cost = 0
@@ -105,7 +105,29 @@ def main():
 
     os.system(f"ln -s {summary_file} bb_summaries_latest.txt")
 
-if __name__ == "__main__":
-    main()
+    num_stories = int(num_stories)
+    tot_cost = 0
+    bb_titles, bb_urls = get_bbtop_stories(num_stories)
+    print(bb_titles, bb_urls)
+    summaries = []
+
+    for i in range(len(bb_urls)):
+        url = bb_urls[i]
+        title = bb_titles[i]
+        summary, cost = summarize_url(title, url)
+        summaries.append(summary)
+        tot_cost += cost
+
+    summary_file = f'bb_summaries_{datetime.now().strftime("%m%d%Y")}.txt'
+
+    with open(summary_file, 'w') as f:
+        for summary in summaries:
+            f.write(summary + '\n')
+
+    print(f"Summaries written to {summary_file}")       
+    print(f"Total estimated cost: ${tot_cost:.2f}")
+
+    os.system(f"ln -s {summary_file} bb_summaries_latest.txt")
+    return summary_file
 
 
