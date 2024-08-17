@@ -2,6 +2,15 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 import json
+import openai
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from the .env file
+load_dotenv()
+
+# OpenAI API key
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 def fetch_hn_top_stories(num_stories: int, interval: str) -> list[dict]:
     """
@@ -193,7 +202,28 @@ def extract_summary(url: str) -> str:
     summary, cost = summarize_content(content)
     return summary, cost
 
-def create_summaries(source: str, interval: str, num_stories: int) -> None:
+def add_intro_and_conclusion(summaries: list[str]) -> str:
+    """
+    Add an introduction and conclusion to the list of summaries using an LLM.
+
+    Args:
+        summaries (list[str]): List of summaries.
+
+    Returns:
+        str: The combined text with introduction and conclusion.
+    """
+    openai.api_key = OPENAI_API_KEY
+    prompt = "Create an introduction and conclusion for the following summaries in a style suitable for a podcast:\n\n"
+    content = "\n\n".join(summaries)
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",  # Replace with the specific model you want to use
+        messages=[
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": content}
+        ]
+    )
+    combined_text = response['choices'][0]['message']['content']
+    return combined_text
     """
     Create summaries for a given source and interval.
 
@@ -225,7 +255,13 @@ def create_summaries(source: str, interval: str, num_stories: int) -> None:
         summaries.append(summary)
         tot_cost += cost
 
+    combined_text = add_intro_and_conclusion(summaries)
+
     summary_file = f'{source}_summaries_{datetime.now().strftime("%m%d%Y")}.txt'
+    with open(summary_file, 'w') as f:
+        f.write(combined_text)
+
+    print(f"Summaries with introduction and conclusion written to {summary_file}")
     with open(summary_file, 'w') as f:
         for summary in summaries:
             f.write(summary + '\n')
