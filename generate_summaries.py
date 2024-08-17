@@ -42,7 +42,6 @@ def get_lb_top_stories(num_stories):
     posts = response.json()[:num_stories]
     stories = [{'title': post['title'], 'url': post['url']} for post in posts]
     return stories
-    response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     paragraphs = soup.find_all('p')
     summary = ' '.join([para.get_text() for para in paragraphs[:5]])
