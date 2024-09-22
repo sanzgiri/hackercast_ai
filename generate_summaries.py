@@ -2,7 +2,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 import json
-import openai
+from openai import OpenAI
 from datetime import datetime
 from dotenv import load_dotenv
 import os
@@ -161,19 +161,20 @@ def summarize_content(title: str, url: str, content: str) -> str:
         str: The summarized content.
     """
 
-    openai.api_key = OPENAI_API_KEY
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
     prompt = "Summarize the following content in less than 140 words in a style suitable for a hackernews podcast."
     content = f"Title:{title}\nURL:{url}\nContent:{content}"
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-4o-mini",  # Replace with the specific model you want to use
         messages=[
             {"role": "system", "content": prompt},
             {"role": "user", "content": content}
         ]
     )
-    summary = response['choices'][0]['message']['content']
+    summary = response.choices[0].message.content
     # Calculate tokens and estimate cost
-    tokens_used = response['usage']['total_tokens']
+    tokens_used = response.usage.total_tokens
     cost_per_1M_tokens = 0.15
     estimated_cost = (tokens_used / 1000000) * cost_per_1M_tokens
     summary = {'Title': title, 'URL': url, 'Summary': summary}
@@ -207,27 +208,46 @@ def add_intro_and_conclusion(summaries: list[str]) -> str:
     Returns:
         str: The combined text with introduction and conclusion.
     """
-    openai.api_key = OPENAI_API_KEY
-    prompt = "Create an introduction and conclusion for the following summaries in a style suitable for a podcast:\n\n"
+    client = OpenAI(api_key=OPENAI_API_KEY)
+    intro_prompt = """Create a brief introduction for the following summaries in a style suitable for a podcast. 
+    The name of the podcast is Hackerpulse. The name of the narrator is Data.\n\n"""
+    conclu_prompt = """Create a brief conclusion for the following summaries in a style suitable for a podcast. 
+    The name of the podcast is HackerPulse. The name of the narrator is Data.\n\n"""
+    cost_per_1M_tokens = 0.15
+
     # Concatenate the dictionaries into a single string
     content = ""
     for summary in summaries:
-        content += f"Title: {summary['Title']}\nURL: {summary['URL']}\nSummary: {summary['Summary']}\n\n"
+        content += f"{summary['Summary']}\n\n"
 
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-4o-mini",  # Replace with the specific model you want to use
         messages=[
-            {"role": "system", "content": prompt},
+            {"role": "system", "content": intro_prompt},
             {"role": "user", "content": content}
         ]
     )
-    combined_text = response['choices'][0]['message']['content']
+    intro_text = response.choices[0].message.content
     # Calculate tokens and estimate cost
-    tokens_used = response['usage']['total_tokens']
-    cost_per_1M_tokens = 0.15
-    estimated_cost = (tokens_used / 1000000) * cost_per_1M_tokens
-    print(combined_text)
+    tokens_used = response.usage.total_tokens
+    estimated_cost_intro = (tokens_used / 1000000) * cost_per_1M_tokens
 
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",  # Replace with the specific model you want to use
+        messages=[
+            {"role": "system", "content": conclu_prompt},
+            {"role": "user", "content": content}
+        ]
+    )
+    conclu_text = response.choices[0].message.content
+    # Calculate tokens and estimate cost
+    tokens_used = response.usage.total_tokens
+    estimated_cost_conclu = (tokens_used / 1000000) * cost_per_1M_tokens
+
+    estimated_cost = estimated_cost_intro + estimated_cost_conclu
+
+    combined_text = f"{intro_text}\n\n{content}\n\n{conclu_text}"
+    print(combined_text, estimated_cost)
     return combined_text, estimated_cost
     
     
@@ -267,17 +287,18 @@ def create_summaries(source: str, interval: str, num_stories: int) -> str:
     combined_text, cost = add_intro_and_conclusion(summaries)
     tot_cost += cost
 
-    summary_file = f'{source}_summaries_{datetime.now().strftime("%m%d%Y")}.txt'
-    with open(summary_file, 'w') as f:
+    transcript_file = f'{source}_transcript_{datetime.now().strftime("%m%d%Y")}.txt'
+    with open(transcript_file, 'w') as f:
         f.write(combined_text)
 
-    print(f"Summaries with introduction and conclusion written to {summary_file}")
+    summary_file = f'{source}_jsonl_{datetime.now().strftime("%m%d%Y")}.txt'
     with open(summary_file, 'w') as f:
         for summary in summaries:
-            f.write(summary + '\n')
+            json_line = json.dumps(summary) + '\n'
+            f.write(json_line)
 
-    print(f"Summaries written to {summary_file}")        
-    print(f"Total estimated cost: ${tot_cost:.2f}")
+    print(f"JSON summaries written to {summary_file}")        
+    print(f"Total estimated cost: ${tot_cost:.4f}")
 
 if __name__ == "__main__":
     """
