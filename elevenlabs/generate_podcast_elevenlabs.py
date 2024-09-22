@@ -1,3 +1,5 @@
+# Great quality voices but only allows 10 min/month on free tier
+
 import requests
 from pydub import AudioSegment
 from pydub.playback import play
