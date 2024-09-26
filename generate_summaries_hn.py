@@ -13,6 +13,7 @@ load_dotenv()
 
 # OpenAI API key
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+GITHUB_API_KEY = os.getenv('GITHUB_API_KEY')
 
 def fetch_hn_top_stories(num_stories: int, interval: str) -> list[dict]:
     """
@@ -54,7 +55,7 @@ def fetch_hn_top_stories_v2(num_stories: int, interval: str) -> list[dict]:
         repo = "hackernews-daily"
     elif interval == 'weekly':
         repo = "hackernews-weekly"
-    token = "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"
+    token = os.getenv('GITHUB_API_KEY')
     url = f"https://api.github.com/repos/{owner}/{repo}/issues?state=all&sort=created&direction=desc&per_page=1"
     headers = {
         "Authorization": f"Bearer {token}",
