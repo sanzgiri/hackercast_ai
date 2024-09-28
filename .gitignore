@@ -3,3 +3,5 @@
 *.txt
 .env
 tmp
+output
+temp_audio_chunks

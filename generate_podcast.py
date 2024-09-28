@@ -1,11 +1,12 @@
 import sys
 import datetime
-
 from pathlib import Path
 from dotenv import load_dotenv
 import os
-import math
+import re
 from openai import OpenAI
+from pydub import AudioSegment
+from datetime import datetime
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -13,30 +14,14 @@ load_dotenv()
 # OpenAI API key
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
-from pydub import AudioSegment
-import os
-
-from pathlib import Path
-from openai import OpenAI
-#from langchain.text_splitter import RecursiveCharacterTextSplitter
-from pydub import AudioSegment
-import os
-
 # Initialize OpenAI client
 client = OpenAI()
 
-import re
-from pathlib import Path
-from openai import OpenAI
-from pydub import AudioSegment
-import os
-
-# Initialize OpenAI client
-client = OpenAI()
 
 def split_into_sentences(text):
     # Simple sentence splitting - you might want to use a more sophisticated method
     return re.findall(r'[^.!?\s][^.!?]*(?:[.!?](?![\'\"]?\s|$)[^.!?]*)*[.!?]?[\'\"]?(?=\s|$)', text)
+
 
 def chunk_sentences(sentences, target_chunk_size=1000):
     chunks = []
@@ -57,12 +42,13 @@ def chunk_sentences(sentences, target_chunk_size=1000):
 
     return chunks
 
+
 def generate_tts_chunks(input_file, target_chunk_size=1000):
     # Read the input text file
     with open(input_file, "r") as file:
         text = file.read()
 
-    print(f"Estimated cost: math.round(len(text)*15.0/1000000.0, 2) USD")
+    print(f"Estimated cost: {round(len(text)*15.0/1000000.0, 2)} USD")
     # Split the text into sentences and then into chunks
     sentences = split_into_sentences(text)
     chunks = chunk_sentences(sentences, target_chunk_size)
@@ -74,13 +60,13 @@ def generate_tts_chunks(input_file, target_chunk_size=1000):
     # select voice based on day of the week
     # 0 = Monday, 1 = Tuesday, ..., 6 = Sunday
     voices = ["alloy", "echo", "fable", "onyx", "nova", "shimmer", "echo"]
-    dayofweek = datetime.datetime.today().weekday()
+    dayofweek = datetime.today().weekday()
     voice = voices[dayofweek]
 
     # Process each chunk
     for i, chunk in enumerate(chunks):
         speech_file_path = temp_dir / f"speech_chunk_{i:03d}.mp3"
-        print(f"Generating audio for chunk {i+1}/{len(chunks)}")
+        #print(f"Generating audio for chunk {i+1}/{len(chunks)}")
 
         with client.audio.speech.with_streaming_response.create(
             model="tts-1",
@@ -91,16 +77,10 @@ def generate_tts_chunks(input_file, target_chunk_size=1000):
             with open(speech_file_path, 'wb') as f:
                 for chunk in response.iter_bytes():
                     f.write(chunk)
-        
-        #response = client.audio.speech.create(
-        #    model="tts-1",
-        #    voice="alloy",
-        #    input=chunk
-        #)
     
-        response.stream_to_file(speech_file_path)
+        #response.stream_to_file(speech_file_path)
 
-    print(f"Generated {len(chunks)} audio files.")
+    #print(f"Generated {len(chunks)} audio files.")
     return temp_dir
 
 def concatenate_audio_chunks(chunk_directory, output_file):
@@ -121,13 +101,16 @@ def concatenate_audio_chunks(chunk_directory, output_file):
 
     # Export the combined audio as a single MP3 file
     combined.export(output_file, format="mp3")
-
-    print(f"Concatenated {len(audio_chunks)} chunks into {output_file}")
+    #print(f"Concatenated {len(audio_chunks)} chunks into {output_file}")
 
 # Main execution
 if __name__ == "__main__":
 
-    input_file = sys.argv[1]
+    if len(sys.argv) > 1:
+        input_file = sys.argv[1]
+    else:
+        input_file = f'output/hn_transcript_{datetime.now().strftime("%m%d%Y")}.txt'
+
     output_file = input_file.replace('.txt', '.mp3')
     target_chunk_size = 1000  # Target characters per chunk
 
