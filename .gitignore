@@ -1,7 +1,7 @@
 .aider*
 *.mp3
-*.txt
 .env
 tmp
 output
 temp_audio_chunks
+.DS_Store
