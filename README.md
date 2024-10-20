@@ -10,3 +10,10 @@ This project is designed to generate podcasts from summarized content. It fetche
 - **generate_podcast.py**: Contains functions to create a podcast from a summary file using a specified voice.
   - **Run**: `python generate_podcast.py <summary_file>`
 
+
+## Switch from Crontab to launchd
+```
+cp com.sanzgiri.podcastgeneration.plist ~/Library/LaunchAgents
+chmod 644 ~/Library/LaunchAgents/com.sanzgiri.podcastgeneration.plist
+launchctl load ~/Library/LaunchAgents/com.sanzgiri.podcastgeneration.plist
+```

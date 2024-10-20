@@ -8,6 +8,8 @@ from unrealspeech import UnrealSpeechAPI, save
 from pydub import AudioSegment
 from dotenv import load_dotenv
 from datetime import datetime
+import shutil
+
 
 nltk.download('punkt', quiet=True)
 nltk.download('punkt_tab', quiet=True)
@@ -68,7 +70,22 @@ def concatenate_audio_files(audio_files, output_file):
     combined.export(output_file, format="mp3")
     print(f"All audio files concatenated into {output_file}")
 
-
+def copy_file_to_icloud(source_file):
+    
+    # Define the destination path in iCloud
+    destination = '/Users/sanzgiri/Library/Mobile Documents/com~apple~CloudDocs/hackerpulse'
+    # Copy the file
+    try:
+        shutil.copy2(source_file, destination)
+        print(f"File copied successfully to {destination}")
+    except FileNotFoundError:
+        print("Source file or destination directory not found.")
+    except PermissionError:
+        print("Permission denied. Make sure you have the necessary permissions.")
+    except shutil.SameFileError:
+        print("Source and destination are the same file.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 # Main execution
 if __name__ == "__main__":
@@ -79,6 +96,8 @@ if __name__ == "__main__":
         input_file = f'output/hn_transcript_{datetime.now().strftime("%m%d%Y")}.txt'
 
     output_file = input_file.replace('.txt', '.mp3')
+    td_file = f'output/hn_td_{datetime.now().strftime("%m%d%Y")}.txt'
+
     # Create a temporary directory for audio chunks
     temp_dir = Path("temp_audio_chunks")
     temp_dir.mkdir(exist_ok=True)
@@ -99,3 +118,6 @@ if __name__ == "__main__":
     temp_dir.rmdir()
 
     print(f"Podcast saved to {output_file}")
+    copy_file_to_icloud(output_file)
+    copy_file_to_icloud(input_file)
+    copy_file_to_icloud(td_file)

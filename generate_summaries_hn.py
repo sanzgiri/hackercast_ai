@@ -202,14 +202,19 @@ def create_summaries(interval: str, num_stories: int) -> str:
         f.write(combined_text)
        
     summary_file = f'output/hn_jsonl_{datetime.now().strftime("%m%d%Y")}.txt'
+    td_file = f'output/hn_td_{datetime.now().strftime("%m%d%Y")}.txt'
     with open(summary_file, 'w') as f:
         for summary in summaries:
             json_line = json.dumps(summary) + '\n'
             f.write(json_line)
+
+    with open(td_file, 'w') as f:
         f.write(f"\n\nTitle: {title}\nDescription: {description}")
         print(f"\n\nTitle: {title}\nDescription: {description}")
 
-    print(f"JSON summaries written to {summary_file}")        
+    print(f"JSON summaries written to {summary_file}")       
+    print(f"Transcript written to {transcript_file}")
+    print(f"Title and Description written to {td_file}") 
     print(f"Total estimated cost: ${tot_cost:.4f}")
 
 
