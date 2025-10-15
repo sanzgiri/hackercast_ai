@@ -89,35 +89,74 @@ def copy_file_to_icloud(source_file):
 
 # Main execution
 if __name__ == "__main__":
-
+    
+    # Get date string for file naming
+    date_str = datetime.now().strftime("%m%d%Y")
+    
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
     else:
-        input_file = f'output/hn_transcript_{datetime.now().strftime("%m%d%Y")}.txt'
+        input_file = f'output/hn_transcript_{date_str}.txt'
 
     output_file = input_file.replace('.txt', '.mp3')
-    td_file = f'output/hn_td_{datetime.now().strftime("%m%d%Y")}.txt'
+    td_file = f'output/hn_td_{date_str}.txt'
+    
+    # Check if MP3 already exists
+    if Path(output_file).exists():
+        print(f"✅ MP3 file already exists: {output_file}")
+        print(f"📊 Size: {Path(output_file).stat().st_size / 1024:.0f} KB")
+        print("🚫 Skipping regeneration to save API tokens")
+        print("💡 Delete the MP3 file if you want to regenerate")
+        sys.exit(0)
+    
+    # Check if input file exists
+    if not Path(input_file).exists():
+        print(f"❌ Input file not found: {input_file}")
+        print("💡 Run generate_summaries_hn.py first")
+        sys.exit(1)
+    
+    print(f"🎵 Generating new MP3 from: {input_file}")
 
     # Create a temporary directory for audio chunks
     temp_dir = Path("temp_audio_chunks")
     temp_dir.mkdir(exist_ok=True)
 
-    # Read and process the text
-    text = read_file(input_file)
-    chunks = chunk_text(text)
-    audio_files = process_chunks(chunks, temp_dir)
+    try:
+        # Read and process the text
+        text = read_file(input_file)
+        chunks = chunk_text(text)
+        print(f"📝 Processing {len(chunks)} text chunks...")
+        
+        audio_files = process_chunks(chunks, temp_dir)
+        print(f"Generated {len(audio_files)} audio files.")
 
-    print(f"Generated {len(audio_files)} audio files.")
+        # Concatenate all audio files
+        concatenate_audio_files(audio_files, output_file)
+        
+        # Verify output file was created
+        if Path(output_file).exists():
+            size_mb = Path(output_file).stat().st_size / (1024 * 1024)
+            print(f"✅ Podcast saved to {output_file}")
+            print(f"📊 Final size: {size_mb:.1f} MB")
+        else:
+            print("❌ Failed to create MP3 file")
+            sys.exit(1)
+            
+    except Exception as e:
+        print(f"❌ Error generating podcast: {e}")
+        sys.exit(1)
+    finally:
+        # Clean up temporary files
+        try:
+            for file in temp_dir.glob("*.mp3"):
+                file.unlink()
+            temp_dir.rmdir()
+            print("🧹 Cleaned up temporary files")
+        except Exception as e:
+            print(f"⚠️ Warning: Could not clean up temp files: {e}")
 
-    # Concatenate all audio files
-    concatenate_audio_files(audio_files, output_file)
-
-    # Clean up temporary files
-    for file in temp_dir.glob("*.mp3"):
-        file.unlink()
-    temp_dir.rmdir()
-
-    print(f"Podcast saved to {output_file}")
-    copy_file_to_icloud(output_file)
-    copy_file_to_icloud(input_file)
-    copy_file_to_icloud(td_file)
+    print(f"🎉 Podcast generation completed successfully!")
+    # Commented out iCloud sync - can be enabled if needed
+    # copy_file_to_icloud(output_file)
+    # copy_file_to_icloud(input_file)
+    # copy_file_to_icloud(td_file)

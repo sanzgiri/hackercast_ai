@@ -12,20 +12,26 @@
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>18</integer>
+        <integer>9</integer>
         <key>Minute</key>
         <integer>0</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/sanzgiri/hackercast_ai/rpg.log</string>
+    <string>/Users/sanzgiri/hackercast_ai/logs/podcast_generation.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/sanzgiri/hackercast_ai/rpg.log</string>
+    <string>/Users/sanzgiri/hackercast_ai/logs/podcast_generation_error.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string>/Users/sanzgiri/miniforge3/envs/aider/bin/:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <string>/Users/sanzgiri/miniconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/sanzgiri</string>
     </dict>
     <key>WorkingDirectory</key>
     <string>/Users/sanzgiri/hackercast_ai</string>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>KeepAlive</key>
+    <false/>
 </dict>
 </plist>

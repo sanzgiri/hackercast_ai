@@ -7,6 +7,9 @@ from datetime import datetime
 from dotenv import load_dotenv
 import os
 import re
+import time
+from pathlib import Path
+from openai import RateLimitError
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -14,6 +17,24 @@ load_dotenv()
 # OpenAI API key
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 GITHUB_API_KEY = os.getenv('GITHUB_API_KEY')
+
+def check_existing_files(date_str):
+    """Check if files already exist to avoid regenerating content"""
+    base_path = Path("output")
+    files_to_check = [
+        base_path / f"hn_jsonl_{date_str}.txt",
+        base_path / f"hn_transcript_{date_str}.txt", 
+        base_path / f"hn_td_{date_str}.txt"
+    ]
+    
+    existing_files = [f for f in files_to_check if f.exists()]
+    
+    if existing_files:
+        print(f"✅ Found existing files from {date_str}:")
+        for f in existing_files:
+            print(f"   - {f.name} ({f.stat().st_size} bytes)")
+        return True
+    return False
 
 
 def fetch_hn_top_stories(num_stories: int, interval: str) -> list[dict]:
@@ -31,9 +52,18 @@ def fetch_hn_top_stories(num_stories: int, interval: str) -> list[dict]:
         "X-GitHub-Api-Version": "2022-11-28"
     }
     
-    response = requests.get(url, headers=headers)
-    issue = response.json()
-    issue_text = issue[0]["body"]
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()  # Raise an exception for bad status codes
+        response.encoding = response.apparent_encoding  # Fix encoding issues
+        issue = response.json()
+        issue_text = issue[0]["body"]
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Error fetching GitHub data: {e}")
+        return []
+    except (KeyError, IndexError) as e:
+        print(f"❌ Error parsing GitHub response: {e}")
+        return []
 
     pattern = r'(\d+)\.\s+\*\*\[(.+?)\]\((.+?)\)\*\*\n(\d+) points by .+? \| \[(\d+) comments\]\((.+?)\)'
     matches = re.finditer(pattern, issue_text, re.MULTILINE)
@@ -68,13 +98,29 @@ def summarize_content(title: str, url: str, content: str) -> str:
 
     prompt = "Summarize the following content in less than 140 words in a style suitable for a hackernews podcast. Do not start with 'in this episode' or 'in todays episode'."
     content = f"Title:{title}\nURL:{url}\nContent:{content}"
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",  # Replace with the specific model you want to use
-        messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": content}
-        ]
-    )
+    
+    # Retry logic for rate limiting
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model="gpt-5-nano",  # Replace with the specific model you want to use
+                messages=[
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": content}
+                ]
+            )
+            break
+        except RateLimitError as e:
+            if attempt == max_retries - 1:
+                print(f"❌ OpenAI API quota exceeded after {max_retries} attempts")
+                print("Please check your OpenAI account billing and usage at: https://platform.openai.com/usage")
+                raise e
+            else:
+                wait_time = (attempt + 1) * 10  # Wait 10, 20, 30 seconds
+                print(f"⏳ Rate limit hit, waiting {wait_time} seconds... (attempt {attempt + 1}/{max_retries})")
+                time.sleep(wait_time)
+    
     summary = response.choices[0].message.content
     # Calculate tokens and estimate cost
     tokens_used = response.usage.total_tokens
@@ -95,12 +141,28 @@ def extract_summary(title: str, url: str) -> str:
     Returns:
         str: The extracted summary.
     """
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
-    paragraphs = soup.find_all('p')
-    content = ' '.join([para.get_text() for para in paragraphs])
-    summary, cost = summarize_content(title, url, content)
-    return summary, cost
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()  # Raise an exception for bad status codes
+        response.encoding = response.apparent_encoding  # Fix encoding issues
+        soup = BeautifulSoup(response.text, 'html.parser')  # Use .text instead of .content
+        paragraphs = soup.find_all('p')
+        content = ' '.join([para.get_text() for para in paragraphs])
+        
+        # Clean up any problematic characters
+        content = content.encode('utf-8', errors='replace').decode('utf-8')
+        
+        summary, cost = summarize_content(title, url, content)
+        return summary, cost
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Error fetching content from {url}: {e}")
+        # Return a basic summary if we can't fetch content
+        basic_summary = {'Title': title, 'URL': url, 'Summary': f"Unable to fetch content for: {title}"}
+        return basic_summary, 0.0
+    except Exception as e:
+        print(f"❌ Error processing content from {url}: {e}")
+        basic_summary = {'Title': title, 'URL': url, 'Summary': f"Error processing content for: {title}"}
+        return basic_summary, 0.0
 
 
 def add_intro_and_conclusion(summaries: list[str], interval: int) -> str:
@@ -142,15 +204,29 @@ def add_intro_and_conclusion(summaries: list[str], interval: int) -> str:
     for summary in summaries:
         content += f"{summary['Summary']}\n\n"
 
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",  # Replace with the specific model you want to use
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": content},
-            {"role": "user", "content": "Please format your entire response as a JSON object with keys 'Introduction, 'Conclusion', 'Title' and 'Description'."}
-        ]
-    )
+    # Retry logic for rate limiting
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",  # Replace with the specific model you want to use
+                response_format={"type": "json_object"},
+                messages=[
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": content},
+                    {"role": "user", "content": "Please format your entire response as a JSON object with keys 'Introduction, 'Conclusion', 'Title' and 'Description'."}
+                ]
+            )
+            break
+        except RateLimitError as e:
+            if attempt == max_retries - 1:
+                print(f"❌ OpenAI API quota exceeded after {max_retries} attempts")
+                print("Please check your OpenAI account billing and usage at: https://platform.openai.com/usage")
+                raise e
+            else:
+                wait_time = (attempt + 1) * 10  # Wait 10, 20, 30 seconds
+                print(f"⏳ Rate limit hit, waiting {wait_time} seconds... (attempt {attempt + 1}/{max_retries})")
+                time.sleep(wait_time)
 
     # Calculate tokens and estimate cost
     tokens_used = response.usage.total_tokens
@@ -221,14 +297,25 @@ def create_summaries(interval: str, num_stories: int) -> str:
 if __name__ == "__main__":
     """
     Main function to create summaries based on user input.
-
-    Args:
-        None
-
-    Returns:
-        None
+    Includes file existence check to avoid regenerating content.
     """
-
+    
+    if len(sys.argv) < 3:
+        print("Usage: python generate_summaries_hn.py <interval> <num_stories>")
+        print("Example: python generate_summaries_hn.py daily 10")
+        sys.exit(1)
+    
     interval = sys.argv[1]
     num_stories = int(sys.argv[2])
+    
+    # Check if files already exist for today
+    date_str = datetime.now().strftime("%m%d%Y")
+    
+    if check_existing_files(date_str):
+        print(f"📚 Summary files already exist for {date_str}")
+        print("🚫 Skipping regeneration to save API tokens")
+        print("💡 Delete files in output/ folder if you want to regenerate")
+        sys.exit(0)
+    
+    print(f"📝 Generating new summaries for {date_str}...")
     create_summaries(interval, num_stories)

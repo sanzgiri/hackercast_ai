@@ -1,7 +1,25 @@
-.aider*
-*.mp3
+# Environment and credentials
 .env
-tmp
-output
-temp_audio_chunks
+credentials.json
+token.json
+
+# Build and dependencies
+__pycache__/
+.venv/
+*.pyc
+
+# Output and temporary files
+output/
+logs/
+temp_audio_chunks/
+*.mp3
+*.log
+rss_metadata.json
+
+# System files
 .DS_Store
+.aider*
+tmp/
+
+# Documentation that's project-specific
+hackerpulse_img_old.jpg

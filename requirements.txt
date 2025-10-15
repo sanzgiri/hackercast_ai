@@ -6,6 +6,12 @@ openai
 pydub
 python-dotenv
 unrealspeech
-playsound 
+pygame
 simpleaudio
 PyObjC
+nltk
+playsound==1.2.2
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+PyGithub
