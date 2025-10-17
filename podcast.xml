@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="http://www.w3.org/2005/Atom" xmlns:ns2="https://podcastindex.org/namespace/1.0" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="http://www.w3.org/2005/Atom" xmlns:ns2="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>HackerCast AI - Daily Tech News</title>
     <description>AI-generated daily summaries of top Hacker News stories, covering the latest in technology, startups, and innovation.</description>
     <link>https://github.com/sanzgiri/podcast-feed</link>
     <language>en-us</language>
-    <ns0:author>HackerCast AI</ns0:author>
-    <ns0:summary>Stay updated with the latest tech news through AI-generated summaries of trending Hacker News stories.</ns0:summary>
-    <ns0:owner>
-      <ns0:name>HackerCast AI</ns0:name>
-      <ns0:email>sanzgiri@gmail.com</ns0:email>
-    </ns0:owner>
-    <ns0:category text="Technology">
-      <ns0:category text="News" />
-    </ns0:category>
-    <ns0:explicit>false</ns0:explicit>
-    <ns0:image href="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/artwork/hackerpulse_cover.jpg" />
+    <itunes:author>HackerCast AI</itunes:author>
+    <itunes:summary>Stay updated with the latest tech news through AI-generated summaries of trending Hacker News stories.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>HackerCast AI</itunes:name>
+      <itunes:email>sanzgiri@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology">
+      <itunes:category text="News" />
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/artwork/hackerpulse_cover.jpg" />
     <image>
       <url>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/artwork/hackerpulse_cover.jpg</url>
       <title>HackerCast AI</title>
@@ -27,15 +27,15 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 17 Oct 2025 06:57:58 GMT</lastBuildDate>
-    <item>
+    <lastBuildDate>Fri, 17 Oct 2025 16:56:55 GMT</lastBuildDate>
+    <item><title>HackerPulse Episode - October 17, 2025: Tax Wars, OS Choices, and Framework Innovations</title><description>In this episode of HackerPulse for October 17, 2025, we cover the war waged by TurboTax against free filing options, the privacy implications of transitioning to Windows 11, and a cautionary look at Kindle's DRM practices. We also explore Claude's new Skills feature for enhanced productivity, the fallout from Pentagon policy changes, the implications of Liquibase's licensing shift, and the latest from the Tor Browser. Plus, we introduce Hyperflask, a new full-stack framework designed for modern app development. Join us for these top stories in today's tech news!</description><link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10172025.mp3</link><author>sanzgiri@gmail.com (HackerCast AI)</author><itunes:author>HackerCast AI</itunes:author><itunes:summary>In this episode of HackerPulse for October 17, 2025, we cover the war waged by TurboTax against free filing options, the privacy implications of transitioning to Windows 11, and a cautionary look at Kindle's DRM practices. We also explore Claude's new Skills feature for enhanced productivity, the fallout from Pentagon policy changes, the implications of Liquibase's licensing shift, and the latest from the Tor Browser. Plus, we introduce Hyperflask, a new full-stack framework designed for modern app development. Join us for these top stories in today's tech news!</itunes:summary><itunes:explicit>false</itunes:explicit><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid isPermaLink="false">hackercast-10172025</guid><enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10172025.mp3" type="audio/mpeg" length="2432122" /></item><item>
       <title>Hackerpulse Episode - October 15, 2025: Press Access, Dark Matter Discovery, and the Literacy Crisis</title>
       <description>In this episode of Hackerpulse, we explore significant stories making waves in the tech and media sectors. From the Pentagon's controversial new press-access policies raising First Amendment concerns to groundbreaking research imaging a dark matter clump, we cover it all. We also touch on alarming literacy declines in U.S. schools and the emerging role of AI in educational contexts. Tune in for a concise summary of today’s impactful discussions!</description>
       <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10152025.mp3</link>
       <author>sanzgiri@gmail.com (HackerCast AI)</author>
-      <ns0:author>HackerCast AI</ns0:author>
-      <ns0:summary>In this episode of Hackerpulse, we explore significant stories making waves in the tech and media sectors. From the Pentagon's controversial new press-access policies raising First Amendment concerns to groundbreaking research imaging a dark matter clump, we cover it all. We also touch on alarming literacy declines in U.S. schools and the emerging role of AI in educational contexts. Tune in for a concise summary of today’s impactful discussions!</ns0:summary>
-      <ns0:explicit>false</ns0:explicit>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode of Hackerpulse, we explore significant stories making waves in the tech and media sectors. From the Pentagon's controversial new press-access policies raising First Amendment concerns to groundbreaking research imaging a dark matter clump, we cover it all. We also touch on alarming literacy declines in U.S. schools and the emerging role of AI in educational contexts. Tune in for a concise summary of today’s impactful discussions!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">hackercast-10152025</guid>
       <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10152025.mp3" type="audio/mpeg" length="2141326" />
@@ -45,9 +45,9 @@
       <description>In this episode of Hackerpulse, we cover the latest tech highlights including Apple's groundbreaking M5 chip launch, the rise of AI in coding with Claude Haiku 4.5, and a shocking discovery of bots skewing e-commerce metrics. We also explore Ireland's permanent basic income program for artists and a new Android attack class named Pixnapping. Tune in for succinct insights and the stories shaping the tech landscape today!</description>
       <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10162025.mp3</link>
       <author>sanzgiri@gmail.com (HackerCast AI)</author>
-      <ns0:author>HackerCast AI</ns0:author>
-      <ns0:summary>In this episode of Hackerpulse, we cover the latest tech highlights including Apple's groundbreaking M5 chip launch, the rise of AI in coding with Claude Haiku 4.5, and a shocking discovery of bots skewing e-commerce metrics. We also explore Ireland's permanent basic income program for artists and a new Android attack class named Pixnapping. Tune in for succinct insights and the stories shaping the tech landscape today!</ns0:summary>
-      <ns0:explicit>false</ns0:explicit>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode of Hackerpulse, we cover the latest tech highlights including Apple's groundbreaking M5 chip launch, the rise of AI in coding with Claude Haiku 4.5, and a shocking discovery of bots skewing e-commerce metrics. We also explore Ireland's permanent basic income program for artists and a new Android attack class named Pixnapping. Tune in for succinct insights and the stories shaping the tech landscape today!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">hackercast-10162025</guid>
       <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10162025.mp3" type="audio/mpeg" length="2317914" />
@@ -57,9 +57,9 @@
       <description>In this episode of Hackerpulse, we discuss the significant pushback from major media outlets against the Department of Defense’s new press-access rules. These policies threaten to limit journalists' access and oversight of military operations, raising concerns about First Amendment rights and the free flow of information. Tune in for a breakdown of this developing story and its implications for journalism and democracy.</description>
       <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10142025.mp3</link>
       <author>sanzgiri@gmail.com (HackerCast AI)</author>
-      <ns0:author>HackerCast AI</ns0:author>
-      <ns0:summary>In this episode of Hackerpulse, we discuss the significant pushback from major media outlets against the Department of Defense’s new press-access rules. These policies threaten to limit journalists' access and oversight of military operations, raising concerns about First Amendment rights and the free flow of information. Tune in for a breakdown of this developing story and its implications for journalism and democracy.</ns0:summary>
-      <ns0:explicit>false</ns0:explicit>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode of Hackerpulse, we discuss the significant pushback from major media outlets against the Department of Defense’s new press-access rules. These policies threaten to limit journalists' access and oversight of military operations, raising concerns about First Amendment rights and the free flow of information. Tune in for a breakdown of this developing story and its implications for journalism and democracy.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">hackercast-10142025</guid>
       <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10142025.mp3" type="audio/mpeg" length="423201" />
