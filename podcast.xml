@@ -55,14 +55,14 @@
     <item>
       <title>October 14, 2025: Media Stands Against New Pentagon Press Rules</title>
       <description>In this episode of Hackerpulse, we discuss the significant pushback from major media outlets against the Department of Defense’s new press-access rules. These policies threaten to limit journalists' access and oversight of military operations, raising concerns about First Amendment rights and the free flow of information. Tune in for a breakdown of this developing story and its implications for journalism and democracy.</description>
-      <link>https://raw.githubusercontent.com/sanzgiri/podcast-feed/main/episodes/hn_transcript_10142025.mp3</link>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10142025.mp3</link>
       <author>sanzgiri@gmail.com (HackerCast AI)</author>
       <ns0:author>HackerCast AI</ns0:author>
       <ns0:summary>In this episode of Hackerpulse, we discuss the significant pushback from major media outlets against the Department of Defense’s new press-access rules. These policies threaten to limit journalists' access and oversight of military operations, raising concerns about First Amendment rights and the free flow of information. Tune in for a breakdown of this developing story and its implications for journalism and democracy.</ns0:summary>
       <ns0:explicit>false</ns0:explicit>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">hackercast-10142025</guid>
-      <enclosure url="https://raw.githubusercontent.com/sanzgiri/podcast-feed/main/episodes/hn_transcript_10142025.mp3" type="audio/mpeg" length="423201" />
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10142025.mp3" type="audio/mpeg" length="423201" />
     </item>
   </channel>
 </rss>
