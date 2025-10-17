@@ -15,13 +15,13 @@
       <ns0:category text="News" />
     </ns0:category>
     <ns0:explicit>false</ns0:explicit>
-    <ns0:image href="https://raw.githubusercontent.com/sanzgiri/podcast-feed/main/hackerpulse_img.jpg" />
+    <ns0:image href="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/artwork/hackerpulse_cover.jpg" />
     <image>
-      <url>https://raw.githubusercontent.com/sanzgiri/podcast-feed/main/hackerpulse_img.jpg</url>
+      <url>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/artwork/hackerpulse_cover.jpg</url>
       <title>HackerCast AI</title>
-      <link>https://github.com/sanzgiri/podcast-feed</link>
+      <link>https://github.com/sanzgiri/hackercast_ai</link>
     </image>
-    <ns1:link href="https://raw.githubusercontent.com/sanzgiri/podcast-feed/main/rss" rel="self" type="application/rss+xml" />
+    <ns1:link href="https://raw.githubusercontent.com/sanzgiri/hackercast_ai/refs/heads/main/podcast.xml" rel="self" type="application/rss+xml" />
     <ns2:guid>hackercast-ai-daily-tech-news</ns2:guid>
     <ns2:medium>podcast</ns2:medium>
     <copyright>© 2025 HackerCast AI</copyright>
