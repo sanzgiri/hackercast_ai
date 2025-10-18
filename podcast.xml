@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 17 Oct 2025 16:56:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 16:03:31 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Oct 18, 2025: Hetzner savings, governance shifts, and AI debates</title>
+      <description>In this episode dated October 18, 2025, HackerPulse surveys the day’s top stories: Digital Society slashes cloud bills by migrating from AWS and DigitalOcean to Hetzner, quadrupling capacity with Kubernetes, Talos Linux, CloudNativePG, Terraform, Helm, and GitHub Actions; Ruby core teams take ownership of RubyGems and Bundler; Ring teams with Flock to share doorbell footage with law enforcement, raising privacy and bias concerns; Karpathy frames AGI as a decade-long journey focused on agents rather than a single breakthrough; Claude Skills introduces a modular, on-demand tooling approach for AI tasks; Ofcom’s Online Safety Act and its potential extraterritorial reach; plus a practical primer on fact-checking to curb misinformation online.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10182025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode dated October 18, 2025, HackerPulse surveys the day’s top stories: Digital Society slashes cloud bills by migrating from AWS and DigitalOcean to Hetzner, quadrupling capacity with Kubernetes, Talos Linux, CloudNativePG, Terraform, Helm, and GitHub Actions; Ruby core teams take ownership of RubyGems and Bundler; Ring teams with Flock to share doorbell footage with law enforcement, raising privacy and bias concerns; Karpathy frames AGI as a decade-long journey focused on agents rather than a single breakthrough; Claude Skills introduces a modular, on-demand tooling approach for AI tasks; Ofcom’s Online Safety Act and its potential extraterritorial reach; plus a practical primer on fact-checking to curb misinformation online.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10182025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10182025.mp3" type="audio/mpeg" length="1811975"/>
+    </item>
     <item>
       <title>HackerPulse Episode - October 17, 2025: Tax Wars, OS Choices, and Framework Innovations</title>
       <description>In this episode of HackerPulse for October 17, 2025, we cover the war waged by TurboTax against free filing options, the privacy implications of transitioning to Windows 11, and a cautionary look at Kindle's DRM practices. We also explore Claude's new Skills feature for enhanced productivity, the fallout from Pentagon policy changes, the implications of Liquibase's licensing shift, and the latest from the Tor Browser. Plus, we introduce Hyperflask, a new full-stack framework designed for modern app development. Join us for these top stories in today's tech news!</description>
