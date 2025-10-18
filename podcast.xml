@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns1="http://www.w3.org/2005/Atom" xmlns:ns2="https://podcastindex.org/namespace/1.0" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>HackerCast AI - Daily Tech News</title>
     <description>AI-generated daily summaries of top Hacker News stories, covering the latest in technology, startups, and innovation.</description>
@@ -12,18 +12,18 @@
       <itunes:email>sanzgiri@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:category text="Technology">
-      <itunes:category text="News" />
+      <itunes:category text="News"/>
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/artwork/hackerpulse_cover.jpg" />
+    <itunes:image href="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/artwork/hackerpulse_cover.jpg"/>
     <image>
       <url>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/artwork/hackerpulse_cover.jpg</url>
       <title>HackerCast AI</title>
       <link>https://github.com/sanzgiri/hackercast_ai</link>
     </image>
-    <ns1:link href="https://raw.githubusercontent.com/sanzgiri/hackercast_ai/refs/heads/main/podcast.xml" rel="self" type="application/rss+xml" />
-    <ns2:guid>hackercast-ai-daily-tech-news</ns2:guid>
-    <ns2:medium>podcast</ns2:medium>
+    <atom:link href="https://raw.githubusercontent.com/sanzgiri/hackercast_ai/refs/heads/main/podcast.xml" rel="self" type="application/rss+xml"/>
+    <podcast:guid>hackercast-ai-daily-tech-news</podcast:guid>
+    <podcast:medium>podcast</podcast:medium>
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
@@ -38,19 +38,7 @@
       <itunes:explicit>false</itunes:explicit>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">hackercast-10172025</guid>
-      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10172025.mp3" type="audio/mpeg" length="2432122" />
-    </item>
-    <item>
-      <title>Hackerpulse Episode - October 15, 2025: Press Access, Dark Matter Discovery, and the Literacy Crisis</title>
-      <description>In this episode of Hackerpulse, we explore significant stories making waves in the tech and media sectors. From the Pentagon's controversial new press-access policies raising First Amendment concerns to groundbreaking research imaging a dark matter clump, we cover it all. We also touch on alarming literacy declines in U.S. schools and the emerging role of AI in educational contexts. Tune in for a concise summary of today’s impactful discussions!</description>
-      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10152025.mp3</link>
-      <author>sanzgiri@gmail.com (HackerCast AI)</author>
-      <itunes:author>HackerCast AI</itunes:author>
-      <itunes:summary>In this episode of Hackerpulse, we explore significant stories making waves in the tech and media sectors. From the Pentagon's controversial new press-access policies raising First Amendment concerns to groundbreaking research imaging a dark matter clump, we cover it all. We also touch on alarming literacy declines in U.S. schools and the emerging role of AI in educational contexts. Tune in for a concise summary of today’s impactful discussions!</itunes:summary>
-      <itunes:explicit>false</itunes:explicit>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">hackercast-10152025</guid>
-      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10152025.mp3" type="audio/mpeg" length="2141326" />
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10172025.mp3" type="audio/mpeg" length="2432122"/>
     </item>
     <item>
       <title>Hackerpulse Episode - October 16, 2025: AI Advancements and E-Commerce Insights</title>
@@ -62,7 +50,19 @@
       <itunes:explicit>false</itunes:explicit>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">hackercast-10162025</guid>
-      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10162025.mp3" type="audio/mpeg" length="2317914" />
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10162025.mp3" type="audio/mpeg" length="2317914"/>
+    </item>
+    <item>
+      <title>Hackerpulse Episode - October 15, 2025: Press Access, Dark Matter Discovery, and the Literacy Crisis</title>
+      <description>In this episode of Hackerpulse, we explore significant stories making waves in the tech and media sectors. From the Pentagon's controversial new press-access policies raising First Amendment concerns to groundbreaking research imaging a dark matter clump, we cover it all. We also touch on alarming literacy declines in U.S. schools and the emerging role of AI in educational contexts. Tune in for a concise summary of today’s impactful discussions!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10152025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode of Hackerpulse, we explore significant stories making waves in the tech and media sectors. From the Pentagon's controversial new press-access policies raising First Amendment concerns to groundbreaking research imaging a dark matter clump, we cover it all. We also touch on alarming literacy declines in U.S. schools and the emerging role of AI in educational contexts. Tune in for a concise summary of today’s impactful discussions!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10152025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10152025.mp3" type="audio/mpeg" length="2141326"/>
     </item>
     <item>
       <title>October 14, 2025: Media Stands Against New Pentagon Press Rules</title>
@@ -74,7 +74,7 @@
       <itunes:explicit>false</itunes:explicit>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">hackercast-10142025</guid>
-      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10142025.mp3" type="audio/mpeg" length="423201" />
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10142025.mp3" type="audio/mpeg" length="423201"/>
     </item>
   </channel>
 </rss>
