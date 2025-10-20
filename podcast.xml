@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sun, 19 Oct 2025 16:02:53 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Oct 2025 16:02:40 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Oct 20, 2025: From GPT-5 Hype to Fine-Tuning Comebacks</title>
+      <description>In this episode (Oct 20, 2025), Data reviews: OpenAI’s GPT-5 math hype and its retractions, the real value of GPT-5 as a research aid, a malware warning around compromised xubuntu downloads, the weather-balloon payload theory behind a Colorado 737 MAX incident, Duck-UI—a browser-based DuckDB IDE, USA-status.com's uptime metrics with caveats, and the ongoing return of fine-tuning with modular, open-weight ecosystems and on-device control. Also included are practical study tips and environments for exams, reflecting today’s news cycle.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10202025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode (Oct 20, 2025), Data reviews: OpenAI’s GPT-5 math hype and its retractions, the real value of GPT-5 as a research aid, a malware warning around compromised xubuntu downloads, the weather-balloon payload theory behind a Colorado 737 MAX incident, Duck-UI—a browser-based DuckDB IDE, USA-status.com's uptime metrics with caveats, and the ongoing return of fine-tuning with modular, open-weight ecosystems and on-device control. Also included are practical study tips and environments for exams, reflecting today’s news cycle.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10202025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10202025.mp3" type="audio/mpeg" length="1611041"/>
+    </item>
     <item>
       <title>HackerPulse — October 19, 2025: DOS TUIs, Ripgrep 15.0, and the AMD Strix Halo</title>
       <description>Today’s HackerPulse episode stitches together a curated set of Hacker News stories. We start with a nostalgic deep-dive into DOS-era full-screen TUIs—MS-DOS 5’s editor, SideKick Plus as a TSR, and the Borland Turbo family with integrated compilers and debuggers in tiny footprints—and compare that polish to modern IDEs, noting how LSP/BSP ecosystems like Doom Emacs, Neovim, and Helix are reviving TUI-driven workflows for SSH/tmux-style remote work. We also cover Ripgrep 15.0’s big release: broader platform support, speed wins, bug fixes, and feature enhancements for those who live in the terminal. The episode spotlights a few terse, aesthetic content bits like the naked link './watch' and Wageningen University’s Root System Drawings, then explores Neural Symphony—a tinnitus neuromodulation tool blending Steve Harrison’s sequences with myNoise’s engine for user-controlled masking sounds. We pivot to SQL anti-patterns and fixes, emphasizing design-for-queries and avoiding view-on-view traps. OpenMixerProject’s StageConnect shows Behringer’s A²B bridge to a Behringer/Midas workflow, while AMD’s Strix Halo details a dual Zen 5, high-end APU with a robust iGPU and massive bandwidth. A meditation on attention economics ties the thread together, followed by Free Programming Books—a community-driven hub of free resources and governance for open education. It’s a compact, thoughtful mix of nostalgia, practical tech insight, and a forward-looking view on how we code and learn in 2025.</description>
