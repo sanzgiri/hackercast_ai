@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 20 Oct 2025 16:02:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 16:03:11 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Oct 21, 2025: AWS us-east-1 Outage, DNS Fallout, and AI Infrastructure Advances</title>
+      <description>Episode note: On Oct 21, 2025, Data guides you through today's headlines from Hacker News. Highlights include AWS us-east-1 experiencing a regional outage with multi-service impact and a DNS root-cause lead; downstream effects on DynamoDB, S3, IAM, EC2, Lambda, and more, plus mitigation steps and cross-region recommendations. We also cover DeepSeek-OCR’s Contextual Optical Compression project, Servo’s Rust-powered embeddable browser engine, Claude Code for web-based collaborative coding, Discrete language diffusion exploring MLM with denoising for generation, and Alibaba Cloud’s Aegaeon GPU-sharing system for multi-model inference. Note content-fetch gaps for Space Elevator and Entire Linux Network stack diagram. Tune in for quick context, practical takeaways, and updates as AWS posts root cause information.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10212025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Episode note: On Oct 21, 2025, Data guides you through today's headlines from Hacker News. Highlights include AWS us-east-1 experiencing a regional outage with multi-service impact and a DNS root-cause lead; downstream effects on DynamoDB, S3, IAM, EC2, Lambda, and more, plus mitigation steps and cross-region recommendations. We also cover DeepSeek-OCR’s Contextual Optical Compression project, Servo’s Rust-powered embeddable browser engine, Claude Code for web-based collaborative coding, Discrete language diffusion exploring MLM with denoising for generation, and Alibaba Cloud’s Aegaeon GPU-sharing system for multi-model inference. Note content-fetch gaps for Space Elevator and Entire Linux Network stack diagram. Tune in for quick context, practical takeaways, and updates as AWS posts root cause information.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10212025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10212025.mp3" type="audio/mpeg" length="1707589"/>
+    </item>
     <item>
       <title>HackerPulse Oct 20, 2025: From GPT-5 Hype to Fine-Tuning Comebacks</title>
       <description>In this episode (Oct 20, 2025), Data reviews: OpenAI’s GPT-5 math hype and its retractions, the real value of GPT-5 as a research aid, a malware warning around compromised xubuntu downloads, the weather-balloon payload theory behind a Colorado 737 MAX incident, Duck-UI—a browser-based DuckDB IDE, USA-status.com's uptime metrics with caveats, and the ongoing return of fine-tuning with modular, open-weight ecosystems and on-device control. Also included are practical study tips and environments for exams, reflecting today’s news cycle.</description>
