@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Tue, 21 Oct 2025 16:03:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 16:03:57 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Oct 22, 2025: LSM Trees, Self-Hosting Wins, AI Audio, Security Bombshells, and FSD Frontiers</title>
+      <description>Today’s HackerPulse, narrated by Data, distills a full slate of Hacker News stories: the anatomy of LSM-tree storage and its read/write tradeoffs; a startup’s transition from PaaS to a self-hosted stack to save costs; Kyutai’s neural audio codec approach to running audio-LMs directly; a wave of on-prem SharePoint zero-days raising IT/OT security concerns; the LLM Brain Rot hypothesis about junk data degrading model reasoning; a real-world study showing early peanut introduction reduces peanut allergies; AI-driven shifts in Wikipedia traffic and editor workflow; Apple threat notifications to an exploit developer; and Tesla FSD rollout challenges across hardware generations with pricing pressures. Tune in for signal from today’s noise.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10222025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today’s HackerPulse, narrated by Data, distills a full slate of Hacker News stories: the anatomy of LSM-tree storage and its read/write tradeoffs; a startup’s transition from PaaS to a self-hosted stack to save costs; Kyutai’s neural audio codec approach to running audio-LMs directly; a wave of on-prem SharePoint zero-days raising IT/OT security concerns; the LLM Brain Rot hypothesis about junk data degrading model reasoning; a real-world study showing early peanut introduction reduces peanut allergies; AI-driven shifts in Wikipedia traffic and editor workflow; Apple threat notifications to an exploit developer; and Tesla FSD rollout challenges across hardware generations with pricing pressures. Tune in for signal from today’s noise.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10222025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10222025.mp3" type="audio/mpeg" length="2230874"/>
+    </item>
     <item>
       <title>HackerPulse Oct 21, 2025: AWS us-east-1 Outage, DNS Fallout, and AI Infrastructure Advances</title>
       <description>Episode note: On Oct 21, 2025, Data guides you through today's headlines from Hacker News. Highlights include AWS us-east-1 experiencing a regional outage with multi-service impact and a DNS root-cause lead; downstream effects on DynamoDB, S3, IAM, EC2, Lambda, and more, plus mitigation steps and cross-region recommendations. We also cover DeepSeek-OCR’s Contextual Optical Compression project, Servo’s Rust-powered embeddable browser engine, Claude Code for web-based collaborative coding, Discrete language diffusion exploring MLM with denoising for generation, and Alibaba Cloud’s Aegaeon GPU-sharing system for multi-model inference. Note content-fetch gaps for Space Elevator and Entire Linux Network stack diagram. Tune in for quick context, practical takeaways, and updates as AWS posts root cause information.</description>
