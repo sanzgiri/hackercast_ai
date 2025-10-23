@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 22 Oct 2025 16:03:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 16:04:27 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Oct 23, 2025: Docker CVEs, Browser Privacy, Gutenberg Legacy, AI Integrity, OneWeb Greenland, and Quantum Breakthroughs</title>
+      <description>On Oct 23, 2025, HackerPulse covers: security versus deployment—new CVE releases outpacing Docker image availability in registries; a provocative take on moving cookie consent to the browser to curb banner fatigue; the passing of Gregory B. Newby and his impact on expanding open access via Project Gutenberg; ongoing coverage of AI‑assisted news and regulatory responses highlighted by a multinational BBC/EBU study; Greenland’s Tusass signing with Eutelsat to deliver OneWeb‑based internet to remote towns; Google's Willow chip achieving verifiable quantum advantage using the Quantum Echoes protocol on a 105‑qubit array; and Sarkozy beginning a five‑year prison term amid broader political ramifications. Plus quick context on tooling, privacy, and policy shaping today’s tech landscape.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10232025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>On Oct 23, 2025, HackerPulse covers: security versus deployment—new CVE releases outpacing Docker image availability in registries; a provocative take on moving cookie consent to the browser to curb banner fatigue; the passing of Gregory B. Newby and his impact on expanding open access via Project Gutenberg; ongoing coverage of AI‑assisted news and regulatory responses highlighted by a multinational BBC/EBU study; Greenland’s Tusass signing with Eutelsat to deliver OneWeb‑based internet to remote towns; Google's Willow chip achieving verifiable quantum advantage using the Quantum Echoes protocol on a 105‑qubit array; and Sarkozy beginning a five‑year prison term amid broader political ramifications. Plus quick context on tooling, privacy, and policy shaping today’s tech landscape.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10232025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10232025.mp3" type="audio/mpeg" length="2028895"/>
+    </item>
     <item>
       <title>HackerPulse Oct 22, 2025: LSM Trees, Self-Hosting Wins, AI Audio, Security Bombshells, and FSD Frontiers</title>
       <description>Today’s HackerPulse, narrated by Data, distills a full slate of Hacker News stories: the anatomy of LSM-tree storage and its read/write tradeoffs; a startup’s transition from PaaS to a self-hosted stack to save costs; Kyutai’s neural audio codec approach to running audio-LMs directly; a wave of on-prem SharePoint zero-days raising IT/OT security concerns; the LLM Brain Rot hypothesis about junk data degrading model reasoning; a real-world study showing early peanut introduction reduces peanut allergies; AI-driven shifts in Wikipedia traffic and editor workflow; Apple threat notifications to an exploit developer; and Tesla FSD rollout challenges across hardware generations with pricing pressures. Tune in for signal from today’s noise.</description>
