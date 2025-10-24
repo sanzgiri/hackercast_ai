@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 23 Oct 2025 16:04:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 16:05:20 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Oct 24, 2025: HRG removal, MIT-licensed VST3, and the DNS outage</title>
+      <description>Today’s HackerPulse episode (Oct 24, 2025) covers a range of HackerNews headlines: the US State Department quietly pulling the Human Rights Reporting Gateway amid Leahy Law concerns; Steinberg releasing VST SDK 3.8 with MIT licensing and MIDI 2.0 support; a broad critique of Apple’s UX drift across iOS 26 and macOS 26; a Baltimore County AI gun detector false positive at a high school highlighting the real-world risks of school surveillance; a playful dive into FizzBuzz, lambda calculus, and the Skoobert project; a DynamoDB DNS misconfiguration causing a regional outage and cascading service impacts; Claude Memory’s per-project memory feature; PyTorch Monarch for distributed AI programming across clusters; and the development of an ASN.1 compiler in D. Links and context provided.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10242025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today’s HackerPulse episode (Oct 24, 2025) covers a range of HackerNews headlines: the US State Department quietly pulling the Human Rights Reporting Gateway amid Leahy Law concerns; Steinberg releasing VST SDK 3.8 with MIT licensing and MIDI 2.0 support; a broad critique of Apple’s UX drift across iOS 26 and macOS 26; a Baltimore County AI gun detector false positive at a high school highlighting the real-world risks of school surveillance; a playful dive into FizzBuzz, lambda calculus, and the Skoobert project; a DynamoDB DNS misconfiguration causing a regional outage and cascading service impacts; Claude Memory’s per-project memory feature; PyTorch Monarch for distributed AI programming across clusters; and the development of an ASN.1 compiler in D. Links and context provided.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10242025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10242025.mp3" type="audio/mpeg" length="2129101"/>
+    </item>
     <item>
       <title>HackerPulse Oct 23, 2025: Docker CVEs, Browser Privacy, Gutenberg Legacy, AI Integrity, OneWeb Greenland, and Quantum Breakthroughs</title>
       <description>On Oct 23, 2025, HackerPulse covers: security versus deployment—new CVE releases outpacing Docker image availability in registries; a provocative take on moving cookie consent to the browser to curb banner fatigue; the passing of Gregory B. Newby and his impact on expanding open access via Project Gutenberg; ongoing coverage of AI‑assisted news and regulatory responses highlighted by a multinational BBC/EBU study; Greenland’s Tusass signing with Eutelsat to deliver OneWeb‑based internet to remote towns; Google's Willow chip achieving verifiable quantum advantage using the Quantum Echoes protocol on a 105‑qubit array; and Sarkozy beginning a five‑year prison term amid broader political ramifications. Plus quick context on tooling, privacy, and policy shaping today’s tech landscape.</description>
