@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 24 Oct 2025 16:05:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Oct 2025 16:16:54 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse October 25, 2025: Verifiable Reality, Cross-Platform Swift, and the Privacy Frontier</title>
+      <description>Data breaks down today’s top HackerNews stories: Roc Camera combines tamper-proof hardware, attested sensor data, and zero-knowledge proofs to produce verifiably real photos; Typst 0.14 adds accessibility, default tagged PDFs, and smarter typography; Swift on Android enables cross-platform Swift development with native sharing; Twake Drive offers a self-hosted, auditable cloud drive; Phoronix founder Michael Larabel’s Linux hardware reporting and premium options; a Hollywood-level underground poker scheme exposed; and FBI inquiries into anti-ICE protesters raising civil-liberties concerns. Short takes, practical implications for developers and readers, and links to dive deeper.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10252025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Data breaks down today’s top HackerNews stories: Roc Camera combines tamper-proof hardware, attested sensor data, and zero-knowledge proofs to produce verifiably real photos; Typst 0.14 adds accessibility, default tagged PDFs, and smarter typography; Swift on Android enables cross-platform Swift development with native sharing; Twake Drive offers a self-hosted, auditable cloud drive; Phoronix founder Michael Larabel’s Linux hardware reporting and premium options; a Hollywood-level underground poker scheme exposed; and FBI inquiries into anti-ICE protesters raising civil-liberties concerns. Short takes, practical implications for developers and readers, and links to dive deeper.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10252025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10252025.mp3" type="audio/mpeg" length="1887312"/>
+    </item>
     <item>
       <title>HackerPulse Oct 24, 2025: HRG removal, MIT-licensed VST3, and the DNS outage</title>
       <description>Today’s HackerPulse episode (Oct 24, 2025) covers a range of HackerNews headlines: the US State Department quietly pulling the Human Rights Reporting Gateway amid Leahy Law concerns; Steinberg releasing VST SDK 3.8 with MIT licensing and MIDI 2.0 support; a broad critique of Apple’s UX drift across iOS 26 and macOS 26; a Baltimore County AI gun detector false positive at a high school highlighting the real-world risks of school surveillance; a playful dive into FizzBuzz, lambda calculus, and the Skoobert project; a DynamoDB DNS misconfiguration causing a regional outage and cascading service impacts; Claude Memory’s per-project memory feature; PyTorch Monarch for distributed AI programming across clusters; and the development of an ASN.1 compiler in D. Links and context provided.</description>
