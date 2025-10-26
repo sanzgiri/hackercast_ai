@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 25 Oct 2025 16:16:54 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 17:58:06 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Oct 26, 2025: Zig Foundation Backed, iOS 26 Forensics, and the OpenAI ID Gate</title>
+      <description>Narrated by Data, this episode distills today’s HackerNews headlines: Synadia and TigerBeetle pledge $512k to the Zig Software Foundation to advance high‑performance, reliable systems, with words from Derek Collison and Joran Dirk Greef; a brisk recap of Backbone versus React tradeoffs in real apps; iOS 26 overwrites shutdown.log, with forensic implications and upgrade cautions; Libera.Chat’s stance on Ofcom regulation and privacy; plus quick dives into Linux‑on‑RISC‑V bootstrapping and the OpenAI identity verification battleground. A compact, informative snapshot of the day.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10262025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Narrated by Data, this episode distills today’s HackerNews headlines: Synadia and TigerBeetle pledge $512k to the Zig Software Foundation to advance high‑performance, reliable systems, with words from Derek Collison and Joran Dirk Greef; a brisk recap of Backbone versus React tradeoffs in real apps; iOS 26 overwrites shutdown.log, with forensic implications and upgrade cautions; Libera.Chat’s stance on Ofcom regulation and privacy; plus quick dives into Linux‑on‑RISC‑V bootstrapping and the OpenAI identity verification battleground. A compact, informative snapshot of the day.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10262025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10262025.mp3" type="audio/mpeg" length="1749594"/>
+    </item>
     <item>
       <title>HackerPulse October 25, 2025: Verifiable Reality, Cross-Platform Swift, and the Privacy Frontier</title>
       <description>Data breaks down today’s top HackerNews stories: Roc Camera combines tamper-proof hardware, attested sensor data, and zero-knowledge proofs to produce verifiably real photos; Typst 0.14 adds accessibility, default tagged PDFs, and smarter typography; Swift on Android enables cross-platform Swift development with native sharing; Twake Drive offers a self-hosted, auditable cloud drive; Phoronix founder Michael Larabel’s Linux hardware reporting and premium options; a Hollywood-level underground poker scheme exposed; and FBI inquiries into anti-ICE protesters raising civil-liberties concerns. Short takes, practical implications for developers and readers, and links to dive deeper.</description>
