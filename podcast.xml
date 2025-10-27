@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sun, 26 Oct 2025 17:58:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 17:01:35 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Oct 27, 2025: Lapse Plans, Lean AoC, and Git Deploys</title>
+      <description>Today on HackerPulse, Data rounds up four top HackerNews threads: the NRC manages a nuclear-incident log during a funding lapse while keeping safety-critical work online under the Lapse Plan and EO 14300; Advent of Code 2025 reduces daily puzzles to 12, maintains learning goals, and updates authentication and leaderboard rules; a practical guide shows how turning your server into a Git-backed deploy hub can streamline workflows with hooks and auto-deploys; and Apple's Pico-Banana-400K dataset advances text-guided image editing with a two-stage pipeline and licensing details.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10272025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today on HackerPulse, Data rounds up four top HackerNews threads: the NRC manages a nuclear-incident log during a funding lapse while keeping safety-critical work online under the Lapse Plan and EO 14300; Advent of Code 2025 reduces daily puzzles to 12, maintains learning goals, and updates authentication and leaderboard rules; a practical guide shows how turning your server into a Git-backed deploy hub can streamline workflows with hooks and auto-deploys; and Apple's Pico-Banana-400K dataset advances text-guided image editing with a two-stage pipeline and licensing details.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10272025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10272025.mp3" type="audio/mpeg" length="1576037"/>
+    </item>
     <item>
       <title>HackerPulse Oct 26, 2025: Zig Foundation Backed, iOS 26 Forensics, and the OpenAI ID Gate</title>
       <description>Narrated by Data, this episode distills today’s HackerNews headlines: Synadia and TigerBeetle pledge $512k to the Zig Software Foundation to advance high‑performance, reliable systems, with words from Derek Collison and Joran Dirk Greef; a brisk recap of Backbone versus React tradeoffs in real apps; iOS 26 overwrites shutdown.log, with forensic implications and upgrade cautions; Libera.Chat’s stance on Ofcom regulation and privacy; plus quick dives into Linux‑on‑RISC‑V bootstrapping and the OpenAI identity verification battleground. A compact, informative snapshot of the day.</description>
