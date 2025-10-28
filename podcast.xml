@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 27 Oct 2025 17:01:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 16:06:38 GMT</lastBuildDate>
+    <item>
+      <title>Hackerpulse: AI Ethics, Open Source, and Surveillance — October 28, 2025</title>
+      <description>Today on Hackerpulse (narrated by Data): a concise tour through today’s Hacker News highlights. We examine Pablo Escortez’s critique of AI-generated writing and the value of human thought; Trevor McNally’s fair-use defense against Proven Industries in a high-profile copyright and defamation dispute; a dubious Linux Recall-style project promising Windows spying features; PSF’s withdrawal of a $1.5M NSF proposal to improve Python and PyPI security; progress notes on GPUI Rust for cross-platform GUI including the Longbridge Pro example; Claude for Excel’s beta capabilities for cell-level explanations and model traceability; a reminder on essential HTML boilerplate from Jim Nielsen; a Hackaday piece on the decline of sideloading and open platforms; Zig’s Zio library for async I/O; and ICE’s five-year, 5.7M deal to deploy AI-driven surveillance via Zignal Labs, with ongoing privacy concerns. Tune in for context, implications, and what it means for developers, writers, and readers alike.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10282025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today on Hackerpulse (narrated by Data): a concise tour through today’s Hacker News highlights. We examine Pablo Escortez’s critique of AI-generated writing and the value of human thought; Trevor McNally’s fair-use defense against Proven Industries in a high-profile copyright and defamation dispute; a dubious Linux Recall-style project promising Windows spying features; PSF’s withdrawal of a $1.5M NSF proposal to improve Python and PyPI security; progress notes on GPUI Rust for cross-platform GUI including the Longbridge Pro example; Claude for Excel’s beta capabilities for cell-level explanations and model traceability; a reminder on essential HTML boilerplate from Jim Nielsen; a Hackaday piece on the decline of sideloading and open platforms; Zig’s Zio library for async I/O; and ICE’s five-year, 5.7M deal to deploy AI-driven surveillance via Zignal Labs, with ongoing privacy concerns. Tune in for context, implications, and what it means for developers, writers, and readers alike.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10282025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10282025.mp3" type="audio/mpeg" length="2248637"/>
+    </item>
     <item>
       <title>HackerPulse Oct 27, 2025: Lapse Plans, Lean AoC, and Git Deploys</title>
       <description>Today on HackerPulse, Data rounds up four top HackerNews threads: the NRC manages a nuclear-incident log during a funding lapse while keeping safety-critical work online under the Lapse Plan and EO 14300; Advent of Code 2025 reduces daily puzzles to 12, maintains learning goals, and updates authentication and leaderboard rules; a practical guide shows how turning your server into a Git-backed deploy hub can streamline workflows with hooks and auto-deploys; and Apple's Pico-Banana-400K dataset advances text-guided image editing with a two-stage pipeline and licensing details.</description>
