@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Tue, 28 Oct 2025 16:06:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 16:04:32 GMT</lastBuildDate>
+    <item>
+      <title>Hackerpulse — October 29, 2025: AI Debt Negotiation, Open-Source Momentum, and Vitamin D ARI Findings</title>
+      <description>Data brings you a tight roundup of today's Hacker News headlines (Oct 29, 2025): AI as a debt-negotiation co-pilot that could shave a six-figure hospital bill after itemized review and AI-assisted outreach; F-Droid argues Google's vetting would centralize control and urges support for open stores; NPR flags editorials at The Washington Post tied to Bezos interests with disclosure gaps; EuroLLM unveils Europe-made, multilingual open-source LLMs with Base and Instruct variants; Austria migrates 1,200 employees to Nextcloud on sovereign cloud to boost data sovereignty; Samsung adds ad-supported updates to the 2024 Family Hub fridges; Amazon announces roughly 14,000 corporate layoffs as it doubles down on AI bets; a flight-test quirk with AirPods Pro 3 ANC in flight; a double-blind RCT in India finds daily 2,000 IU vitamin D3 reduces ARI incidence and duration, especially in winter and those with deficiency; plus other quick takes.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10292025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Data brings you a tight roundup of today's Hacker News headlines (Oct 29, 2025): AI as a debt-negotiation co-pilot that could shave a six-figure hospital bill after itemized review and AI-assisted outreach; F-Droid argues Google's vetting would centralize control and urges support for open stores; NPR flags editorials at The Washington Post tied to Bezos interests with disclosure gaps; EuroLLM unveils Europe-made, multilingual open-source LLMs with Base and Instruct variants; Austria migrates 1,200 employees to Nextcloud on sovereign cloud to boost data sovereignty; Samsung adds ad-supported updates to the 2024 Family Hub fridges; Amazon announces roughly 14,000 corporate layoffs as it doubles down on AI bets; a flight-test quirk with AirPods Pro 3 ANC in flight; a double-blind RCT in India finds daily 2,000 IU vitamin D3 reduces ARI incidence and duration, especially in winter and those with deficiency; plus other quick takes.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10292025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10292025.mp3" type="audio/mpeg" length="2154701"/>
+    </item>
     <item>
       <title>Hackerpulse: AI Ethics, Open Source, and Surveillance — October 28, 2025</title>
       <description>Today on Hackerpulse (narrated by Data): a concise tour through today’s Hacker News highlights. We examine Pablo Escortez’s critique of AI-generated writing and the value of human thought; Trevor McNally’s fair-use defense against Proven Industries in a high-profile copyright and defamation dispute; a dubious Linux Recall-style project promising Windows spying features; PSF’s withdrawal of a $1.5M NSF proposal to improve Python and PyPI security; progress notes on GPUI Rust for cross-platform GUI including the Longbridge Pro example; Claude for Excel’s beta capabilities for cell-level explanations and model traceability; a reminder on essential HTML boilerplate from Jim Nielsen; a Hackaday piece on the decline of sideloading and open platforms; Zig’s Zio library for async I/O; and ICE’s five-year, 5.7M deal to deploy AI-driven surveillance via Zignal Labs, with ongoing privacy concerns. Tune in for context, implications, and what it means for developers, writers, and readers alike.</description>
