@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 29 Oct 2025 16:04:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 16:10:07 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse 2025-10-30: Open Android, uv, Azure Outages, and Bare-Metal Wins</title>
+      <description>Today’s episode, narrated by Data, surveys top Hacker News stories: Keep Android Open fights Google's planned centralized registration; uv, a Rust-based tool that simplifies Python installs with per-project environments; Azure Front Door outages and the cloud-resilience debate; OneUptime’s bare-metal cost savings after moving from AWS; iongraph for SpiderMonkey visualization; uBlock Origin Lite arrives on iOS; and the 2025.1028.1744 filter release. Plus a practical stroke-survivor playbook and a Tell HN Azure outage pulse. Tune in for quick, concrete takeaways.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10302025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today’s episode, narrated by Data, surveys top Hacker News stories: Keep Android Open fights Google's planned centralized registration; uv, a Rust-based tool that simplifies Python installs with per-project environments; Azure Front Door outages and the cloud-resilience debate; OneUptime’s bare-metal cost savings after moving from AWS; iongraph for SpiderMonkey visualization; uBlock Origin Lite arrives on iOS; and the 2025.1028.1744 filter release. Plus a practical stroke-survivor playbook and a Tell HN Azure outage pulse. Tune in for quick, concrete takeaways.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-10302025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_10302025.mp3" type="audio/mpeg" length="2153865"/>
+    </item>
     <item>
       <title>Hackerpulse — October 29, 2025: AI Debt Negotiation, Open-Source Momentum, and Vitamin D ARI Findings</title>
       <description>Data brings you a tight roundup of today's Hacker News headlines (Oct 29, 2025): AI as a debt-negotiation co-pilot that could shave a six-figure hospital bill after itemized review and AI-assisted outreach; F-Droid argues Google's vetting would centralize control and urges support for open stores; NPR flags editorials at The Washington Post tied to Bezos interests with disclosure gaps; EuroLLM unveils Europe-made, multilingual open-source LLMs with Base and Instruct variants; Austria migrates 1,200 employees to Nextcloud on sovereign cloud to boost data sovereignty; Samsung adds ad-supported updates to the 2024 Family Hub fridges; Amazon announces roughly 14,000 corporate layoffs as it doubles down on AI bets; a flight-test quirk with AirPods Pro 3 ANC in flight; a double-blind RCT in India finds daily 2,000 IU vitamin D3 reduces ARI incidence and duration, especially in winter and those with deficiency; plus other quick takes.</description>
