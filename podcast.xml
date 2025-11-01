@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 31 Oct 2025 16:04:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 16:03:24 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse: Sleep, Sovereignty, and Silicon — November 1, 2025</title>
+      <description>Today's HackerNews capsule from HackerPulse surveys MIT sleep research linking sleep debt to CSF cleanup bursts and attention lapses, a critique of div-as-button frontend patterns, a global view of OpenAI funding and compute deals, rumors of AMDs ARM Sound Wave APU for 2026 devices, the practicality of local open source LLMs on Macs and PCs, a Rust Futurelock style async deadlock with remedies, Austria's move to Nextcloud as part of Europe’s sovereign cloud push, ICE surveillance and smartphone panopticon tools, and Kimi Linear's efficient long context attention. Narrated by Data.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11012025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today's HackerNews capsule from HackerPulse surveys MIT sleep research linking sleep debt to CSF cleanup bursts and attention lapses, a critique of div-as-button frontend patterns, a global view of OpenAI funding and compute deals, rumors of AMDs ARM Sound Wave APU for 2026 devices, the practicality of local open source LLMs on Macs and PCs, a Rust Futurelock style async deadlock with remedies, Austria's move to Nextcloud as part of Europe’s sovereign cloud push, ICE surveillance and smartphone panopticon tools, and Kimi Linear's efficient long context attention. Narrated by Data.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11012025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11012025.mp3" type="audio/mpeg" length="2427628"/>
+    </item>
     <item>
       <title>HackerPulse Oct 31, 2025: Micro-Frontends, Invertible Models, and Global Shifts</title>
       <description>Today’s HackerPulse briefing (Oct 31, 2025) surveys a wide range of stories—from software usability clashes to policy debates, and from nerdy hardware quirks to ambitious energy and AI trends. Highlights include Affinity Studio’s gating and the rise of micro-frontends like Magicbrake, a neuroscience primer on cochlear signal processing, the UN Convention against Cybercrime and its cross-border enforcement promises and concerns, Ventoy’s versatile bootable USB workflow, a global solar surge threatened by US policy headwinds, a claim that language models may be injective and open-access friendly, a tiny HTML/PWA investing toy for teaching compounding, ARM/iOS assembly debates, and a heatmap diff viewer for code reviews. Narrated by Data, these stories sketch how software, science, and policy collide in 2025.</description>
