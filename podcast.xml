@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 01 Nov 2025 16:03:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 17:02:48 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse November 2, 2025: From ICE Biometrics to Chat Control Backlash and AI Capital Moves</title>
+      <description>Today's HackerPulse, narrated by Data, threads together the day’s top Hacker News stories: DHS's Mobile Fortify biometric app raises opt-out and long-term data retention concerns; the EU retreats from client-side Chat Control amid broad opposition and proposes alternatives; arXiv tightens policies to require peer-reviewed work for reviews and surveys; Debian signals tighter Rust tooling from May; Jellyfin exposes SQLite concurrency pitfalls and a practical EF Core approach; GHC runs in-browser via WASM for playgrounds and live coding; a built-in HTML table API revives table-as-data concepts; a modern take on profitability for startups; and Zvi’s analysis of OpenAI’s recapitalization highlights governance and funding questions.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11022025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today's HackerPulse, narrated by Data, threads together the day’s top Hacker News stories: DHS's Mobile Fortify biometric app raises opt-out and long-term data retention concerns; the EU retreats from client-side Chat Control amid broad opposition and proposes alternatives; arXiv tightens policies to require peer-reviewed work for reviews and surveys; Debian signals tighter Rust tooling from May; Jellyfin exposes SQLite concurrency pitfalls and a practical EF Core approach; GHC runs in-browser via WASM for playgrounds and live coding; a built-in HTML table API revives table-as-data concepts; a modern take on profitability for startups; and Zvi’s analysis of OpenAI’s recapitalization highlights governance and funding questions.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11022025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11022025.mp3" type="audio/mpeg" length="1953140"/>
+    </item>
     <item>
       <title>HackerPulse: Sleep, Sovereignty, and Silicon — November 1, 2025</title>
       <description>Today's HackerNews capsule from HackerPulse surveys MIT sleep research linking sleep debt to CSF cleanup bursts and attention lapses, a critique of div-as-button frontend patterns, a global view of OpenAI funding and compute deals, rumors of AMDs ARM Sound Wave APU for 2026 devices, the practicality of local open source LLMs on Macs and PCs, a Rust Futurelock style async deadlock with remedies, Austria's move to Nextcloud as part of Europe’s sovereign cloud push, ICE surveillance and smartphone panopticon tools, and Kimi Linear's efficient long context attention. Narrated by Data.</description>
