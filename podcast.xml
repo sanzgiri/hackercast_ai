@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sun, 02 Nov 2025 17:02:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 18:35:56 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse 2025-11-03: Steam Linux Surges, Claude Code, and the Web of AI</title>
+      <description>Data rounds up today's HackerNews highlights: Linux gamers on Steam cross the 3% mark as Steam Deck and Linux growth push Linux into Steam's top sellers; Claude Code reimagines AI coding with a Master-Clone workflow and auditable loops; discussions on URLs as state containers and how URL design encodes user interfaces; practical notes on Fil-C's Debian packaging and memory-safe toolchains; a primer on backpropagation pitfalls and why understanding the backward pass matters; Tongyi DeepResearch's 30B model and its data/training stack; a BSD-focused self-hosted journey for multi-workload setups; a sober take on proof objects versus higher-order logic; and Anubis as a lightweight, not-ultimate defense against scrapers.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11032025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Data rounds up today's HackerNews highlights: Linux gamers on Steam cross the 3% mark as Steam Deck and Linux growth push Linux into Steam's top sellers; Claude Code reimagines AI coding with a Master-Clone workflow and auditable loops; discussions on URLs as state containers and how URL design encodes user interfaces; practical notes on Fil-C's Debian packaging and memory-safe toolchains; a primer on backpropagation pitfalls and why understanding the backward pass matters; Tongyi DeepResearch's 30B model and its data/training stack; a BSD-focused self-hosted journey for multi-workload setups; a sober take on proof objects versus higher-order logic; and Anubis as a lightweight, not-ultimate defense against scrapers.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11032025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11032025.mp3" type="audio/mpeg" length="2102979"/>
+    </item>
     <item>
       <title>HackerPulse November 2, 2025: From ICE Biometrics to Chat Control Backlash and AI Capital Moves</title>
       <description>Today's HackerPulse, narrated by Data, threads together the day’s top Hacker News stories: DHS's Mobile Fortify biometric app raises opt-out and long-term data retention concerns; the EU retreats from client-side Chat Control amid broad opposition and proposes alternatives; arXiv tightens policies to require peer-reviewed work for reviews and surveys; Debian signals tighter Rust tooling from May; Jellyfin exposes SQLite concurrency pitfalls and a practical EF Core approach; GHC runs in-browser via WASM for playgrounds and live coding; a built-in HTML table API revives table-as-data concepts; a modern take on profitability for startups; and Zvi’s analysis of OpenAI’s recapitalization highlights governance and funding questions.</description>
