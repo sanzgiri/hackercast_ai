@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 03 Nov 2025 18:35:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 17:06:31 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — November 04, 2025: High-Density Tech, Hidden Signals, and Policy Deltas</title>
+      <description>Data delivers a compact HackerNews digest for November 04, 2025. Highlights include YASA's compact axial‑flux motor delivering up to 750 kW peak (with 350–400 kW continuous), a hidden Android carrier config flag that inflates signal strength, SSLMate’s Google Cloud access suspensions and the push for simpler cross‑provider authentication, Nextcloud's performance bottlenecks due to heavy JS bundles and the move to lighter alternatives, a vast November 2025 hiring blitz across AI and infra startups, a reality check on PGVector in production, HTMX 4.0’s major fetch/streaming rewrite, Arthur Whitney’s tiny K interpreter, a BBC report on pressure over Xinjiang research at a UK university, and the arrest of Israel’s top military advocate general over a leaked detainee video. A quick, sourced briefing designed for busy listeners.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11042025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Data delivers a compact HackerNews digest for November 04, 2025. Highlights include YASA's compact axial‑flux motor delivering up to 750 kW peak (with 350–400 kW continuous), a hidden Android carrier config flag that inflates signal strength, SSLMate’s Google Cloud access suspensions and the push for simpler cross‑provider authentication, Nextcloud's performance bottlenecks due to heavy JS bundles and the move to lighter alternatives, a vast November 2025 hiring blitz across AI and infra startups, a reality check on PGVector in production, HTMX 4.0’s major fetch/streaming rewrite, Arthur Whitney’s tiny K interpreter, a BBC report on pressure over Xinjiang research at a UK university, and the arrest of Israel’s top military advocate general over a leaked detainee video. A quick, sourced briefing designed for busy listeners.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11042025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11042025.mp3" type="audio/mpeg" length="2413104"/>
+    </item>
     <item>
       <title>HackerPulse 2025-11-03: Steam Linux Surges, Claude Code, and the Web of AI</title>
       <description>Data rounds up today's HackerNews highlights: Linux gamers on Steam cross the 3% mark as Steam Deck and Linux growth push Linux into Steam's top sellers; Claude Code reimagines AI coding with a Master-Clone workflow and auditable loops; discussions on URLs as state containers and how URL design encodes user interfaces; practical notes on Fil-C's Debian packaging and memory-safe toolchains; a primer on backpropagation pitfalls and why understanding the backward pass matters; Tongyi DeepResearch's 30B model and its data/training stack; a BSD-focused self-hosted journey for multi-workload setups; a sober take on proof objects versus higher-order logic; and Anubis as a lightweight, not-ultimate defense against scrapers.</description>
