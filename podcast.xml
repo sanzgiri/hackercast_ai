@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Tue, 04 Nov 2025 17:06:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 17:05:04 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — November 5, 2025: Preloads, Borders as Software, and the Web’s Origins</title>
+      <description>Today’s episode surveys a diverse set of Hacker News stories: X now preloads and opens every tweet link in an in-app WebView, raising privacy and security questions. A case study on Iceland's border logistics reframes borders as software rules, with a resident model that forecasts immigration outcomes. Bud Smith’s Truck Desk and Xiao Xiao evoke maker culture and the Flash era’s art and licensing drama. A primer on manifolds shows how geometry underpins physics and data, while NoLongerEvil-Thermostat demonstrates DIY firmware hacking. The Morris worm review recalls the Web’s security infancy, followed by Show HN CSS terrain generators and pg_lake, which combines Postgres with Iceberg data lakes. Finally, Codemaps marks a new era of AI-annotated code navigation. A single episode about how code, culture, and constraints shape what we share, build, and protect online.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11052025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today’s episode surveys a diverse set of Hacker News stories: X now preloads and opens every tweet link in an in-app WebView, raising privacy and security questions. A case study on Iceland's border logistics reframes borders as software rules, with a resident model that forecasts immigration outcomes. Bud Smith’s Truck Desk and Xiao Xiao evoke maker culture and the Flash era’s art and licensing drama. A primer on manifolds shows how geometry underpins physics and data, while NoLongerEvil-Thermostat demonstrates DIY firmware hacking. The Morris worm review recalls the Web’s security infancy, followed by Show HN CSS terrain generators and pg_lake, which combines Postgres with Iceberg data lakes. Finally, Codemaps marks a new era of AI-annotated code navigation. A single episode about how code, culture, and constraints shape what we share, build, and protect online.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11052025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11052025.mp3" type="audio/mpeg" length="2254907"/>
+    </item>
     <item>
       <title>HackerPulse — November 04, 2025: High-Density Tech, Hidden Signals, and Policy Deltas</title>
       <description>Data delivers a compact HackerNews digest for November 04, 2025. Highlights include YASA's compact axial‑flux motor delivering up to 750 kW peak (with 350–400 kW continuous), a hidden Android carrier config flag that inflates signal strength, SSLMate’s Google Cloud access suspensions and the push for simpler cross‑provider authentication, Nextcloud's performance bottlenecks due to heavy JS bundles and the move to lighter alternatives, a vast November 2025 hiring blitz across AI and infra startups, a reality check on PGVector in production, HTMX 4.0’s major fetch/streaming rewrite, Arthur Whitney’s tiny K interpreter, a BBC report on pressure over Xinjiang research at a UK university, and the arrest of Israel’s top military advocate general over a leaked detainee video. A quick, sourced briefing designed for busy listeners.</description>
