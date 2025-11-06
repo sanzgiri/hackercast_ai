@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 05 Nov 2025 17:05:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 17:05:13 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Nov 6, 2025: Mamdani Wins NYC, PAYG Solar Expands, and Data Sovereignty Battles</title>
+      <description>On November 6, 2025, HackerPulse surveys a diverse set of headlines: Zohran Mamdani’s win as NYC’s first Muslim mayor and the left’s national resonance; Africa’s private, pay-as-you-go solar stack transforming electrification with Sun King and SunCulture; three Palestinian rights groups losing YouTube channels amid U.S. sanctions tied to ICC cases; Brenda the Excel pro versus AI hype and the risk of outsourcing critical controls; the IRS Direct File option winding down ahead of 2026; Norway’s cybersecurity review after hidden SIM cards in Yutong buses; Apple’s iOS 26.2 beta in Japan testing third-party app stores under new rules; Nottingham researchers’ fluoride-free enamel-regenerating gel; FuzzyGraph revealing hidden structure in nonbinary plots; and EU–US data-sovereignty concerns around Microsoft and related projects. These stories illustrate the intersection of policy, technology, and the evolving balance between regulation and innovation.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11062025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>On November 6, 2025, HackerPulse surveys a diverse set of headlines: Zohran Mamdani’s win as NYC’s first Muslim mayor and the left’s national resonance; Africa’s private, pay-as-you-go solar stack transforming electrification with Sun King and SunCulture; three Palestinian rights groups losing YouTube channels amid U.S. sanctions tied to ICC cases; Brenda the Excel pro versus AI hype and the risk of outsourcing critical controls; the IRS Direct File option winding down ahead of 2026; Norway’s cybersecurity review after hidden SIM cards in Yutong buses; Apple’s iOS 26.2 beta in Japan testing third-party app stores under new rules; Nottingham researchers’ fluoride-free enamel-regenerating gel; FuzzyGraph revealing hidden structure in nonbinary plots; and EU–US data-sovereignty concerns around Microsoft and related projects. These stories illustrate the intersection of policy, technology, and the evolving balance between regulation and innovation.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11062025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11062025.mp3" type="audio/mpeg" length="2439645"/>
+    </item>
     <item>
       <title>HackerPulse — November 5, 2025: Preloads, Borders as Software, and the Web’s Origins</title>
       <description>Today’s episode surveys a diverse set of Hacker News stories: X now preloads and opens every tweet link in an in-app WebView, raising privacy and security questions. A case study on Iceland's border logistics reframes borders as software rules, with a resident model that forecasts immigration outcomes. Bud Smith’s Truck Desk and Xiao Xiao evoke maker culture and the Flash era’s art and licensing drama. A primer on manifolds shows how geometry underpins physics and data, while NoLongerEvil-Thermostat demonstrates DIY firmware hacking. The Morris worm review recalls the Web’s security infancy, followed by Show HN CSS terrain generators and pg_lake, which combines Postgres with Iceberg data lakes. Finally, Codemaps marks a new era of AI-annotated code navigation. A single episode about how code, culture, and constraints shape what we share, build, and protect online.</description>
