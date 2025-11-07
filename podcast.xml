@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 06 Nov 2025 17:05:13 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 17:55:03 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse: Localization Dissent, Rust TUIs, and the Data-Breach Wave — Nov 7, 2025</title>
+      <description>Today’s HackerNews snapshot covers: SUMO Japanese's farewell amid machine translation fatigue and bot-driven onboarding disruption, sparking a debate on MT opt-in and how moderators should be trained; Ratatui showcases a Rust-powered tour of terminal UIs and CLIs, including Atuin, AI coding agents, and various TUI tools; Archive.today faces FBI scrutiny under a court order to Tucows, highlighting how snapshot services intersect with enforcement and privacy; ICC shifts from Microsoft 365 to Open Desk in a move toward EU digital sovereignty, with Open Desk pilots in the Netherlands; a record Have I Been Pwned dataset (1.96B emails, 1.3B unique passwords, plus 625M unseen) underlines practical security steps like MFA and password managers; and a note on IKEA’s Matter-aligned smart home refresh signaling broader open-ecosystem interoperability.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11072025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today’s HackerNews snapshot covers: SUMO Japanese's farewell amid machine translation fatigue and bot-driven onboarding disruption, sparking a debate on MT opt-in and how moderators should be trained; Ratatui showcases a Rust-powered tour of terminal UIs and CLIs, including Atuin, AI coding agents, and various TUI tools; Archive.today faces FBI scrutiny under a court order to Tucows, highlighting how snapshot services intersect with enforcement and privacy; ICC shifts from Microsoft 365 to Open Desk in a move toward EU digital sovereignty, with Open Desk pilots in the Netherlands; a record Have I Been Pwned dataset (1.96B emails, 1.3B unique passwords, plus 625M unseen) underlines practical security steps like MFA and password managers; and a note on IKEA’s Matter-aligned smart home refresh signaling broader open-ecosystem interoperability.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11072025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11072025.mp3" type="audio/mpeg" length="2075602"/>
+    </item>
     <item>
       <title>HackerPulse Nov 6, 2025: Mamdani Wins NYC, PAYG Solar Expands, and Data Sovereignty Battles</title>
       <description>On November 6, 2025, HackerPulse surveys a diverse set of headlines: Zohran Mamdani’s win as NYC’s first Muslim mayor and the left’s national resonance; Africa’s private, pay-as-you-go solar stack transforming electrification with Sun King and SunCulture; three Palestinian rights groups losing YouTube channels amid U.S. sanctions tied to ICC cases; Brenda the Excel pro versus AI hype and the risk of outsourcing critical controls; the IRS Direct File option winding down ahead of 2026; Norway’s cybersecurity review after hidden SIM cards in Yutong buses; Apple’s iOS 26.2 beta in Japan testing third-party app stores under new rules; Nottingham researchers’ fluoride-free enamel-regenerating gel; FuzzyGraph revealing hidden structure in nonbinary plots; and EU–US data-sovereignty concerns around Microsoft and related projects. These stories illustrate the intersection of policy, technology, and the evolving balance between regulation and innovation.</description>
