@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 07 Nov 2025 17:55:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 17:04:58 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — Nov 8, 2025: Meta’s Fraud Debate, Peering Shifts, and Open-Source Winds</title>
+      <description>Data delivers a compact, HackerNews-style rollup for November 8, 2025. Meta flags fraud-controls as a revenue risk; Vodafone Germany pivots to paid interconnection, prompting peering concerns; Denmark moves toward a 15-year-old social-media ban tied to EU-age checks. Open-source and product stories include OCaml’s praise for balance and OpenMW 0.50.0 with feature and stability upgrades. Other threads cover Farmers’ Almanac ending after 200+ years, alleged Rockstar layoffs tied to union efforts, and a startup postmortem from HeheStreams about growth and trust. A note that a YouTube bypass article couldn’t be fetched, plus reminders about undersea cables and broader policy shifts shaping tech’s near future.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11082025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Data delivers a compact, HackerNews-style rollup for November 8, 2025. Meta flags fraud-controls as a revenue risk; Vodafone Germany pivots to paid interconnection, prompting peering concerns; Denmark moves toward a 15-year-old social-media ban tied to EU-age checks. Open-source and product stories include OCaml’s praise for balance and OpenMW 0.50.0 with feature and stability upgrades. Other threads cover Farmers’ Almanac ending after 200+ years, alleged Rockstar layoffs tied to union efforts, and a startup postmortem from HeheStreams about growth and trust. A note that a YouTube bypass article couldn’t be fetched, plus reminders about undersea cables and broader policy shifts shaping tech’s near future.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11082025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11082025.mp3" type="audio/mpeg" length="2012282"/>
+    </item>
     <item>
       <title>HackerPulse: Localization Dissent, Rust TUIs, and the Data-Breach Wave — Nov 7, 2025</title>
       <description>Today’s HackerNews snapshot covers: SUMO Japanese's farewell amid machine translation fatigue and bot-driven onboarding disruption, sparking a debate on MT opt-in and how moderators should be trained; Ratatui showcases a Rust-powered tour of terminal UIs and CLIs, including Atuin, AI coding agents, and various TUI tools; Archive.today faces FBI scrutiny under a court order to Tucows, highlighting how snapshot services intersect with enforcement and privacy; ICC shifts from Microsoft 365 to Open Desk in a move toward EU digital sovereignty, with Open Desk pilots in the Netherlands; a record Have I Been Pwned dataset (1.96B emails, 1.3B unique passwords, plus 625M unseen) underlines practical security steps like MFA and password managers; and a note on IKEA’s Matter-aligned smart home refresh signaling broader open-ecosystem interoperability.</description>
