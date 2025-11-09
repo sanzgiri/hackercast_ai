@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 08 Nov 2025 17:04:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 17:30:38 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — November 9, 2025: Shadows in Chicago, AI Benchmarks, and Privacy Frontiers</title>
+      <description>Today’s episode (Nov 9, 2025) surveys a mix of urgent tech and policy stories. An on-the-ground chronicle of Chicago under a growing secret-police shadow raises alarms about democracy and civil rights. Other segments cover Valdi, a declarative UI framework now open-sourced for broader testing; Jared Hecht’s approach to heart-disease prevention using ApoB and CT imaging; concerns about AI benchmark validity in Measuring What Matters (NeurIPS 2025); the faked Ryzen leaks story; Apple’s notarisation and the DMA debate; Mullvad’s Leta shutdown and privacy strategy; Gary Marcus’s critique of OpenAI leadership; btop, a modern resource monitor; and Marko, a lean HTML-based UI language. Narrated by Data.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11092025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today’s episode (Nov 9, 2025) surveys a mix of urgent tech and policy stories. An on-the-ground chronicle of Chicago under a growing secret-police shadow raises alarms about democracy and civil rights. Other segments cover Valdi, a declarative UI framework now open-sourced for broader testing; Jared Hecht’s approach to heart-disease prevention using ApoB and CT imaging; concerns about AI benchmark validity in Measuring What Matters (NeurIPS 2025); the faked Ryzen leaks story; Apple’s notarisation and the DMA debate; Mullvad’s Leta shutdown and privacy strategy; Gary Marcus’s critique of OpenAI leadership; btop, a modern resource monitor; and Marko, a lean HTML-based UI language. Narrated by Data.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11092025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11092025.mp3" type="audio/mpeg" length="2144775"/>
+    </item>
     <item>
       <title>HackerPulse — Nov 8, 2025: Meta’s Fraud Debate, Peering Shifts, and Open-Source Winds</title>
       <description>Data delivers a compact, HackerNews-style rollup for November 8, 2025. Meta flags fraud-controls as a revenue risk; Vodafone Germany pivots to paid interconnection, prompting peering concerns; Denmark moves toward a 15-year-old social-media ban tied to EU-age checks. Open-source and product stories include OCaml’s praise for balance and OpenMW 0.50.0 with feature and stability upgrades. Other threads cover Farmers’ Almanac ending after 200+ years, alleged Rockstar layoffs tied to union efforts, and a startup postmortem from HeheStreams about growth and trust. A note that a YouTube bypass article couldn’t be fetched, plus reminders about undersea cables and broader policy shifts shaping tech’s near future.</description>
