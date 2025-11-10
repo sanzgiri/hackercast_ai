@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sun, 09 Nov 2025 17:30:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 17:41:53 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse Nov 10, 2025: Identity Satire, Marble Machines, and Dijkstra</title>
+      <description>Today’s HackerPulse covers a mix of stories: a satirical site reframing Mark Zuckerberg as Indiana's bankruptcy attorney, a DIY marble fountain project built around a marble transport system and 3D-printed form, a tongue-in-cheek 'Tabloid' headline programming language, and updates on privacy and AI in public records and policy debates. The episode also notes a fine against The Boring Company, and a court ruling on whether Flock Safety data qualifies as a public record, with broader concerns about AI data in investigations. In science and CS, a major neurology study shows rising cognitive disability among U.S. adults, especially in younger cohorts, discussed as a signal of the attention economy's mental load. Finally, the UT Austin Manuscripts of Edsger W. Dijkstra archive offers a window into decades of CS thought. All this, with Data, for HackerNews listeners on November 10, 2025.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11102025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today’s HackerPulse covers a mix of stories: a satirical site reframing Mark Zuckerberg as Indiana's bankruptcy attorney, a DIY marble fountain project built around a marble transport system and 3D-printed form, a tongue-in-cheek 'Tabloid' headline programming language, and updates on privacy and AI in public records and policy debates. The episode also notes a fine against The Boring Company, and a court ruling on whether Flock Safety data qualifies as a public record, with broader concerns about AI data in investigations. In science and CS, a major neurology study shows rising cognitive disability among U.S. adults, especially in younger cohorts, discussed as a signal of the attention economy's mental load. Finally, the UT Austin Manuscripts of Edsger W. Dijkstra archive offers a window into decades of CS thought. All this, with Data, for HackerNews listeners on November 10, 2025.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11102025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11102025.mp3" type="audio/mpeg" length="1587426"/>
+    </item>
     <item>
       <title>HackerPulse — November 9, 2025: Shadows in Chicago, AI Benchmarks, and Privacy Frontiers</title>
       <description>Today’s episode (Nov 9, 2025) surveys a mix of urgent tech and policy stories. An on-the-ground chronicle of Chicago under a growing secret-police shadow raises alarms about democracy and civil rights. Other segments cover Valdi, a declarative UI framework now open-sourced for broader testing; Jared Hecht’s approach to heart-disease prevention using ApoB and CT imaging; concerns about AI benchmark validity in Measuring What Matters (NeurIPS 2025); the faked Ryzen leaks story; Apple’s notarisation and the DMA debate; Mullvad’s Leta shutdown and privacy strategy; Gary Marcus’s critique of OpenAI leadership; btop, a modern resource monitor; and Marko, a lean HTML-based UI language. Narrated by Data.</description>
