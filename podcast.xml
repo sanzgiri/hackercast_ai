@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 10 Nov 2025 17:41:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 17:10:10 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — November 11, 2025: Obits, AI Confidence Engines, and the Privacy Frontier</title>
+      <description>Today's episode threads together a diverse set of top HackerNews items: a stark minimalist obituary for XSLT RIP; a profile of unemployment and automation reshaping entry-level labor, with ghost work and AI-first hiring on the horizon; explorations of legal personhood for non-human entities—from ships and rivers to Hindu deities; a Russell-inspired take on LLMs as confidence engines rather than true knowledge sources; UK moves to roll back Apple's Advanced Data Protection under the Investigatory Powers Act, with practical purge steps; a JavaScript-gated 'Sued by Nintendo' page; a map of how police can compel data access and the privacy-by-design countermeasures; Beets, the metadata-driven music library with a Python plugin toolkit; Quad9’s piracy-block orders threatening neutral DNS infrastructure and the cross-border enforcement dilemma; and a note on Redmond, WA's Flock Safety cameras following ICE arrests. Short, sharp, and straight to the point—enjoy the ride.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11112025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today's episode threads together a diverse set of top HackerNews items: a stark minimalist obituary for XSLT RIP; a profile of unemployment and automation reshaping entry-level labor, with ghost work and AI-first hiring on the horizon; explorations of legal personhood for non-human entities—from ships and rivers to Hindu deities; a Russell-inspired take on LLMs as confidence engines rather than true knowledge sources; UK moves to roll back Apple's Advanced Data Protection under the Investigatory Powers Act, with practical purge steps; a JavaScript-gated 'Sued by Nintendo' page; a map of how police can compel data access and the privacy-by-design countermeasures; Beets, the metadata-driven music library with a Python plugin toolkit; Quad9’s piracy-block orders threatening neutral DNS infrastructure and the cross-border enforcement dilemma; and a note on Redmond, WA's Flock Safety cameras following ICE arrests. Short, sharp, and straight to the point—enjoy the ride.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11112025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11112025.mp3" type="audio/mpeg" length="1843739"/>
+    </item>
     <item>
       <title>HackerPulse Nov 10, 2025: Identity Satire, Marble Machines, and Dijkstra</title>
       <description>Today’s HackerPulse covers a mix of stories: a satirical site reframing Mark Zuckerberg as Indiana's bankruptcy attorney, a DIY marble fountain project built around a marble transport system and 3D-printed form, a tongue-in-cheek 'Tabloid' headline programming language, and updates on privacy and AI in public records and policy debates. The episode also notes a fine against The Boring Company, and a court ruling on whether Flock Safety data qualifies as a public record, with broader concerns about AI data in investigations. In science and CS, a major neurology study shows rising cognitive disability among U.S. adults, especially in younger cohorts, discussed as a signal of the attention economy's mental load. Finally, the UT Austin Manuscripts of Edsger W. Dijkstra archive offers a window into decades of CS thought. All this, with Data, for HackerNews listeners on November 10, 2025.</description>
