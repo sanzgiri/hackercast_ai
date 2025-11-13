@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 12 Nov 2025 17:29:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 17:10:45 GMT</lastBuildDate>
+    <item>
+      <title>Nov 13, 2025 — HackerPulse: Steam Machines fade, YouTube JS runtimes shift, pennies end, AI prompts in journalism, and open-source timekeeping</title>
+      <description>Data curates today's HackerNews highlights spanning Valve’s Steam Machine pivot, yt-dlp's move to external JS runtimes, Yann LeCun’s departure from Meta to launch an AI startup focused on world models, the end of the penny era, an AI prompt leak in journalism, the Perkeep open-source data stack, Michael Larabel and Phoronix, the Network Time Protocol fundraising update, and Project Euler’s global problem-solving community.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11132025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Data curates today's HackerNews highlights spanning Valve’s Steam Machine pivot, yt-dlp's move to external JS runtimes, Yann LeCun’s departure from Meta to launch an AI startup focused on world models, the end of the penny era, an AI prompt leak in journalism, the Perkeep open-source data stack, Michael Larabel and Phoronix, the Network Time Protocol fundraising update, and Project Euler’s global problem-solving community.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11132025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11132025.mp3" type="audio/mpeg" length="1757222"/>
+    </item>
     <item>
       <title>HackerPulse November 12, 2025: Bridges, Bugs, and Fingerprints</title>
       <description>A concise briefing of today’s Hacker News top stories: Toy Story’s transition from analog film to digital, and the ongoing debate over preserving the original look; the underfunded reality of OSS maintenance and FFmpeg patching; Apple’s ISSEY MIYAKE Pocket accessory bringing fashion to tech; Buffett’s patient-investing masterclass from Berkshire’s latest letter; the productivity tax of sharing code screenshots; PostHog’s “drive, own, ship” stance on collaboration; Firefox 145’s privacy-by-design anti-fingerprinting protections with minimal site disruption. Note: a couple of stories couldn’t be fetched today (e.g., iPod Socks and an OpenAI lyrics-licensing ruling).</description>
