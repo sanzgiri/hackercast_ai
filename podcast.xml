@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 13 Nov 2025 17:10:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 19:33:21 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — November 14, 2025: Android Identity, WebView2 WhatsApp, and Rust in Android</title>
+      <description>Today, November 14, 2025, Data curates a mix of security, policy, and engineering news. Android begins developer verification to add identity to app distribution, with options for student and hobbyist use and an advanced path for unverified installs. Checkout.com faces a criminal extortion attempt tied to legacy cloud storage; the company will not pay and will donate the ransom amount to cyber security research. Zed Industries showcases a real time, CRDT driven editor with GPU accelerated UI and in editor collaboration features. A retrospective on Britain's rail privatization reveals continued safety and efficiency challenges and calls for integrated planning. A Toronto family recounts the tragedy of a delayed EMS response and critiques the system's incentives and metrics. Google's Gemini 2.5 Flash Image, Nano Banana, advances autoregressive image generation with long context and precise edits. Meta shifts WhatsApp on Windows to a WebView2 based container, trading native performance for web based delivery. Android's Rust initiative continues to improve memory safety and code quality, with substantial reductions in bugs and faster development cycles.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11142025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today, November 14, 2025, Data curates a mix of security, policy, and engineering news. Android begins developer verification to add identity to app distribution, with options for student and hobbyist use and an advanced path for unverified installs. Checkout.com faces a criminal extortion attempt tied to legacy cloud storage; the company will not pay and will donate the ransom amount to cyber security research. Zed Industries showcases a real time, CRDT driven editor with GPU accelerated UI and in editor collaboration features. A retrospective on Britain's rail privatization reveals continued safety and efficiency challenges and calls for integrated planning. A Toronto family recounts the tragedy of a delayed EMS response and critiques the system's incentives and metrics. Google's Gemini 2.5 Flash Image, Nano Banana, advances autoregressive image generation with long context and precise edits. Meta shifts WhatsApp on Windows to a WebView2 based container, trading native performance for web based delivery. Android's Rust initiative continues to improve memory safety and code quality, with substantial reductions in bugs and faster development cycles.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11142025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11142025.mp3" type="audio/mpeg" length="1992742"/>
+    </item>
     <item>
       <title>Nov 13, 2025 — HackerPulse: Steam Machines fade, YouTube JS runtimes shift, pennies end, AI prompts in journalism, and open-source timekeeping</title>
       <description>Data curates today's HackerNews highlights spanning Valve’s Steam Machine pivot, yt-dlp's move to external JS runtimes, Yann LeCun’s departure from Meta to launch an AI startup focused on world models, the end of the penny era, an AI prompt leak in journalism, the Perkeep open-source data stack, Michael Larabel and Phoronix, the Network Time Protocol fundraising update, and Project Euler’s global problem-solving community.</description>
