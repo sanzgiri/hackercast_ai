@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 15 Nov 2025 17:02:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 17:34:49 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — November 16, 2025: Archive.today Under Pressure, TCP Backbone, and Open Hardware Highlights</title>
+      <description>On November 16, 2025, HackerPulse with Data surveys a spectrum of stories: the Archive.today investigation and the murky mix of law, pressure groups, and infrastructure leverage; a primer on TCP/IP's reliability stack with examples like echo servers and HTTP/1.1 servers; AMD's HipKittens tile-based primitives for GPUs and chiplet-aware scheduling; Grafana churn and the call for stability in monitoring; debates between Spec-Driven Development and Agile AI workflows; experiments in defender tactics against scrapers using Markov chains; Kagi's 'Bloopers' reel of misfired results; Windhawk's Classic Theme Enable for Windows 11; HTXStudio's One-Handed Keyboard with a built-in trackball; and a Linux-on-Lifebook U729 running NixOS. Narrated by Data.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11162025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>On November 16, 2025, HackerPulse with Data surveys a spectrum of stories: the Archive.today investigation and the murky mix of law, pressure groups, and infrastructure leverage; a primer on TCP/IP's reliability stack with examples like echo servers and HTTP/1.1 servers; AMD's HipKittens tile-based primitives for GPUs and chiplet-aware scheduling; Grafana churn and the call for stability in monitoring; debates between Spec-Driven Development and Agile AI workflows; experiments in defender tactics against scrapers using Markov chains; Kagi's 'Bloopers' reel of misfired results; Windhawk's Classic Theme Enable for Windows 11; HTXStudio's One-Handed Keyboard with a built-in trackball; and a Linux-on-Lifebook U729 running NixOS. Narrated by Data.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11162025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11162025.mp3" type="audio/mpeg" length="2085529"/>
+    </item>
     <item>
       <title>HackerPulse: Window AI, AI Clocks, and Policy Debates — November 15, 2025</title>
       <description>In this episode of HackerPulse, Data rounds up today's Hacker News highlights: Mozilla plans a built-in, opt-in Window AI for Firefox; AI World Clocks crowdsources nine AI models to reinterpret time; Tom Phillips argues against AGI fantasies in engineering terms; the EU tentatively pushes Chat Control 2.0 with monitoring fears; a provocative essay on poverty vs broke and the need for structural relief; BitChat for Gaza delivers secure, offline-first mesh messaging; and Epstein Files are organized into a searchable index for researchers.</description>
