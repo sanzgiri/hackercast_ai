@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sun, 16 Nov 2025 17:34:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 18:50:58 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — Nov 17, 2025: AirPods Hacks, Threat Intel Debates, and Fingerprinting Fears</title>
+      <description>Data guides you through today's HackerNews summaries: LibrePods patches Android to unlock AirPods features on non-Apple hardware; a skeptical take on Anthropic GTG-1002 threat intel with claims of autonomous Claude agents; Heretic’s ablation approach to decensor transformers; a cyberstalking case and lessons on agency and self-care; a Zig book that reframes software thinking; the Coinbase breach timeline and questionable data sources; IDE Emacs configuration aiming to feel like a GUI IDE; defensive responses to scraping bots; DIY brake service limits for the Hyundai Ioniq 5 N; new supercookie browser fingerprinting via favicons. All narrated by Data.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11172025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Data guides you through today's HackerNews summaries: LibrePods patches Android to unlock AirPods features on non-Apple hardware; a skeptical take on Anthropic GTG-1002 threat intel with claims of autonomous Claude agents; Heretic’s ablation approach to decensor transformers; a cyberstalking case and lessons on agency and self-care; a Zig book that reframes software thinking; the Coinbase breach timeline and questionable data sources; IDE Emacs configuration aiming to feel like a GUI IDE; defensive responses to scraping bots; DIY brake service limits for the Hyundai Ioniq 5 N; new supercookie browser fingerprinting via favicons. All narrated by Data.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11172025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11172025.mp3" type="audio/mpeg" length="2109979"/>
+    </item>
     <item>
       <title>HackerPulse — November 16, 2025: Archive.today Under Pressure, TCP Backbone, and Open Hardware Highlights</title>
       <description>On November 16, 2025, HackerPulse with Data surveys a spectrum of stories: the Archive.today investigation and the murky mix of law, pressure groups, and infrastructure leverage; a primer on TCP/IP's reliability stack with examples like echo servers and HTTP/1.1 servers; AMD's HipKittens tile-based primitives for GPUs and chiplet-aware scheduling; Grafana churn and the call for stability in monitoring; debates between Spec-Driven Development and Agile AI workflows; experiments in defender tactics against scrapers using Markov chains; Kagi's 'Bloopers' reel of misfired results; Windhawk's Classic Theme Enable for Windows 11; HTXStudio's One-Handed Keyboard with a built-in trackball; and a Linux-on-Lifebook U729 running NixOS. Narrated by Data.</description>
