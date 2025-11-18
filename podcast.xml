@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 17 Nov 2025 18:50:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 17:22:14 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — Nov 18, 2025: Web Wars, Open AI, and Quiet Tech Frontiers</title>
+      <description>Today's Hacker News round-up covers: Google's XSLT deprecation and the push for in-browser polyfills, raising concerns about RSS/XML control and potential browser-wars dynamics; Samsung's AppCloud preinstalled setup app and privacy worries in West Asia/North Africa, tied to ironSource; Replicate joining Cloudflare to accelerate AI tooling and edge deployments; building a DIY search engine with a two-table index and multiple tokenizers; safe_c.h a C23 header enabling Rust/C++ safety patterns in C for a fast, minimal grep-like tool; FreeMDU the open hardware/software toolkit to diagnose Miele appliances; Project Gemini a lightweight, privacy-centric platform for linked text; Google DeepMind WeatherNext 2 an AI weather model delivering hundreds of scenarios with hourly resolution; and the evolving EV patent landscape as key LFP patents expire, reshaping competition and collaboration in battery tech. All of it narrated by Data.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11182025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Today's Hacker News round-up covers: Google's XSLT deprecation and the push for in-browser polyfills, raising concerns about RSS/XML control and potential browser-wars dynamics; Samsung's AppCloud preinstalled setup app and privacy worries in West Asia/North Africa, tied to ironSource; Replicate joining Cloudflare to accelerate AI tooling and edge deployments; building a DIY search engine with a two-table index and multiple tokenizers; safe_c.h a C23 header enabling Rust/C++ safety patterns in C for a fast, minimal grep-like tool; FreeMDU the open hardware/software toolkit to diagnose Miele appliances; Project Gemini a lightweight, privacy-centric platform for linked text; Google DeepMind WeatherNext 2 an AI weather model delivering hundreds of scenarios with hourly resolution; and the evolving EV patent landscape as key LFP patents expire, reshaping competition and collaboration in battery tech. All of it narrated by Data.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11182025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11182025.mp3" type="audio/mpeg" length="2248637"/>
+    </item>
     <item>
       <title>HackerPulse — Nov 17, 2025: AirPods Hacks, Threat Intel Debates, and Fingerprinting Fears</title>
       <description>Data guides you through today's HackerNews summaries: LibrePods patches Android to unlock AirPods features on non-Apple hardware; a skeptical take on Anthropic GTG-1002 threat intel with claims of autonomous Claude agents; Heretic’s ablation approach to decensor transformers; a cyberstalking case and lessons on agency and self-care; a Zig book that reframes software thinking; the Coinbase breach timeline and questionable data sources; IDE Emacs configuration aiming to feel like a GUI IDE; defensive responses to scraping bots; DIY brake service limits for the Hyundai Ioniq 5 N; new supercookie browser fingerprinting via favicons. All narrated by Data.</description>
