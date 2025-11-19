@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Tue, 18 Nov 2025 17:22:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 17:05:29 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — November 19, 2025: Gemini 3, Cloudflare outages, and the Pebble-Core showdown</title>
+      <description>On November 19, 2025, HackerPulse surveys Google's Gemini 3 multimodal AI rollout and Antigravity, Cloudflare status updates and resilience tips, the passing of pioneering game designer Rebecca Heineman, UK LED glare concerns impacting night driving, the Rebble-Core Devices dispute over Pebble data and ecosystem control, and a reminder to design for failure in a centralized web.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11192025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>On November 19, 2025, HackerPulse surveys Google's Gemini 3 multimodal AI rollout and Antigravity, Cloudflare status updates and resilience tips, the passing of pioneering game designer Rebecca Heineman, UK LED glare concerns impacting night driving, the Rebble-Core Devices dispute over Pebble data and ecosystem control, and a reminder to design for failure in a centralized web.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11192025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11192025.mp3" type="audio/mpeg" length="1474264"/>
+    </item>
     <item>
       <title>HackerPulse — Nov 18, 2025: Web Wars, Open AI, and Quiet Tech Frontiers</title>
       <description>Today's Hacker News round-up covers: Google's XSLT deprecation and the push for in-browser polyfills, raising concerns about RSS/XML control and potential browser-wars dynamics; Samsung's AppCloud preinstalled setup app and privacy worries in West Asia/North Africa, tied to ironSource; Replicate joining Cloudflare to accelerate AI tooling and edge deployments; building a DIY search engine with a two-table index and multiple tokenizers; safe_c.h a C23 header enabling Rust/C++ safety patterns in C for a fast, minimal grep-like tool; FreeMDU the open hardware/software toolkit to diagnose Miele appliances; Project Gemini a lightweight, privacy-centric platform for linked text; Google DeepMind WeatherNext 2 an AI weather model delivering hundreds of scenarios with hourly resolution; and the evolving EV patent landscape as key LFP patents expire, reshaping competition and collaboration in battery tech. All of it narrated by Data.</description>
