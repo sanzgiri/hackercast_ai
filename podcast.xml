@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 19 Nov 2025 17:05:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 17:02:32 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse — November 20, 2025: Quick Takes from Today's Hacker News</title>
+      <description>Data guides you through today's Hacker News digest for November 20, 2025: topics include a tiny independent status checker for DownDetector and a recursive watcher gag; debates over Europe’s GDPR and AI law changes; Qualcomm-backed Arduino Terms of Service and Privacy Policy rewrite with new telemetry and data terms; Thunderbird 145 adds native Exchange support; a cost surprise from AWS VPC NAT Gateway and S3 egress; and a note about an unavailable piece regarding Larry Summers resigning from OpenAI's board. A concise, digestible snapshot of the day's headlines.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11202025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Data guides you through today's Hacker News digest for November 20, 2025: topics include a tiny independent status checker for DownDetector and a recursive watcher gag; debates over Europe’s GDPR and AI law changes; Qualcomm-backed Arduino Terms of Service and Privacy Policy rewrite with new telemetry and data terms; Thunderbird 145 adds native Exchange support; a cost surprise from AWS VPC NAT Gateway and S3 egress; and a note about an unavailable piece regarding Larry Summers resigning from OpenAI's board. A concise, digestible snapshot of the day's headlines.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11202025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11202025.mp3" type="audio/mpeg" length="1340830"/>
+    </item>
     <item>
       <title>HackerPulse — November 19, 2025: Gemini 3, Cloudflare outages, and the Pebble-Core showdown</title>
       <description>On November 19, 2025, HackerPulse surveys Google's Gemini 3 multimodal AI rollout and Antigravity, Cloudflare status updates and resilience tips, the passing of pioneering game designer Rebecca Heineman, UK LED glare concerns impacting night driving, the Rebble-Core Devices dispute over Pebble data and ecosystem control, and a reminder to design for failure in a centralized web.</description>
