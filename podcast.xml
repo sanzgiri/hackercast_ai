@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 21 Nov 2025 17:03:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 17:03:59 GMT</lastBuildDate>
+    <item>
+      <title>HackerPulse, November 22, 2025: Open-Source Privacy, AI Pipelines, and Hardware Shifts</title>
+      <description>In this episode of HackerPulse, Data runs through a diverse set of top HackerNews stories: Wealthfolio 2.0’s privacy-first, local investment tracker with broad asset support; Igalia’s work with Valve on Steam Frame, Steam Machine, and Steam Controller, plus Vulkan/DSC improvements; the Nicolas Guillou sanctions and the call for European digital sovereignty; Olmo 3’s fully transparent AI model workflow and traceability; a proposed dependency cooldown strategy to curb open-source supply-chain attacks; PS2 app support in AthenaEnv enabling JavaScript in a PS2-like environment; practical oscillator designs and analog challenges; HP and Dell removing HEVC hardware decoding on business laptops and licensing implications; FAWK, an LLM-driven AWK-like interpreter project; and a note that content about Arduino’s updated terms could not be fetched. This roundup covers innovations, policy angles, and practical tech curiosities shaping today’s landscape.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11222025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode of HackerPulse, Data runs through a diverse set of top HackerNews stories: Wealthfolio 2.0’s privacy-first, local investment tracker with broad asset support; Igalia’s work with Valve on Steam Frame, Steam Machine, and Steam Controller, plus Vulkan/DSC improvements; the Nicolas Guillou sanctions and the call for European digital sovereignty; Olmo 3’s fully transparent AI model workflow and traceability; a proposed dependency cooldown strategy to curb open-source supply-chain attacks; PS2 app support in AthenaEnv enabling JavaScript in a PS2-like environment; practical oscillator designs and analog challenges; HP and Dell removing HEVC hardware decoding on business laptops and licensing implications; FAWK, an LLM-driven AWK-like interpreter project; and a note that content about Arduino’s updated terms could not be fetched. This roundup covers innovations, policy angles, and practical tech curiosities shaping today’s landscape.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11222025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11222025.mp3" type="audio/mpeg" length="2243308"/>
+    </item>
     <item>
       <title>HackerPulse: Gemini Pro, Privacy Debates, and Open-Source Rewinds — November 21, 2025</title>
       <description>Today’s HackerPulse—narrated by Data—curates the HackerNews top stories for November 21, 2025. We cover Google DeepMind’s Nano Banana Pro image-powered upgrade with SynthID and 4K outputs; AP’s report on a domestic license-plate surveillance network raising Fourth Amendment concerns; Microsoft Open Tech releasing Zork I–III under MIT for preservation and education; Google Quick Share expanding to AirDrop across Android and iOS; Chrono Divide, a browser-native RA2 reboot; Calvin and Hobbes turning 40 and its cultural significance; Phoronix founder Michael Larabel and the Linux hardware beat; Geacron’s Interactive World History Atlas; arXiv’s adversarial poetry as a universal jailbreak concept for LLMs; and PHP 8.5 adding a pipe operator and other modernizations. A brisk tour of AI tools, privacy concerns, culture, and open-source progress for tech fans.</description>
