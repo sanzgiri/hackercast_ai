@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 17:03:59 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Nov 2025 17:03:28 GMT</lastBuildDate>
+    <item>
+      <title>From $9 Million Comics to Space Moss: The Future of Tech and Treasures!</title>
+      <description>Join us as we explore today's top HackerNews stories, including a shocking record-breaking comic sale, the latest on thorium nuclear advancements, and how moss spores are surviving in the harsh conditions of space! These tales highlight not just technological advancements, but also the captivating stories behind them.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11232025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we explore today's top HackerNews stories, including a shocking record-breaking comic sale, the latest on thorium nuclear advancements, and how moss spores are surviving in the harsh conditions of space! These tales highlight not just technological advancements, but also the captivating stories behind them.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11232025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11232025.mp3" type="audio/mpeg" length="3062508"/>
+    </item>
     <item>
       <title>HackerPulse, November 22, 2025: Open-Source Privacy, AI Pipelines, and Hardware Shifts</title>
       <description>In this episode of HackerPulse, Data runs through a diverse set of top HackerNews stories: Wealthfolio 2.0’s privacy-first, local investment tracker with broad asset support; Igalia’s work with Valve on Steam Frame, Steam Machine, and Steam Controller, plus Vulkan/DSC improvements; the Nicolas Guillou sanctions and the call for European digital sovereignty; Olmo 3’s fully transparent AI model workflow and traceability; a proposed dependency cooldown strategy to curb open-source supply-chain attacks; PS2 app support in AthenaEnv enabling JavaScript in a PS2-like environment; practical oscillator designs and analog challenges; HP and Dell removing HEVC hardware decoding on business laptops and licensing implications; FAWK, an LLM-driven AWK-like interpreter project; and a note that content about Arduino’s updated terms could not be fetched. This roundup covers innovations, policy angles, and practical tech curiosities shaping today’s landscape.</description>
