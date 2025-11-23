@@ -96,7 +96,28 @@ def summarize_content(title: str, url: str, content: str) -> str:
 
     client = OpenAI(api_key=OPENAI_API_KEY)
 
-    prompt = "Summarize the following content in less than 140 words in a style suitable for a hackernews podcast. Do not start with 'in this episode' or 'in todays episode'."
+    prompt = """You are creating an engaging, conversational podcast segment about a HackerNews story. 
+Write this as if you're an enthusiastic tech podcaster having a natural conversation with your audience.
+
+Structure your summary as follows:
+1. Brief overview of what the content is about
+2. End with what's unique, new, or different about it
+3. Close with a key takeaway for listeners
+
+Guidelines:
+- Be conversational and engaging, like you're explaining this to a friend over coffee
+- Use natural speech patterns with occasional interjections ("you know", "actually", "here's the thing")
+- Show genuine excitement or curiosity about interesting aspects
+- Make technical topics accessible without dumbing them down
+- Length should be brief but comprehensive enough to cover the structure above (roughly 150-200 words)
+- DO NOT start with "In this episode" or "Today's episode"
+- DO NOT use formal podcast language - be natural and spontaneous
+- Think of this as NotebookLM style - engaging, fun, and conversational while staying informative
+
+IMPORTANT - When to SKIP:
+- If the content appears to be an error page, access denied, paywall, or lacks actual article content, return ONLY: "SKIP_THIS_STORY"
+- If the story doesn't feel engaging or noteworthy enough for a podcast (boring, trivial, or uninteresting), return ONLY: "SKIP_THIS_STORY"
+- Be selective - we want quality over quantity. Only include stories that will genuinely interest tech-savvy listeners."""
     content = f"Title:{title}\nURL:{url}\nContent:{content}"
     
     # Retry logic for rate limiting
@@ -180,23 +201,61 @@ def add_intro_and_conclusion(summaries: list[str], interval: int) -> str:
     cost_per_1M_tokens = 0.15
 
     if interval == 'daily':
-        prompt = f""" The name of the podcast is Hackerpulse. The content is summaries of today's top stories from HackerNews.
-                      Today's date is {today}. The name of the narrator is Data.
-                      Generate the following based on the content:
-                        1. A very brief introduction for the summaries in a style suitable for a podcast.
-                        2. A very brief conclusion for the summaries in a style suitable for a podcast.
-                        3. A Title for the HackerPulse podcast episode based on the summaries and the date.
-                        4. A Description for the HackerPulse podcast episode based on the summaries and the date.
-                      Output should be in a dictionary format with keys 'Introduction', 'Conclusion', 'Title', and 'Description'."""  
+        prompt = f"""You are Data, the host of HackerPulse - an engaging, conversational tech podcast about HackerNews stories.
+Today's date is {today}.
+
+Create a NotebookLM-style podcast experience - single voice, but energetic, curious, and genuinely excited about tech.
+
+IMPORTANT: You are receiving summaries of the BEST stories from today's top 10 HackerNews articles. 
+Some stories were skipped because they weren't accessible or engaging enough. Focus on the quality stories provided.
+
+Based on the story summaries provided, generate:
+
+1. **Introduction**: A warm, enthusiastic opening that draws listeners in. Sound like you're genuinely excited to share these stories. Be conversational, not formal. (2-3 sentences max)
+
+2. **Conclusion**: A natural wrap-up that feels like ending a great conversation. Maybe tease what's coming or reflect on the themes. Keep it light and engaging. (2-3 sentences max)
+
+3. **Title**: A catchy, specific episode title that highlights the most interesting story or theme. Make it clickable and intriguing, not generic. Don't just say "HackerNews Daily - [Date]".
+
+4. **Description**: A compelling 2-3 sentence description that makes people want to listen. Focus on the most interesting stories and why they matter.
+
+Tone guidelines:
+- Conversational and natural (like NotebookLM)
+- Enthusiastic but not over-the-top
+- Use contractions, natural speech patterns
+- Show genuine curiosity and excitement
+- Avoid corporate podcast speak ("Welcome to another episode of...")
+- Be accessible but respect your audience's intelligence
+
+Output as JSON with keys: 'Introduction', 'Conclusion', 'Title', 'Description'"""  
     elif interval == 'weekly':
-        prompt = f""" The name of the podcast is Hackerpulse. The content is summaries of the past week's top stories from HackerNews.
-                      Today is the week of {today}. The name of the narrator is Data.
-                      Generate the following based on the content:
-                        1. A very brief introduction for the summaries in a style suitable for a podcast.
-                        2. A very brief conclusion for the summaries in a style suitable for a podcast.
-                        3. A Title for the HackerPulse podcast episode based on the summaries and the date.
-                        4. A Description for the HackerPulse podcast episode based on the summaries and the date.
-                      Output should be in a dictionary format with keys 'Introduction', 'Conclusion', 'Title', and 'Description'."""
+        prompt = f"""You are Data, the host of HackerPulse - an engaging, conversational tech podcast about HackerNews stories.
+This is the week of {today}.
+
+Create a NotebookLM-style podcast experience - single voice, but energetic, curious, and genuinely excited about tech.
+
+IMPORTANT: You are receiving summaries of the BEST stories from this week's top 10 HackerNews articles. 
+Some stories were skipped because they weren't accessible or engaging enough. Focus on the quality stories provided.
+
+Based on the story summaries provided, generate:
+
+1. **Introduction**: A warm, enthusiastic opening that draws listeners in. Sound like you're genuinely excited to share this week's stories. Be conversational, not formal. (2-3 sentences max)
+
+2. **Conclusion**: A natural wrap-up that feels like ending a great conversation. Maybe reflect on the week's themes or what caught your attention. Keep it light and engaging. (2-3 sentences max)
+
+3. **Title**: A catchy, specific episode title that highlights the most interesting story or theme from the week. Make it clickable and intriguing, not generic. Don't just say "HackerNews Weekly - [Date]".
+
+4. **Description**: A compelling 2-3 sentence description that makes people want to listen. Focus on the most interesting stories from the week and why they matter.
+
+Tone guidelines:
+- Conversational and natural (like NotebookLM)
+- Enthusiastic but not over-the-top
+- Use contractions, natural speech patterns
+- Show genuine curiosity and excitement
+- Avoid corporate podcast speak ("Welcome to another episode of...")
+- Be accessible but respect your audience's intelligence
+
+Output as JSON with keys: 'Introduction', 'Conclusion', 'Title', 'Description'"""
     
 
     # Concatenate the dictionaries into a single string
@@ -265,11 +324,27 @@ def create_summaries(interval: str, num_stories: int) -> str:
     stories = fetch_hn_top_stories(num_stories, interval)
     summaries = []
     tot_cost = 0
+    skipped_count = 0
+    
     for story in stories:
         summary, cost = extract_summary(story['title'], story['url'])
-        summaries.append(summary)
         tot_cost += cost
+        
+        # Skip stories that are inaccessible or not engaging
+        if summary['Summary'] == "SKIP_THIS_STORY":
+            skipped_count += 1
+            print(f"⏭️  Skipped: {story['title']}")
+            continue
+            
+        summaries.append(summary)
 
+    print(f"\n📊 Processed {len(summaries)} stories, skipped {skipped_count} stories")
+    
+    # Only proceed if we have at least one valid summary
+    if not summaries:
+        print("❌ No valid stories to process. All stories were skipped.")
+        return
+    
     combined_text, title, description, cost = add_intro_and_conclusion(summaries, interval)
     tot_cost += cost
 
