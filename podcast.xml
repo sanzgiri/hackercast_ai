@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sun, 23 Nov 2025 17:03:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 17:02:44 GMT</lastBuildDate>
+    <item>
+      <title>Unveiling Secrets and Programming Future: Love Letters and Racket 9.0</title>
+      <description>In this episode, we explore a heartbreaking yet beautiful story of family secrets revealed through love letters after a father's passing. Plus, we dive into the exciting release of Racket 9.0, which introduces real parallel threading—transforming how we write code. Tune in to discover why these stories matter and what they mean for our understanding of love, truth, and technology!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11242025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we explore a heartbreaking yet beautiful story of family secrets revealed through love letters after a father's passing. Plus, we dive into the exciting release of Racket 9.0, which introduces real parallel threading—transforming how we write code. Tune in to discover why these stories matter and what they mean for our understanding of love, truth, and technology!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11242025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11242025.mp3" type="audio/mpeg" length="1441767"/>
+    </item>
     <item>
       <title>From $9 Million Comics to Space Moss: The Future of Tech and Treasures!</title>
       <description>Join us as we explore today's top HackerNews stories, including a shocking record-breaking comic sale, the latest on thorium nuclear advancements, and how moss spores are surviving in the harsh conditions of space! These tales highlight not just technological advancements, but also the captivating stories behind them.</description>
