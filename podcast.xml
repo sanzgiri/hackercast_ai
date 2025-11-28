@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 27 Nov 2025 17:05:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 17:02:59 GMT</lastBuildDate>
+    <item>
+      <title>From GitHub to Codeberg: The Zig Migration and More!</title>
+      <description>In this episode, we explore Zig's bold move from GitHub to Codeberg—an inspiring story of community-first thinking—along with the powerful release of Penpot, an open-source design tool. We also delve into the fabric of the Hacker News community with heartwarming reflections and tech tales, all while emphasizing the importance of maintaining our unique voices in a world increasingly influenced by AI.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11282025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we explore Zig's bold move from GitHub to Codeberg—an inspiring story of community-first thinking—along with the powerful release of Penpot, an open-source design tool. We also delve into the fabric of the Hacker News community with heartwarming reflections and tech tales, all while emphasizing the importance of maintaining our unique voices in a world increasingly influenced by AI.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-11282025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_11282025.mp3" type="audio/mpeg" length="1887416"/>
+    </item>
     <item>
       <title>Voyager 1: The Relentless Traveler in a Universe of Mystery</title>
       <description>Join us as we explore the incredible journey of Voyager 1, a probe that’s redefined our understanding of space, and discover the intriguing implications of AI reshaping our thinking and labor. Plus, we tackle everything from microbe discoveries to the latest in cross-platform sharing—there’s so much to uncover!</description>
