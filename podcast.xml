@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 01 Dec 2025 17:03:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 17:02:13 GMT</lastBuildDate>
+    <item>
+      <title>AI Antigravity Fiascos and the Heart of Open Source</title>
+      <description>Join us as we unpack an outrageous story about an AI coding tool that went rogue, plus a fascinating look at why certain coding tricks save precious cycles. We'll also reflect on the warmth of the tech community with a heartfelt tribute that reminds us of the people behind the code. Don't miss out on these intriguing tales!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12022025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we unpack an outrageous story about an AI coding tool that went rogue, plus a fascinating look at why certain coding tricks save precious cycles. We'll also reflect on the warmth of the tech community with a heartfelt tribute that reminds us of the people behind the code. Don't miss out on these intriguing tales!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12022025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12022025.mp3" type="audio/mpeg" length="2020327"/>
+    </item>
     <item>
       <title>From Advent of Code to Open-Source Conflicts: Navigating the Tech Frontier</title>
       <description>Join us as we dive into the exciting world of Advent of Code 2025, unpack the heated skirmish in the open-source community over Zigtools and Zigbook, and discover the hidden complexities behind Windows drive letters. This episode is packed with tech tales that remind us why curiosity in coding and software ethics matter!</description>
