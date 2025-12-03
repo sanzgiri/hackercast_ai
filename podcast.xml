@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Tue, 02 Dec 2025 17:02:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 17:03:35 GMT</lastBuildDate>
+    <item>
+      <title>Unlocking New Realities: AI-Driven Coding, Compiler Hacks, and the Need for Mentorship</title>
+      <description>In this episode, we explore Anthropic's acquisition of Bun to supercharge AI coding, dive into the launch of Mistral 3’s groundbreaking models, and unveil Apple's STARFlow-V's video generation prowess. Plus, we discuss the crucial need for mentorship in an AI-driven world and uncover some nifty compiler optimizations that will elevate your coding game!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12032025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we explore Anthropic's acquisition of Bun to supercharge AI coding, dive into the launch of Mistral 3’s groundbreaking models, and unveil Apple's STARFlow-V's video generation prowess. Plus, we discuss the crucial need for mentorship in an AI-driven world and uncover some nifty compiler optimizations that will elevate your coding game!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12032025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12032025.mp3" type="audio/mpeg" length="3300745"/>
+    </item>
     <item>
       <title>AI Antigravity Fiascos and the Heart of Open Source</title>
       <description>Join us as we unpack an outrageous story about an AI coding tool that went rogue, plus a fascinating look at why certain coding tricks save precious cycles. We'll also reflect on the warmth of the tech community with a heartfelt tribute that reminds us of the people behind the code. Don't miss out on these intriguing tales!</description>
