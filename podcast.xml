@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 03 Dec 2025 17:03:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 17:04:09 GMT</lastBuildDate>
+    <item>
+      <title>From AI Tools to Road Safety: Unpacking Tech’s New Dilemmas</title>
+      <description>Join me as we explore eye-opening stories on the potential perils of AI in legal tools, the vital role of road safety regulations in the EU, and how cultural dynamics shape innovation in tech. These discussions highlight just how much technology intersects with our everyday lives and the importance of thoughtful governance.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12042025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join me as we explore eye-opening stories on the potential perils of AI in legal tools, the vital role of road safety regulations in the EU, and how cultural dynamics shape innovation in tech. These discussions highlight just how much technology intersects with our everyday lives and the importance of thoughtful governance.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12042025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12042025.mp3" type="audio/mpeg" length="3098244"/>
+    </item>
     <item>
       <title>Unlocking New Realities: AI-Driven Coding, Compiler Hacks, and the Need for Mentorship</title>
       <description>In this episode, we explore Anthropic's acquisition of Bun to supercharge AI coding, dive into the launch of Mistral 3’s groundbreaking models, and unveil Apple's STARFlow-V's video generation prowess. Plus, we discuss the crucial need for mentorship in an AI-driven world and uncover some nifty compiler optimizations that will elevate your coding game!</description>
