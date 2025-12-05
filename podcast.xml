@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 04 Dec 2025 17:04:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 17:03:32 GMT</lastBuildDate>
+    <item>
+      <title>Reclaiming JavaScript: The Fight for a Public Domain Future</title>
+      <description>Join us as we explore a daring open letter urging Oracle to relinquish its grip on the JavaScript trademark, alongside the groundbreaking PGlite—a full Postgres database running directly in your browser. We’ll delve into the implications of these shifts in the tech landscape and the vibrant discussions they’re sparking across the developer community.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12052025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we explore a daring open letter urging Oracle to relinquish its grip on the JavaScript trademark, alongside the groundbreaking PGlite—a full Postgres database running directly in your browser. We’ll delve into the implications of these shifts in the tech landscape and the vibrant discussions they’re sparking across the developer community.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12052025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12052025.mp3" type="audio/mpeg" length="2620099"/>
+    </item>
     <item>
       <title>From AI Tools to Road Safety: Unpacking Tech’s New Dilemmas</title>
       <description>Join me as we explore eye-opening stories on the potential perils of AI in legal tools, the vital role of road safety regulations in the EU, and how cultural dynamics shape innovation in tech. These discussions highlight just how much technology intersects with our everyday lives and the importance of thoughtful governance.</description>
