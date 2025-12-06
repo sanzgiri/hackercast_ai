@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 05 Dec 2025 17:03:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 17:02:18 GMT</lastBuildDate>
+    <item>
+      <title>From Outages to AI Insights: Navigating the Complex Tech Landscape</title>
+      <description>Join us as we dive into the recent Cloudflare outage that impacted a significant chunk of HTTP traffic, explore the high costs of BMW's safety repairs, and marvel at Google's Gemini 3 Pro's leap to understanding complex visuals. These stories highlight the intricate balance between tech, safety, and human dynamics—definitely not ones to miss!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12062025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we dive into the recent Cloudflare outage that impacted a significant chunk of HTTP traffic, explore the high costs of BMW's safety repairs, and marvel at Google's Gemini 3 Pro's leap to understanding complex visuals. These stories highlight the intricate balance between tech, safety, and human dynamics—definitely not ones to miss!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12062025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12062025.mp3" type="audio/mpeg" length="2391162"/>
+    </item>
     <item>
       <title>Reclaiming JavaScript: The Fight for a Public Domain Future</title>
       <description>Join us as we explore a daring open letter urging Oracle to relinquish its grip on the JavaScript trademark, alongside the groundbreaking PGlite—a full Postgres database running directly in your browser. We’ll delve into the implications of these shifts in the tech landscape and the vibrant discussions they’re sparking across the developer community.</description>
