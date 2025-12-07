@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 06 Dec 2025 17:02:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 17:02:32 GMT</lastBuildDate>
+    <item>
+      <title>Hidden Risks and Supercharged Computing: Today's Tech Innovations!</title>
+      <description>In this episode, we explore the intriguing nuances of a new hardware device with surprising security flaws, dive into the world of ultra-light Linux with Tiny Core, and unveil OpenAI's secretive supply strategies that are shaking up the RAM market. Plus, we talk about how HTML is revolutionizing accessibility in research. Don't miss these essential updates that matter to anyone passionate about technology!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12072025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we explore the intriguing nuances of a new hardware device with surprising security flaws, dive into the world of ultra-light Linux with Tiny Core, and unveil OpenAI's secretive supply strategies that are shaking up the RAM market. Plus, we talk about how HTML is revolutionizing accessibility in research. Don't miss these essential updates that matter to anyone passionate about technology!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12072025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12072025.mp3" type="audio/mpeg" length="2045091"/>
+    </item>
     <item>
       <title>From Outages to AI Insights: Navigating the Complex Tech Landscape</title>
       <description>Join us as we dive into the recent Cloudflare outage that impacted a significant chunk of HTTP traffic, explore the high costs of BMW's safety repairs, and marvel at Google's Gemini 3 Pro's leap to understanding complex visuals. These stories highlight the intricate balance between tech, safety, and human dynamics—definitely not ones to miss!</description>
