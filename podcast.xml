@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 08 Dec 2025 17:04:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 17:04:09 GMT</lastBuildDate>
+    <item>
+      <title>From 'Fuck Off' Pages to Tinkering with Kindles: The Evolving Tech Landscape</title>
+      <description>Join us as we explore the tension between design and user needs in our discussion about 'The Fuck Off Contact Page'. Plus, we’ll look at Microsoft’s AI struggles and how Uber is transforming advertising. And don't miss out on a fun hack that lets you run Tailscale on a jailbroken Kindle!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12092025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we explore the tension between design and user needs in our discussion about 'The Fuck Off Contact Page'. Plus, we’ll look at Microsoft’s AI struggles and how Uber is transforming advertising. And don't miss out on a fun hack that lets you run Tailscale on a jailbroken Kindle!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12092025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12092025.mp3" type="audio/mpeg" length="3770531"/>
+    </item>
     <item>
       <title>Unlocking Tech Potential: LLMs, DIY Silicon, and Open Source Sovereignty</title>
       <description>In this episode, we explore a practical guide from Oxide on using LLMs with a values-driven approach, dive into Schleswig-Holstein's groundbreaking switch to open-source software, and examine how DIY silicon experiments are reshaping chip development. Plus, we tackle the implications of AI hallucinations and the lessons from real-world hoaxes. Tune in for insights that matter!</description>
