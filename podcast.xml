@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Tue, 09 Dec 2025 17:04:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 17:03:21 GMT</lastBuildDate>
+    <item>
+      <title>Navigating AI Etiquette and Groundbreaking Open Source Tools in Tech</title>
+      <description>Join us as we explore a lively debate on AI's impact on online discussions and how it shapes community norms. Plus, check out groundbreaking innovations like Mistral AI's Devstral 2 and Let’s Encrypt’s remarkable evolution in web security. It’s a mixed bag of ethics, tech, and creativity that promises to engage and inspire!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12102025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we explore a lively debate on AI's impact on online discussions and how it shapes community norms. Plus, check out groundbreaking innovations like Mistral AI's Devstral 2 and Let’s Encrypt’s remarkable evolution in web security. It’s a mixed bag of ethics, tech, and creativity that promises to engage and inspire!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12102025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12102025.mp3" type="audio/mpeg" length="2926672"/>
+    </item>
     <item>
       <title>From 'Fuck Off' Pages to Tinkering with Kindles: The Evolving Tech Landscape</title>
       <description>Join us as we explore the tension between design and user needs in our discussion about 'The Fuck Off Contact Page'. Plus, we’ll look at Microsoft’s AI struggles and how Uber is transforming advertising. And don't miss out on a fun hack that lets you run Tailscale on a jailbroken Kindle!</description>
