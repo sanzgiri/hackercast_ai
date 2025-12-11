@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 10 Dec 2025 17:03:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 17:03:37 GMT</lastBuildDate>
+    <item>
+      <title>Unlocking Tech: From HDMI Hurdles to AI in Warfare</title>
+      <description>In this episode, we tackle how HDMI limitations are affecting Linux gamers and the groundbreaking effects of NYC’s congestion pricing on air quality. Plus, we dive into a controversial Substack piece linking AI surveillance to military operations, and explore a clever project that grades Hacker News discussions using LLMs. Join us for these thrilling discussions about the intersection of tech, policy, and society!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12112025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we tackle how HDMI limitations are affecting Linux gamers and the groundbreaking effects of NYC’s congestion pricing on air quality. Plus, we dive into a controversial Substack piece linking AI surveillance to military operations, and explore a clever project that grades Hacker News discussions using LLMs. Join us for these thrilling discussions about the intersection of tech, policy, and society!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12112025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12112025.mp3" type="audio/mpeg" length="2391684"/>
+    </item>
     <item>
       <title>Navigating AI Etiquette and Groundbreaking Open Source Tools in Tech</title>
       <description>Join us as we explore a lively debate on AI's impact on online discussions and how it shapes community norms. Plus, check out groundbreaking innovations like Mistral AI's Devstral 2 and Let’s Encrypt’s remarkable evolution in web security. It’s a mixed bag of ethics, tech, and creativity that promises to engage and inspire!</description>
