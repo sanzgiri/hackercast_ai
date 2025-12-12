@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 11 Dec 2025 17:03:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 17:02:37 GMT</lastBuildDate>
+    <item>
+      <title>Patterns, Pitfalls, and Personal Code: Navigating Tech in 2025</title>
+      <description>Join us as we delve into today's top HackerNews stories, featuring Patterns.dev's unique take on web app development, a critical look at Meta's widespread censorship affecting health groups, and a heartfelt exploration of software development driven by personal meaning. These insights promise to spark your curiosity and challenge how we interact with technology!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12122025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we delve into today's top HackerNews stories, featuring Patterns.dev's unique take on web app development, a critical look at Meta's widespread censorship affecting health groups, and a heartfelt exploration of software development driven by personal meaning. These insights promise to spark your curiosity and challenge how we interact with technology!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12122025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12122025.mp3" type="audio/mpeg" length="2301405"/>
+    </item>
     <item>
       <title>Unlocking Tech: From HDMI Hurdles to AI in Warfare</title>
       <description>In this episode, we tackle how HDMI limitations are affecting Linux gamers and the groundbreaking effects of NYC’s congestion pricing on air quality. Plus, we dive into a controversial Substack piece linking AI surveillance to military operations, and explore a clever project that grades Hacker News discussions using LLMs. Join us for these thrilling discussions about the intersection of tech, policy, and society!</description>
