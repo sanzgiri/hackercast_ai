@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 12 Dec 2025 17:02:37 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 17:12:35 GMT</lastBuildDate>
+    <item>
+      <title>Reviving Classics and Pushing Boundaries: A Tech Odyssey</title>
+      <description>Join us as we explore a range of captivating stories, including a DIY project that breathes new life into an old Nokia N900, the labor unionization at id Software, and exciting advancements in sustainable food production with CRISPR technology. Each of these stories illustrates the incredible creativity and determination at the intersection of technology and everyday life.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12132025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we explore a range of captivating stories, including a DIY project that breathes new life into an old Nokia N900, the labor unionization at id Software, and exciting advancements in sustainable food production with CRISPR technology. Each of these stories illustrates the incredible creativity and determination at the intersection of technology and everyday life.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12132025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12132025.mp3" type="audio/mpeg" length="3204510"/>
+    </item>
     <item>
       <title>Patterns, Pitfalls, and Personal Code: Navigating Tech in 2025</title>
       <description>Join us as we delve into today's top HackerNews stories, featuring Patterns.dev's unique take on web app development, a critical look at Meta's widespread censorship affecting health groups, and a heartfelt exploration of software development driven by personal meaning. These insights promise to spark your curiosity and challenge how we interact with technology!</description>
