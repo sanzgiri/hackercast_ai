@@ -313,6 +313,12 @@ def create_summaries(interval: str, num_stories: int) -> str:
             skipped_count += 1
             print(f"⏭️  Skipped: {story['title']}")
             continue
+        
+        # Skip stories with "Unable to fetch content" in the summary
+        if "Unable to fetch content" in summary['Summary']:
+            skipped_count += 1
+            print(f"⏭️  Skipped (unable to fetch): {story['title']}")
+            continue
             
         summaries.append(summary)
 
