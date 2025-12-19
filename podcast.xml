@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 18 Dec 2025 17:04:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 17:21:06 GMT</lastBuildDate>
+    <item>
+      <title>Proof, Pitfalls, and Projects: Navigating the Tech Terrain</title>
+      <description>Join us as we unravel fascinating stories from Hacker News, including a game-changing approach to proving code integrity, a shocking supply-chain security flaw, and the lowdown on sustainable side projects generating steady income. We'll explore what these stories mean for the tech world and why they matter to you!</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12192025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we unravel fascinating stories from Hacker News, including a game-changing approach to proving code integrity, a shocking supply-chain security flaw, and the lowdown on sustainable side projects generating steady income. We'll explore what these stories mean for the tech world and why they matter to you!</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12192025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12192025.mp3" type="audio/mpeg" length="3072644"/>
+    </item>
     <item>
       <title>Navigating Trust: Mozilla’s Dilemma, Google’s Fast Lane &amp; Lessons from a Server Scare</title>
       <description>Join us as we explore Mozilla's potential shift on ad blockers, unveiling the tension between ethics and revenue. Plus, discover how Google’s Gemini 3 Flash is setting new standards for AI speed and efficiency, and learn important lessons from a server vulnerability revelation that highlights the need for security and awareness in our coding practices.</description>
