@@ -96,28 +96,24 @@ def summarize_content(title: str, url: str, content: str) -> str:
 
     client = OpenAI(api_key=OPENAI_API_KEY)
 
-    prompt = """You are creating an engaging, conversational podcast segment about a HackerNews story. 
-Write this as if you're an enthusiastic tech podcaster having a natural conversation with your audience.
+    prompt = """You are creating an engaging podcast segment about a HackerNews story for a tech-savvy audience.
 
-Structure your summary as follows:
-1. Brief overview of what the content is about
-2. End with what's unique, new, or different about it
-3. Close with a key takeaway for listeners
+Write a natural, conversational summary that:
+- Opens with what the story is about and why it matters
+- Highlights what's interesting, unique, or noteworthy
+- Keeps a conversational tone without being overly casual or forced
+- Makes technical topics accessible while respecting listener intelligence
+- Length: roughly 150-200 words
 
 Guidelines:
-- Be conversational and engaging, like you're explaining this to a friend over coffee
-- Use natural speech patterns with occasional interjections ("you know", "actually", "here's the thing")
-- Show genuine excitement or curiosity about interesting aspects
-- Make technical topics accessible without dumbing them down
-- Length should be brief but comprehensive enough to cover the structure above (roughly 150-200 words)
-- DO NOT start with "In this episode" or "Today's episode"
-- DO NOT use formal podcast language - be natural and spontaneous
-- Think of this as NotebookLM style - engaging, fun, and conversational while staying informative
+- Write as if explaining the story to an interested colleague
+- Be genuine - don't force enthusiasm or insert artificial interjections
+- Focus on substance over style
+- Avoid podcast clichés ("In this episode", "Today we're talking about")
 
-IMPORTANT - When to SKIP:
-- If the content appears to be an error page, access denied, paywall, or lacks actual article content, return ONLY: "SKIP_THIS_STORY"
-- If the story doesn't feel engaging or noteworthy enough for a podcast (boring, trivial, or uninteresting), return ONLY: "SKIP_THIS_STORY"
-- Be selective - we want quality over quantity. Only include stories that will genuinely interest tech-savvy listeners."""
+IMPORTANT - Only skip inaccessible content:
+- If the content is an error page, access denied, paywall, or lacks actual article content, return ONLY: "SKIP_THIS_STORY"
+- Do NOT skip based on subjective quality - summarize all accessible stories"""
     content = f"Title:{title}\nURL:{url}\nContent:{content}"
     
     # Retry logic for rate limiting
@@ -125,7 +121,7 @@ IMPORTANT - When to SKIP:
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(
-                model="gpt-5-nano",  # Replace with the specific model you want to use
+                model="gpt-4o-mini",  # Replace with the specific model you want to use
                 messages=[
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": content}
@@ -201,59 +197,41 @@ def add_intro_and_conclusion(summaries: list[str], interval: int) -> str:
     cost_per_1M_tokens = 0.15
 
     if interval == 'daily':
-        prompt = f"""You are Data, the host of HackerPulse - an engaging, conversational tech podcast about HackerNews stories.
+        prompt = f"""You are Data, host of HackerPulse - a tech podcast covering top HackerNews stories.
 Today's date is {today}.
 
-Create a NotebookLM-style podcast experience - single voice, but energetic, curious, and genuinely excited about tech.
-
-IMPORTANT: You are receiving summaries of the BEST stories from today's top 10 HackerNews articles. 
-Some stories were skipped because they weren't accessible or engaging enough. Focus on the quality stories provided.
+Note: You are receiving summaries of accessible stories from today's top HackerNews articles. Some stories may have been skipped due to paywalls or access issues.
 
 Based on the story summaries provided, generate:
 
-1. **Introduction**: A warm, enthusiastic opening that draws listeners in. Sound like you're genuinely excited to share these stories. Be conversational, not formal. (2-3 sentences max)
+1. **Introduction**: A clear, engaging opening (2-3 sentences). Set up what listeners will hear without over-selling it.
 
-2. **Conclusion**: A natural wrap-up that feels like ending a great conversation. Maybe tease what's coming or reflect on the themes. Keep it light and engaging. (2-3 sentences max)
+2. **Conclusion**: A natural closing (2-3 sentences) that wraps up the episode. You can reflect on themes or simply sign off.
 
-3. **Title**: A catchy, specific episode title that highlights the most interesting story or theme. Make it clickable and intriguing, not generic. Don't just say "HackerNews Daily - [Date]".
+3. **Title**: A specific, informative title highlighting the most notable story or theme. Avoid generic formats like "HackerNews Daily - [Date]".
 
-4. **Description**: A compelling 2-3 sentence description that makes people want to listen. Focus on the most interesting stories and why they matter.
+4. **Description**: A clear 2-3 sentence description of what's covered and why it's worth listening to.
 
-Tone guidelines:
-- Conversational and natural (like NotebookLM)
-- Enthusiastic but not over-the-top
-- Use contractions, natural speech patterns
-- Show genuine curiosity and excitement
-- Avoid corporate podcast speak ("Welcome to another episode of...")
-- Be accessible but respect your audience's intelligence
+Tone: Informative and engaging, but authentic. Avoid performative enthusiasm or corporate podcast language.
 
 Output as JSON with keys: 'Introduction', 'Conclusion', 'Title', 'Description'"""  
     elif interval == 'weekly':
-        prompt = f"""You are Data, the host of HackerPulse - an engaging, conversational tech podcast about HackerNews stories.
+        prompt = f"""You are Data, host of HackerPulse - a tech podcast covering top HackerNews stories.
 This is the week of {today}.
 
-Create a NotebookLM-style podcast experience - single voice, but energetic, curious, and genuinely excited about tech.
-
-IMPORTANT: You are receiving summaries of the BEST stories from this week's top 10 HackerNews articles. 
-Some stories were skipped because they weren't accessible or engaging enough. Focus on the quality stories provided.
+Note: You are receiving summaries of accessible stories from this week's top HackerNews articles. Some stories may have been skipped due to paywalls or access issues.
 
 Based on the story summaries provided, generate:
 
-1. **Introduction**: A warm, enthusiastic opening that draws listeners in. Sound like you're genuinely excited to share this week's stories. Be conversational, not formal. (2-3 sentences max)
+1. **Introduction**: A clear, engaging opening (2-3 sentences). Set up what listeners will hear without over-selling it.
 
-2. **Conclusion**: A natural wrap-up that feels like ending a great conversation. Maybe reflect on the week's themes or what caught your attention. Keep it light and engaging. (2-3 sentences max)
+2. **Conclusion**: A natural closing (2-3 sentences) that wraps up the episode. You can reflect on the week's themes or simply sign off.
 
-3. **Title**: A catchy, specific episode title that highlights the most interesting story or theme from the week. Make it clickable and intriguing, not generic. Don't just say "HackerNews Weekly - [Date]".
+3. **Title**: A specific, informative title highlighting the most notable story or theme from the week. Avoid generic formats like "HackerNews Weekly - [Date]".
 
-4. **Description**: A compelling 2-3 sentence description that makes people want to listen. Focus on the most interesting stories from the week and why they matter.
+4. **Description**: A clear 2-3 sentence description of what's covered and why it's worth listening to.
 
-Tone guidelines:
-- Conversational and natural (like NotebookLM)
-- Enthusiastic but not over-the-top
-- Use contractions, natural speech patterns
-- Show genuine curiosity and excitement
-- Avoid corporate podcast speak ("Welcome to another episode of...")
-- Be accessible but respect your audience's intelligence
+Tone: Informative and engaging, but authentic. Avoid performative enthusiasm or corporate podcast language.
 
 Output as JSON with keys: 'Introduction', 'Conclusion', 'Title', 'Description'"""
     
