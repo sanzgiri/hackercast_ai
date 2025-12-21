@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 20 Dec 2025 17:02:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 17:03:34 GMT</lastBuildDate>
+    <item>
+      <title>Time Disruptions and the Future of Database Management</title>
+      <description>In this episode of HackerPulse, we discuss the recent power disruptions affecting NIST's atomic clocks and their implications for global time synchronization. We also delve into the rising trend of self-hosting databases, the importance of true anonymity in digital platforms, and the latest updates from developer tools like OpenAI's Codex and Google Play. Tune in to gain insights into how these stories reflect broader themes in technology.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12212025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode of HackerPulse, we discuss the recent power disruptions affecting NIST's atomic clocks and their implications for global time synchronization. We also delve into the rising trend of self-hosting databases, the importance of true anonymity in digital platforms, and the latest updates from developer tools like OpenAI's Codex and Google Play. Tune in to gain insights into how these stories reflect broader themes in technology.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12212025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12212025.mp3" type="audio/mpeg" length="1170407"/>
+    </item>
     <item>
       <title>Honesty in Headlines: Reimagining Clickbait and Digital Ownership</title>
       <description>This episode covers an intriguing experiment to rewrite headlines on Hacker News for greater honesty, Mullvad VPN's innovative GotaTun release, and Amazon's upcoming offering of DRM-free eBooks. Explore how these stories reflect a shift towards transparency and user control in the digital world.</description>
