@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sun, 21 Dec 2025 17:03:34 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 17:01:25 GMT</lastBuildDate>
+    <item>
+      <title>Rethinking Logs and Life: Insights from Tech and Society</title>
+      <description>Dive into today's top stories, including a revolutionary approach to logging in microservices, a renewed focus on community in Ruby's website redesign, and an enlightening discussion about user autonomy in technology. We also explore AI's evolving capabilities and the vital public health message about indoor tanning.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12222025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Dive into today's top stories, including a revolutionary approach to logging in microservices, a renewed focus on community in Ruby's website redesign, and an enlightening discussion about user autonomy in technology. We also explore AI's evolving capabilities and the vital public health message about indoor tanning.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12222025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12222025.mp3" type="audio/mpeg" length="106910"/>
+    </item>
     <item>
       <title>Time Disruptions and the Future of Database Management</title>
       <description>In this episode of HackerPulse, we discuss the recent power disruptions affecting NIST's atomic clocks and their implications for global time synchronization. We also delve into the rising trend of self-hosting databases, the importance of true anonymity in digital platforms, and the latest updates from developer tools like OpenAI's Codex and Google Play. Tune in to gain insights into how these stories reflect broader themes in technology.</description>
