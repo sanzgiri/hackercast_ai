@@ -7,7 +7,8 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/sanzgiri/hackercast_ai/run_podcast_generation.sh</string>
+        <string>-c</string>
+        <string>cd /Users/sanzgiri/hackercast_ai && source .venv/bin/activate && ./run_podcast_generation.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -23,7 +24,7 @@
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string>/Users/sanzgiri/miniconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
         <key>HOME</key>
         <string>/Users/sanzgiri</string>
     </dict>

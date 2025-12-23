@@ -90,11 +90,19 @@ def copy_file_to_icloud(source_file):
 # Main execution
 if __name__ == "__main__":
     
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Generate podcast from transcript.')
+    parser.add_argument('input_file', nargs='?', help='Input transcript file')
+    parser.add_argument('--force', action='store_true', help='Force regeneration even if files exist')
+    
+    args = parser.parse_args()
+    
     # Get date string for file naming
     date_str = datetime.now().strftime("%m%d%Y")
     
-    if len(sys.argv) > 1:
-        input_file = sys.argv[1]
+    if args.input_file:
+        input_file = args.input_file
     else:
         input_file = f'output/hn_transcript_{date_str}.txt'
 
@@ -102,11 +110,12 @@ if __name__ == "__main__":
     td_file = f'output/hn_td_{date_str}.txt'
     
     # Check if MP3 already exists
-    if Path(output_file).exists():
+    if Path(output_file).exists() and not args.force:
         print(f"✅ MP3 file already exists: {output_file}")
         print(f"📊 Size: {Path(output_file).stat().st_size / 1024:.0f} KB")
         print("🚫 Skipping regeneration to save API tokens")
         print("💡 Delete the MP3 file if you want to regenerate")
+        print("💡 Or use --force to overwrite existing files")
         sys.exit(0)
     
     # Check if input file exists

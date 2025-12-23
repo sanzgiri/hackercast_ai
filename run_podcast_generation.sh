@@ -7,7 +7,7 @@ set -e  # Exit on any error
 
 # Configuration
 DATE_STR=$(date +"%m%d%Y")
-LOG_FILE="podcast_generation_${DATE_STR}.log"
+LOG_FILE="logs/podcast_generation_${DATE_STR}.log"
 
 # Function to log with timestamp
 log() {
@@ -59,9 +59,17 @@ fi
 
 # Step 3: Publish podcast
 log "📡 Step 3: Publishing podcast..."
-log "🔄 Running: python publish_podcast.py --date $DATE_STR"
-if python publish_podcast.py --date "$DATE_STR"; then
+log "🔄 Running: python publish_podcast_s3.py --date $DATE_STR"
+if python publish_podcast_s3.py --date "$DATE_STR"; then
     log "✅ Podcast published successfully"
+    
+    # Step 4: Validate RSS feed
+    log "🔍 Step 4: Validating RSS feed..."
+    if python test_rss_feed.py; then
+        log "✅ RSS feed validation passed"
+    else
+        log "⚠️  RSS feed validation found issues (but continuing)"
+    fi
 else
     log "❌ Failed to publish podcast"
     exit 1
@@ -76,4 +84,5 @@ for file in "output/hn_transcript_${DATE_STR}.txt" "output/hn_transcript_${DATE_
     fi
 done
 
-log "📱 Check your RSS feed: https://raw.githubusercontent.com/sanzgiri/podcast-feed/main/rss"
+log "📱 RSS Feed: https://raw.githubusercontent.com/sanzgiri/hackercast_ai/refs/heads/main/podcast.xml"
+log "💡 Force refresh in Apple Podcasts Connect: https://podcastsconnect.apple.com/"
