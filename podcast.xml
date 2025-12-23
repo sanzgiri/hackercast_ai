@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 22 Dec 2025 17:01:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 17:02:18 GMT</lastBuildDate>
+    <item>
+      <title>Renewable Energy Halt and the Human Cost of Advocacy: A Tech Perspective</title>
+      <description>In this episode, we delve into the controversial pause on offshore wind projects due to national security concerns, uncover a critical security flaw in AI surveillance, and reflect on the journey of Hong Kong pro-democracy activist Jimmy Lai. We also explore major advancements in AI with the release of GLM-4.7 and highlight the nostalgic charm of retro technology.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12232025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we delve into the controversial pause on offshore wind projects due to national security concerns, uncover a critical security flaw in AI surveillance, and reflect on the journey of Hong Kong pro-democracy activist Jimmy Lai. We also explore major advancements in AI with the release of GLM-4.7 and highlight the nostalgic charm of retro technology.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12232025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12232025.mp3" type="audio/mpeg" length="260"/>
+    </item>
     <item>
       <title>Rethinking Logs and Life: Insights from Tech and Society</title>
       <description>Dive into today's top stories, including a revolutionary approach to logging in microservices, a renewed focus on community in Ruby's website redesign, and an enlightening discussion about user autonomy in technology. We also explore AI's evolving capabilities and the vital public health message about indoor tanning.</description>
