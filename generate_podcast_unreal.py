@@ -2,6 +2,7 @@ import time
 import nltk
 import os
 import sys
+import wave
 from pathlib import Path
 from nltk.tokenize import sent_tokenize
 from unrealspeech import UnrealSpeechAPI, save
@@ -16,11 +17,13 @@ nltk.download('punkt_tab', quiet=True)
 # Load environment variables from the .env file
 load_dotenv()
 
-# OpenAI API key
+# UnrealSpeech API key
 UNREAL_API_KEY = os.getenv('UNREAL_API_KEY')
+UNREAL_VOICE_ID = os.getenv('UNREAL_VOICE_ID', 'Liv')
+DEFAULT_BACKEND = os.getenv('TTS_BACKEND', 'kokoro_tts').lower()
 
-# Initialize UnrealSpeechAPI client
-speech_api = UnrealSpeechAPI(UNREAL_API_KEY)
+class UnrealSpeechPaymentError(RuntimeError):
+    pass
 
 def read_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -43,14 +46,65 @@ def chunk_text(text, max_chars=950):
     
     return chunks
 
-def process_chunks(chunks, temp_dir):
+def _is_payment_required_error(exc):
+    status = getattr(getattr(exc, 'response', None), 'status_code', None)
+    if status == 402:
+        return True
+    message = str(exc)
+    return '402' in message and 'Payment Required' in message
+
+def _write_wav(path, audio, sample_rate):
+    """Write mono WAV from float samples in [-1.0, 1.0]."""
+    try:
+        import numpy as np  # Optional dependency; Kokoro typically brings it in.
+        if hasattr(audio, 'detach'):
+            audio = audio.detach().cpu().numpy()
+        audio_np = np.asarray(audio, dtype=np.float32)
+        if audio_np.size == 0:
+            raise ValueError('Empty audio buffer')
+        audio_np = np.clip(audio_np, -1.0, 1.0)
+        audio_int16 = (audio_np * 32767.0).astype(np.int16)
+        with wave.open(str(path), 'wb') as wav_file:
+            wav_file.setnchannels(1)
+            wav_file.setsampwidth(2)
+            wav_file.setframerate(sample_rate)
+            wav_file.writeframes(audio_int16.tobytes())
+        return
+    except Exception:
+        pass
+
+    # Fallback path without numpy
+    if hasattr(audio, 'detach'):
+        audio = audio.detach().cpu().numpy()
+    if hasattr(audio, 'tolist'):
+        audio = audio.tolist()
+    if not audio:
+        raise ValueError('Empty audio buffer')
+    from array import array
+    pcm = array('h')
+    for sample in audio:
+        if sample > 1.0:
+            sample = 1.0
+        elif sample < -1.0:
+            sample = -1.0
+        pcm.append(int(sample * 32767.0))
+    with wave.open(str(path), 'wb') as wav_file:
+        wav_file.setnchannels(1)
+        wav_file.setsampwidth(2)
+        wav_file.setframerate(sample_rate)
+        wav_file.writeframes(pcm.tobytes())
+
+def process_chunks_unreal(chunks, temp_dir):
     audio_files = []
+    if not UNREAL_API_KEY:
+        raise RuntimeError('UNREAL_API_KEY is not set')
+    speech_api = UnrealSpeechAPI(UNREAL_API_KEY)
     
     for i, chunk in enumerate(chunks):
         try:
             audio_data = speech_api.stream(
                 text=chunk,
-                voice_id="Liv",  # or Zoe 
+                voice_id=UNREAL_VOICE_ID,  # or Zoe
                 bitrate="192k"
             )
             file_name = temp_dir / f"audio_chunk_{i+1}.mp3"
@@ -58,14 +112,70 @@ def process_chunks(chunks, temp_dir):
             audio_files.append(file_name)
             print(f"Processed and saved chunk {i+1}: {chunk[:30]}...")
         except Exception as e:
+            if _is_payment_required_error(e):
+                raise UnrealSpeechPaymentError(
+                    'UnrealSpeech returned 402 Payment Required. Check plan/quota.'
+                ) from e
             print(f"Error processing chunk {i+1}: {str(e)}")
         time.sleep(1)  # Respect rate limit
+    return audio_files
+
+def _load_kokoro_backend():
+    try:
+        from kokoro import KPipeline  # type: ignore
+        return 'pipeline', KPipeline
+    except Exception:
+        pass
+    try:
+        from kokoro import KModel  # type: ignore
+        return 'model', KModel
+    except Exception as exc:
+        raise ImportError(
+            'Kokoro is not installed. Install it before using --backend kokoro.'
+        ) from exc
+
+def process_chunks_kokoro(chunks, temp_dir, voice, speed, lang_code):
+    backend_type, backend_cls = _load_kokoro_backend()
+    audio_files = []
+
+    if backend_type == 'pipeline':
+        try:
+            pipeline = backend_cls(lang_code=lang_code)
+        except TypeError:
+            pipeline = backend_cls()
+        sample_rate = getattr(pipeline, 'sample_rate', getattr(pipeline, 'sr', 24000))
+        for i, chunk in enumerate(chunks, start=1):
+            try:
+                generator = pipeline(chunk, voice=voice, speed=speed, split_pattern=r'\n+')
+            except TypeError:
+                try:
+                    generator = pipeline(chunk, voice=voice, speed=speed)
+                except TypeError:
+                    generator = pipeline(chunk)
+            for j, (_, _, audio) in enumerate(generator, start=1):
+                file_name = temp_dir / f"audio_chunk_{i}_{j}.wav"
+                _write_wav(file_name, audio, sample_rate)
+                audio_files.append(file_name)
+                print(f"Processed and saved chunk {i}.{j}: {chunk[:30]}...")
+    else:
+        model = backend_cls()
+        sample_rate = getattr(model, 'sample_rate', getattr(model, 'sr', 24000))
+        for i, chunk in enumerate(chunks, start=1):
+            try:
+                audio = model.generate(chunk, voice=voice)
+            except TypeError:
+                audio = model.generate(chunk)
+            file_name = temp_dir / f"audio_chunk_{i}.wav"
+            _write_wav(file_name, audio, sample_rate)
+            audio_files.append(file_name)
+            print(f"Processed and saved chunk {i}: {chunk[:30]}...")
+
     return audio_files
 
 def concatenate_audio_files(audio_files, output_file):
     combined = AudioSegment.empty()
     for file in audio_files:
-        sound = AudioSegment.from_mp3(file)
+        sound = AudioSegment.from_file(file)
         combined += sound
     combined.export(output_file, format="mp3")
     print(f"All audio files concatenated into {output_file}")
@@ -95,6 +205,28 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate podcast from transcript.')
     parser.add_argument('input_file', nargs='?', help='Input transcript file')
     parser.add_argument('--force', action='store_true', help='Force regeneration even if files exist')
+    parser.add_argument(
+        '--backend',
+        choices=['unreal', 'kokoro', 'kokoro_tts'],
+        default=DEFAULT_BACKEND,
+        help='TTS backend (default: env TTS_BACKEND or kokoro_tts)'
+    )
+    parser.add_argument(
+        '--kokoro-voice',
+        default=os.getenv('KOKORO_VOICE', 'af_kore'),
+        help='Kokoro voice id (default: env KOKORO_VOICE or af_kore)'
+    )
+    parser.add_argument(
+        '--kokoro-lang',
+        default=os.getenv('KOKORO_LANG', 'a'),
+        help='Kokoro language code (default: env KOKORO_LANG or a)'
+    )
+    parser.add_argument(
+        '--kokoro-speed',
+        type=float,
+        default=float(os.getenv('KOKORO_SPEED', '1.0')),
+        help='Kokoro speed (default: env KOKORO_SPEED or 1.0)'
+    )
     
     args = parser.parse_args()
     
@@ -136,7 +268,22 @@ if __name__ == "__main__":
         chunks = chunk_text(text)
         print(f"📝 Processing {len(chunks)} text chunks...")
         
-        audio_files = process_chunks(chunks, temp_dir)
+        backend = args.backend.lower()
+        if backend == 'unreal':
+            audio_files = process_chunks_unreal(chunks, temp_dir)
+        elif backend in ('kokoro', 'kokoro_tts'):
+            audio_files = process_chunks_kokoro(
+                chunks,
+                temp_dir,
+                voice=args.kokoro_voice,
+                speed=args.kokoro_speed,
+                lang_code=args.kokoro_lang
+            )
+        else:
+            raise RuntimeError(f"Unsupported TTS backend: {backend}")
+
+        if not audio_files:
+            raise RuntimeError('No audio chunks generated; aborting.')
         print(f"Generated {len(audio_files)} audio files.")
 
         # Concatenate all audio files
@@ -151,15 +298,23 @@ if __name__ == "__main__":
             print("❌ Failed to create MP3 file")
             sys.exit(1)
             
+    except UnrealSpeechPaymentError as e:
+        print(f"Error generating podcast: {e}")
+        sys.exit(1)
+    except ImportError as e:
+        print(f"Error generating podcast: {e}")
+        sys.exit(1)
     except Exception as e:
-        print(f"❌ Error generating podcast: {e}")
+        print(f"Error generating podcast: {e}")
         sys.exit(1)
     finally:
         # Clean up temporary files
         try:
-            for file in temp_dir.glob("*.mp3"):
-                file.unlink()
-            temp_dir.rmdir()
+            if temp_dir.exists():
+                for file in temp_dir.iterdir():
+                    if file.is_file():
+                        file.unlink()
+                temp_dir.rmdir()
             print("🧹 Cleaned up temporary files")
         except Exception as e:
             print(f"⚠️ Warning: Could not clean up temp files: {e}")

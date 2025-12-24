@@ -1,0 +1,6 @@
+# Base dependencies
+-r requirements.txt
+
+# Local TTS (Kokoro)
+kokoro @ git+https://github.com/hexgrad/kokoro
+numpy<2

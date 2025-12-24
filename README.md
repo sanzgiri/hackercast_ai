@@ -51,7 +51,7 @@ Every day at 9 AM, this system:
 |-----------|-----------|---------|
 | **Content Source** | Hacker News API | Top tech stories |
 | **Summarization** | OpenAI GPT-4o-mini | AI summaries |
-| **Text-to-Speech** | UnrealSpeech API | High-quality audio |
+| **Text-to-Speech** | UnrealSpeech API / Kokoro (local) | High-quality audio |
 | **Audio Processing** | pydub + nltk | Chunking & concatenation |
 | **MP3 Hosting** | AWS S3 | Reliable, correct MIME type |
 | **RSS Hosting** | GitHub | Free, version-controlled |
@@ -65,8 +65,9 @@ Every day at 9 AM, this system:
 ### Prerequisites
 - Python 3.10+
 - macOS (for launchd automation)
-- API Keys: OpenAI, UnrealSpeech, GitHub
+- API Keys: OpenAI, GitHub, UnrealSpeech (if using UnrealSpeech backend)
 - AWS Account (free tier is fine)
+- Optional: Python 3.11+ (arm64) for local Kokoro TTS
 
 ### Installation
 
@@ -78,12 +79,15 @@ cd hackercast_ai
 # 2. Install uv (if not installed)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# 3. Create virtual environment
+# 3. Create UnrealSpeech venv (default backend)
 uv venv
 source .venv/bin/activate
-
-# 4. Install dependencies
 uv pip install -r requirements.txt
+
+# 3b. Optional: Create Kokoro venv (local TTS)
+/opt/homebrew/bin/python3.11 -m venv .venv-kokoro
+source .venv-kokoro/bin/activate
+pip install -r requirements-kokoro.txt
 
 # 5. Create directories
 mkdir -p output logs
@@ -92,8 +96,10 @@ mkdir -p output logs
 nano .env
 # Add:
 # OPENAI_API_KEY=your_openai_key
-# UNREAL_SPEECH_API_KEY=your_unrealspeech_key
 # GITHUB_API_KEY=your_github_token
+# UNREAL_API_KEY=your_unrealspeech_key
+# TTS_BACKEND=kokoro_tts  # or unreal
+# KOKORO_VOICE=af_kore
 
 # 7. Configure AWS
 aws configure
@@ -128,14 +134,19 @@ python generate_summaries_hn.py daily 10
 ---
 
 ### generate_podcast_unreal.py
-Converts text summaries to podcast audio.
+Converts text summaries to podcast audio (UnrealSpeech or local Kokoro).
 
 ```bash
+# Uses TTS_BACKEND from .env (default: kokoro_tts)
 python generate_podcast_unreal.py
+
+# Force a backend
+python generate_podcast_unreal.py --backend kokoro_tts
 ```
 
 **Features:**
-- ✅ Text-to-speech via UnrealSpeech API
+- ✅ Text-to-speech via UnrealSpeech API or local Kokoro
+- ✅ Backend selection via `TTS_BACKEND` or `--backend`
 - ✅ Intelligent text chunking (500 char max)
 - ✅ Audio concatenation with pydub
 - ✅ Automatic cleanup of temp files
@@ -271,14 +282,15 @@ https://raw.githubusercontent.com/sanzgiri/hackercast_ai/refs/heads/main/podcast
 
 ```bash
 # Activate environment
-source .venv/bin/activate
+source .venv/bin/activate          # UnrealSpeech
+# or: source .venv-kokoro/bin/activate  # Kokoro (local)
 
-# Run complete pipeline
+# Run complete pipeline (uses TTS_BACKEND from .env)
 ./run_podcast_generation.sh
 
 # Or run steps individually:
 python generate_summaries_hn.py daily 10
-python generate_podcast_unreal.py
+TTS_BACKEND=kokoro_tts python generate_podcast_unreal.py
 python publish_podcast_s3.py --date $(date +%m%d%Y)
 ```
 
@@ -290,6 +302,12 @@ python publish_podcast_s3.py --date $(date +%m%d%Y)
 ```bash
 source .venv/bin/activate
 uv pip install -r requirements.txt
+```
+
+### Kokoro model download errors
+```bash
+# Use a local cache with enough disk space
+export HF_HOME="$PWD/.hf-cache"
 ```
 
 ### AWS credentials not found

@@ -9,6 +9,14 @@ set -e  # Exit on any error
 DATE_STR=$(date +"%m%d%Y")
 LOG_FILE="logs/podcast_generation_${DATE_STR}.log"
 
+# Load environment variables if .env exists
+if [ -f ".env" ]; then
+    set -a
+    # shellcheck disable=SC1091
+    . ".env"
+    set +a
+fi
+
 # Function to log with timestamp
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" | tee -a "$LOG_FILE"
@@ -48,8 +56,19 @@ log "🎵 Step 2: Generating podcast audio..."
 if check_file_exists "output/hn_transcript_${DATE_STR}.mp3"; then
     log "🚫 MP3 already exists, skipping to save API tokens"
 else
-    log "🔄 Running: python generate_podcast_unreal.py"
-    if python generate_podcast_unreal.py; then
+    TTS_BACKEND="${TTS_BACKEND:-kokoro_tts}"
+    PYTHON_TTS="python"
+    if [[ "${TTS_BACKEND}" == "kokoro" || "${TTS_BACKEND}" == "kokoro_tts" ]]; then
+        if [[ -x ".venv-kokoro/bin/python" ]]; then
+            PYTHON_TTS=".venv-kokoro/bin/python"
+        fi
+    else
+        if [[ -x ".venv/bin/python" ]]; then
+            PYTHON_TTS=".venv/bin/python"
+        fi
+    fi
+    log "🔄 Running: ${PYTHON_TTS} generate_podcast_unreal.py --backend ${TTS_BACKEND}"
+    if "${PYTHON_TTS}" generate_podcast_unreal.py --backend "${TTS_BACKEND}"; then
         log "✅ Podcast audio generated successfully"
     else
         log "❌ Failed to generate podcast audio"
