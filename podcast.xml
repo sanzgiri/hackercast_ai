@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Tue, 23 Dec 2025 17:02:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 17:02:05 GMT</lastBuildDate>
+    <item>
+      <title>From Gaming to Cloud: How Valve's Scheduler is Influencing Enterprise Tech</title>
+      <description>This episode covers Meta's adoption of a Linux scheduler from Valve's Steam Deck to enhance server performance, game-changing updates in PostgreSQL 18 with instant database cloning, and valuable community insights on engineering blogs. Tune in to discover how these developments reflect broader trends in technology and collaboration.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12242025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>This episode covers Meta's adoption of a Linux scheduler from Valve's Steam Deck to enhance server performance, game-changing updates in PostgreSQL 18 with instant database cloning, and valuable community insights on engineering blogs. Tune in to discover how these developments reflect broader trends in technology and collaboration.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12242025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12242025.mp3" type="audio/mpeg" length="1689740"/>
+    </item>
     <item>
       <title>Renewable Energy Halt and the Human Cost of Advocacy: A Tech Perspective</title>
       <description>In this episode, we delve into the controversial pause on offshore wind projects due to national security concerns, uncover a critical security flaw in AI surveillance, and reflect on the journey of Hong Kong pro-democracy activist Jimmy Lai. We also explore major advancements in AI with the release of GLM-4.7 and highlight the nostalgic charm of retro technology.</description>
