@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 24 Dec 2025 17:02:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Dec 2025 17:01:51 GMT</lastBuildDate>
+    <item>
+      <title>Seamless Connectivity and the Future of Work: Insights from the Tech World</title>
+      <description>In this episode, we discuss the UniFi Travel Router's game-changing capabilities for tech-savvy travelers, reflect on the impact of hustle culture on productivity, introduce Vibium for simplified browser automation, and highlight Google’s advancements in AI for 2025. Join us as we explore how these stories reflect broader trends in technology and human interaction.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12252025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we discuss the UniFi Travel Router's game-changing capabilities for tech-savvy travelers, reflect on the impact of hustle culture on productivity, introduce Vibium for simplified browser automation, and highlight Google’s advancements in AI for 2025. Join us as we explore how these stories reflect broader trends in technology and human interaction.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12252025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12252025.mp3" type="audio/mpeg" length="1445708"/>
+    </item>
     <item>
       <title>From Gaming to Cloud: How Valve's Scheduler is Influencing Enterprise Tech</title>
       <description>This episode covers Meta's adoption of a Linux scheduler from Valve's Steam Deck to enhance server performance, game-changing updates in PostgreSQL 18 with instant database cloning, and valuable community insights on engineering blogs. Tune in to discover how these developments reflect broader trends in technology and collaboration.</description>
