@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 26 Dec 2025 17:02:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 17:02:32 GMT</lastBuildDate>
+    <item>
+      <title>Navigating Git Pitfalls and Accountability in Medical Tech</title>
+      <description>In this episode, we discuss the challenges of using Git as a database for package managers and how projects like Cargo and CocoaPods are evolving. We also examine a troubling incident with Abbott's CGMs that raises important questions about safety and accountability in the medical device industry.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12272025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we discuss the challenges of using Git as a database for package managers and how projects like Cargo and CocoaPods are evolving. We also examine a troubling incident with Abbott's CGMs that raises important questions about safety and accountability in the medical device industry.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12272025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12272025.mp3" type="audio/mpeg" length="1934348"/>
+    </item>
     <item>
       <title>The Ripple Effect of Kindness and Tech Innovations</title>
       <description>Join us as we explore a compelling story of long-term kindness towards an individual with autism and homelessness, alongside major updates in Ruby and Python programming. We’ll also delve into significant medical research on Alzheimer's and personal entrepreneurship narratives. This episode showcases the intertwined nature of compassion and technology.</description>
