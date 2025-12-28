@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 27 Dec 2025 17:02:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 17:02:10 GMT</lastBuildDate>
+    <item>
+      <title>Revolutionizing 3D Modeling and the Tech Stories You Didn't See Coming</title>
+      <description>This episode covers Apple's SHARP model that transforms 2D photos into 3D representations, Nvidia's unorthodox acquisition of Groq, and a light-hearted exploration of how a Janet Jackson music video could crash laptops. Tune in to understand how these developments reflect broader themes in technology and creativity.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12282025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>This episode covers Apple's SHARP model that transforms 2D photos into 3D representations, Nvidia's unorthodox acquisition of Groq, and a light-hearted exploration of how a Janet Jackson music video could crash laptops. Tune in to understand how these developments reflect broader themes in technology and creativity.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12282025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12282025.mp3" type="audio/mpeg" length="1837484"/>
+    </item>
     <item>
       <title>Navigating Git Pitfalls and Accountability in Medical Tech</title>
       <description>In this episode, we discuss the challenges of using Git as a database for package managers and how projects like Cargo and CocoaPods are evolving. We also examine a troubling incident with Abbott's CGMs that raises important questions about safety and accountability in the medical device industry.</description>
