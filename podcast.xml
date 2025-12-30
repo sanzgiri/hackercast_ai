@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 29 Dec 2025 17:02:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 17:02:29 GMT</lastBuildDate>
+    <item>
+      <title>Travel Fiascos and Digital Ownership: A Look at 2025's Tech Landscape</title>
+      <description>In this episode, we discuss the unexpected challenges of traveling with Deutsche Bahn, GOG's commitment to DRM-free gaming under new leadership, and intriguing developments in AI with a vintage twist. These stories not only highlight the current tech environment but also raise important questions about customer experiences and the future of digital platforms.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12302025.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we discuss the unexpected challenges of traveling with Deutsche Bahn, GOG's commitment to DRM-free gaming under new leadership, and intriguing developments in AI with a vintage twist. These stories not only highlight the current tech environment but also raise important questions about customer experiences and the future of digital platforms.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-12302025</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_12302025.mp3" type="audio/mpeg" length="2500460"/>
+    </item>
     <item>
       <title>Revolutionizing Web Development: The Shift from JavaScript to HTML and CSS</title>
       <description>This episode dives into a notable trend suggesting that HTML and CSS could replace JavaScript for certain functionalities, improving web performance. We also discuss macOS interface updates and groundbreaking research linking paternal lifestyle choices to offspring health, all of which highlight the continuous changes in our tech ecosystem.</description>
