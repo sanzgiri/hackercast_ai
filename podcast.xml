@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 31 Dec 2025 17:01:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 17:01:58 GMT</lastBuildDate>
+    <item>
+      <title>MonoGame Receives Major Boost: A Look at Community Support and Challenges in Tech</title>
+      <description>In this episode, we explore the $125,000 donation to MonoGame, emphasizing the importance of community in game development. We also discuss the challenges faced by a writer in traditional publishing, a new tool for data exploration, innovative carbon capture methods, and the evolving dynamics of AI in software production.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01012026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we explore the $125,000 donation to MonoGame, emphasizing the importance of community in game development. We also discuss the challenges faced by a writer in traditional publishing, a new tool for data exploration, innovative carbon capture methods, and the evolving dynamics of AI in software production.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01012026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01012026.mp3" type="audio/mpeg" length="1692140"/>
+    </item>
     <item>
       <title>Netflix's Open Content Initiative and the Growth of Community-Driven Projects</title>
       <description>In this episode, we discuss Netflix's launch of 'Open Content,' a platform fostering innovation in entertainment technology, alongside a treasure trove of Hacker News data for analysis. We also look at FediMeteo's impressive evolution into a global weather service, highlighting the impact of community engagement in tech.</description>
