@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 01 Jan 2026 17:01:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 17:02:24 GMT</lastBuildDate>
+    <item>
+      <title>Bluetooth Audio Vulnerabilities and Linux Gaming's Rise</title>
+      <description>In this episode, we cover alarming Bluetooth audio chip vulnerabilities that could compromise device security, the potential growth of Linux as a gaming platform, and the introduction of alternative browser engines in iOS for richer web experiences. Join us as we unpack these significant developments in tech.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01022026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we cover alarming Bluetooth audio chip vulnerabilities that could compromise device security, the potential growth of Linux as a gaming platform, and the introduction of alternative browser engines in iOS for richer web experiences. Join us as we unpack these significant developments in tech.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01022026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01022026.mp3" type="audio/mpeg" length="2354540"/>
+    </item>
     <item>
       <title>MonoGame Receives Major Boost: A Look at Community Support and Challenges in Tech</title>
       <description>In this episode, we explore the $125,000 donation to MonoGame, emphasizing the importance of community in game development. We also discuss the challenges faced by a writer in traditional publishing, a new tool for data exploration, innovative carbon capture methods, and the evolving dynamics of AI in software production.</description>
