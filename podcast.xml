@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 02 Jan 2026 17:02:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jan 2026 17:02:03 GMT</lastBuildDate>
+    <item>
+      <title>Streamlining Feedback, Celebrating Public Domain, and the Challenge of Parental Controls</title>
+      <description>In this episode, we discuss Ghostty's innovative approach to user feedback in open source, celebrate the arrival of new classics into the public domain, and delve into the complexities of parental controls faced by families. We also touch on the POSSE method for independent creators, highlighting emerging strategies for ownership and collaboration in the digital landscape.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01032026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we discuss Ghostty's innovative approach to user feedback in open source, celebrate the arrival of new classics into the public domain, and delve into the complexities of parental controls faced by families. We also touch on the POSSE method for independent creators, highlighting emerging strategies for ownership and collaboration in the digital landscape.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01032026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01032026.mp3" type="audio/mpeg" length="1808012"/>
+    </item>
     <item>
       <title>Bluetooth Audio Vulnerabilities and Linux Gaming's Rise</title>
       <description>In this episode, we cover alarming Bluetooth audio chip vulnerabilities that could compromise device security, the potential growth of Linux as a gaming platform, and the introduction of alternative browser engines in iOS for richer web experiences. Join us as we unpack these significant developments in tech.</description>
