@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Mon, 05 Jan 2026 17:02:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 17:03:00 GMT</lastBuildDate>
+    <item>
+      <title>Interface Design Debates and Legal Battles in the Digital Age</title>
+      <description>This episode covers the design issues surrounding macOS Tahoe's iconography, the legal troubles facing Anna's Archive, and a retrospective on database innovations for 2025. Dive into these critical discussions that shape our interaction with technology, from user experience to digital rights.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01062026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>This episode covers the design issues surrounding macOS Tahoe's iconography, the legal troubles facing Anna's Archive, and a retrospective on database innovations for 2025. Dive into these critical discussions that shape our interaction with technology, from user experience to digital rights.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01062026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01062026.mp3" type="audio/mpeg" length="2748716"/>
+    </item>
     <item>
       <title>Navigating Careers and Innovations: Insights from Osmani, Karpathy, and Beyond</title>
       <description>In this episode, we discuss Addy Osmani's reflections on workplace dynamics for engineers, Andrej Karpathy's initiative to simplify neural networks for learners, and the shifting trends in web development as professionals seek more efficient tools. Dive into these fascinating stories and discover how they can inform your own tech journey.</description>
