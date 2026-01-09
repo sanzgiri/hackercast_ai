@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Thu, 08 Jan 2026 17:01:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 17:02:17 GMT</lastBuildDate>
+    <item>
+      <title>Bose's API Release: A Lifeline for Legacy Devices</title>
+      <description>In this episode, we discuss Bose's unexpected release of API documentation for its SoundTouch speakers as they approach end-of-life, allowing developers to innovate even as support diminishes. Additionally, we cover Project Patchouli, an open-source drawing tablet initiative, and BGP route leaks involving CANTV, providing insights into both hardware innovation and the intricacies of internet infrastructure.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01092026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we discuss Bose's unexpected release of API documentation for its SoundTouch speakers as they approach end-of-life, allowing developers to innovate even as support diminishes. Additionally, we cover Project Patchouli, an open-source drawing tablet initiative, and BGP route leaks involving CANTV, providing insights into both hardware innovation and the intricacies of internet infrastructure.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01092026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01092026.mp3" type="audio/mpeg" length="2249900"/>
+    </item>
     <item>
       <title>Unpacking Nutritional Manipulations: Sugar’s Historical Impact and the New Dietary Guidelines</title>
       <description>This episode dives into how the sugar industry influenced nutritional science in the 1960s and the implications for today's health guidelines. We also discuss the interactive Shipmap.org tool for visualizing shipping emissions and explore the practical elegance of A4 paper—each story offering unique perspectives on health, technology, and everyday life.</description>
