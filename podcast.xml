@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 09 Jan 2026 17:02:17 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 17:04:28 GMT</lastBuildDate>
+    <item>
+      <title>Innovative Learning and Mental Health: Exploring New Technologies and Strategies</title>
+      <description>In this episode, we discuss a memory game for piano ear training, the alpha release of Kagi's Orion browser for Linux, the current state of WebAssembly, and recent findings on exercise as an alternative to therapy for depression. Tune in to understand how these developments are impacting music education, browsing privacy, and mental health management.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01102026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we discuss a memory game for piano ear training, the alpha release of Kagi's Orion browser for Linux, the current state of WebAssembly, and recent findings on exercise as an alternative to therapy for depression. Tune in to understand how these developments are impacting music education, browsing privacy, and mental health management.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01102026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01102026.mp3" type="audio/mpeg" length="1223564"/>
+    </item>
     <item>
       <title>Bose's API Release: A Lifeline for Legacy Devices</title>
       <description>In this episode, we discuss Bose's unexpected release of API documentation for its SoundTouch speakers as they approach end-of-life, allowing developers to innovate even as support diminishes. Additionally, we cover Project Patchouli, an open-source drawing tablet initiative, and BGP route leaks involving CANTV, providing insights into both hardware innovation and the intricacies of internet infrastructure.</description>
