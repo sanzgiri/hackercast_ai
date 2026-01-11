@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sat, 10 Jan 2026 17:04:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 17:01:29 GMT</lastBuildDate>
+    <item>
+      <title>Dark Sky's Closure and the Balance of Data and Design in Tech</title>
+      <description>Join us as we reflect on the recent closure of the Dark Sky weather app and its implications for data-driven design. We'll also cover user experiences with Oh My Zsh, the accessibility of Org mode syntax, and a notable fix for a memory leak in Ghostty, offering insights into current trends and challenges in the tech community.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01112026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>Join us as we reflect on the recent closure of the Dark Sky weather app and its implications for data-driven design. We'll also cover user experiences with Oh My Zsh, the accessibility of Org mode syntax, and a notable fix for a memory leak in Ghostty, offering insights into current trends and challenges in the tech community.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01112026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01112026.mp3" type="audio/mpeg" length="1295756"/>
+    </item>
     <item>
       <title>Innovative Learning and Mental Health: Exploring New Technologies and Strategies</title>
       <description>In this episode, we discuss a memory game for piano ear training, the alpha release of Kagi's Orion browser for Linux, the current state of WebAssembly, and recent findings on exercise as an alternative to therapy for depression. Tune in to understand how these developments are impacting music education, browsing privacy, and mental health management.</description>
