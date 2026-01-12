@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Sun, 11 Jan 2026 17:01:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 17:02:51 GMT</lastBuildDate>
+    <item>
+      <title>User Experience Dilemmas and the Shift Towards Linux: Tech Insights from HackerNews</title>
+      <description>In this episode, we delve into pressing tech stories, including the usability issues with macOS Tahoe's design, the growing interest in Linux alternatives among users fed up with Windows 11, and discussions around anti-AI sentiment. These narratives shed light on user experience, emerging technologies, and how individuals are navigating the complex landscape of modern tech.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01122026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we delve into pressing tech stories, including the usability issues with macOS Tahoe's design, the growing interest in Linux alternatives among users fed up with Windows 11, and discussions around anti-AI sentiment. These narratives shed light on user experience, emerging technologies, and how individuals are navigating the complex landscape of modern tech.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01122026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01122026.mp3" type="audio/mpeg" length="2343500"/>
+    </item>
     <item>
       <title>Dark Sky's Closure and the Balance of Data and Design in Tech</title>
       <description>Join us as we reflect on the recent closure of the Dark Sky weather app and its implications for data-driven design. We'll also cover user experiences with Oh My Zsh, the accessibility of Org mode syntax, and a notable fix for a memory leak in Ghostty, offering insights into current trends and challenges in the tech community.</description>
