@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Wed, 21 Jan 2026 17:02:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 17:02:56 GMT</lastBuildDate>
+    <item>
+      <title>EU–INC: A New Era for European Startups and the Challenges Ahead</title>
+      <description>This episode covers the newly proposed EU–INC initiative aimed at streamlining the startup process across Europe, as well as Anthropic's commitment to AI transparency with its ethical framework. We also explore the impact of recent industry shifts on community-driven projects, providing listeners with a concise overview of the current state of tech innovation.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01222026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>This episode covers the newly proposed EU–INC initiative aimed at streamlining the startup process across Europe, as well as Anthropic's commitment to AI transparency with its ethical framework. We also explore the impact of recent industry shifts on community-driven projects, providing listeners with a concise overview of the current state of tech innovation.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01222026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01222026.mp3" type="audio/mpeg" length="2673836"/>
+    </item>
     <item>
       <title>The De-Dollarization Shift and the Complexities of Modern Development</title>
       <description>This episode delves into the implications of de-dollarization in global finance, the intricacies of implementing a radio button in React, and reflections on job satisfaction among engineers. Join us as we unpack these topics and their significance in the current tech climate.</description>
