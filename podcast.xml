@@ -27,7 +27,19 @@
     <copyright>© 2025 HackerCast AI</copyright>
     <managingEditor>sanzgiri@gmail.com (HackerCast AI)</managingEditor>
     <webMaster>sanzgiri@gmail.com (HackerCast AI)</webMaster>
-    <lastBuildDate>Fri, 23 Jan 2026 17:02:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 17:04:24 GMT</lastBuildDate>
+    <item>
+      <title>From Windows to Linux: A User's Journey and ASML's Growth Strategy</title>
+      <description>In this episode, we discuss a user's transition from Windows to Linux driven by frustrations with updates, ASML's significant restructuring efforts within its semiconductor workforce, and WhatsApp's incorporation of Rust for enhanced media security. Join us as we explore these compelling stories that showcase the dynamic nature of today's tech industry.</description>
+      <link>https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01292026.mp3</link>
+      <author>sanzgiri@gmail.com (HackerCast AI)</author>
+      <itunes:author>HackerCast AI</itunes:author>
+      <itunes:summary>In this episode, we discuss a user's transition from Windows to Linux driven by frustrations with updates, ASML's significant restructuring efforts within its semiconductor workforce, and WhatsApp's incorporation of Rust for enhanced media security. Join us as we explore these compelling stories that showcase the dynamic nature of today's tech industry.</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">hackercast-01292026</guid>
+      <enclosure url="https://hackercast-ai-podcast.s3.us-east-1.amazonaws.com/episodes/hn_transcript_01292026.mp3" type="audio/mpeg" length="2332844"/>
+    </item>
     <item>
       <title>AI Hallucinations in Academia and the Rise of Renewable Energy</title>
       <description>In this episode, we discuss the alarming rise of AI-generated research manuscripts and the implications of flawed citations in academia. We also explore a stunning interactive pixel art project of New York City and highlight Europe's groundbreaking shift towards renewable energy. These stories reflect the dynamic interplay between technology, art, and sustainability.</description>
